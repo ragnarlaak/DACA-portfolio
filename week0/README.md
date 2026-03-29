@@ -5,7 +5,7 @@ Week 0 focused on onboarding, team setup, shared tools, and the first collaborat
 
 ## My contribution
 - Completed the Team Charter section
-- Helped structure the GitHub and Supabase onboarding work
+- Helped organize the GitHub and Supabase onboarding work
 - Participated actively in group coordination
 - Took responsibility for preparing the shared onboarding slide/document when needed
 - Created and shared a first draft of the team output for review
@@ -25,6 +25,9 @@ Week 0 focused on onboarding, team setup, shared tools, and the first collaborat
 
 ### Supabase Charter Table
 ![Supabase Charter Table](supabase-charter-table.png)
+
+### Group Presentation Slide
+![Group Slide](presentation-slide.png)
 
 ### Shared output draft
 ![Shared Slide Draft](group-slide-draft-shared.png)
