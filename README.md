@@ -1,70 +1,31 @@
-\# DACA Portfoolio
+# DACA Portfolio
 
-&#x20;
+**Programm:** Data Analyst Career Accelerator (DACA)  
+**Autor:** Ragnar Laak  
+**Alustatud:** 23.03.2026  
 
-\*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+## Kirjeldus
+See repositoorium dokumenteerib minu DACA õpiteekonda, nädalapõhiseid ülesandeid, projektiartefakte ja portfoolio jaoks olulisi töönäiteid.
 
-\*\*Osaleja:\*\* \[Ragnar Laak]
+## Projektid
 
-\*\*Algus:\*\* \[23.03.2026]
-
-&#x20;
-
-\## Kirjeldus
-
-&#x20;
-
-See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
-
-&#x20;
-
-\## Projektid
-
-&#x20;
-
-\### Week 0: Onboarding
-
-\- GitHub seadistamine ✅
-
-\- Supabase seadistamine ✅
-
+### Week 0: Onboarding
+- GitHub seadistamine ✅
+- Supabase seadistamine ✅
 - [Week 0 – Setup and First Collaboration](week0/README.md)
 
-&#x20;
+### Week 1: SQL Põhitõed
+- Tulemas
 
-\### Week 1: SQL Põhitõed
+### Week 2: SQL Andmete Puhastamine
+- Tulemas
 
-\- (tulemas...)
+## Oskused
+- **SQL:** PostgreSQL, Supabase
+- **Python:** pandas, plotly *(tulemas)*
+- **Visualiseerimine:** Power BI / Streamlit *(tulemas)*
+- **Tööriistad:** Git, GitHub, VS Code
 
-&#x20;
-
-\### Week 2: SQL Andmete Puhastamine
-
-\- (tulemas...)
-
-&#x20;
-
-\## Oskused
-
-&#x20;
-
-\- \*\*SQL:\*\* PostgreSQL, Supabase
-
-\- \*\*Python:\*\* pandas, plotly (tulemas...)
-
-\- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
-
-\- \*\*Tööriistad:\*\* Git, GitHub, VS Code
-
-&#x20;
-
-\## Kontakt
-
-&#x20;
-
-\- \*\*GitHub:\*\* https://github.com/ragnarlaak
-
-\- \*\*Email:\*\* ragnarlaak@gmai.com
-
-
-
+## Kontakt
+- **GitHub:** [ragnarlaak](https://github.com/ragnarlaak)
+- **Email:** ragnarlaak@gmail.com
