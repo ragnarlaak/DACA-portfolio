@@ -21,13 +21,13 @@ Week 0 focused on onboarding, team setup, shared tools, and the first collaborat
 ## Evidence
 
 ### GitHub Team Charter
-![GitHub Team Charter](screenshots/github-team-charter.png)
+![GitHub Team Charter](github-team-charter.png)
 
 ### Supabase Charter Table
-![Supabase Charter Table](screenshots/supabase-charter-table.png)
+![Supabase Charter Table](supabase-charter-table.png)
 
 ### Shared output draft
-![Shared Slide Draft](screenshots/group-slide-draft-shared.png)
+![Shared Slide Draft](group-slide-draft-shared.png)
 
 ## What I learned
 - Early project structure strongly affects collaboration
