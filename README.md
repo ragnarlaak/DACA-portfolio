@@ -28,6 +28,8 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
 
 \- Supabase seadistamine ✅
 
+- [Week 0 – Setup and First Collaboration](week0/README.md)
+
 &#x20;
 
 \### Week 1: SQL Põhitõed
