@@ -27,7 +27,7 @@ Week 0 focused on onboarding, team setup, shared tools, and the first collaborat
 ![Supabase Charter Table](supabase-charter-table.png)
 
 ### Group Presentation Slide
-![Group Slide](presentation-slide.png)
+![Group Slide](presentation-slide.webp)
 
 ### Shared output draft
 ![Shared Slide Draft](group-slide-draft-shared.png)
