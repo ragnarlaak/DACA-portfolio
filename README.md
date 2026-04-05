@@ -1,65 +1,33 @@
-# Week 1 – SQL Basics and Data Exploration
+# DACA Portfolio
 
-## Focus
+**Programm:** Data Analyst Career Accelerator (DACA)  
+**Autor:** Ragnar Laak  
+**Alustatud:** 23.03.2026
 
-Week 1 focused on exploring UrbanStyle's database with SQL, understanding the structure of the `sales`, `customers`, and `products` tables, and contributing to the group presentation based on our findings.
+## Kirjeldus
+See repositoorium dokumenteerib minu DACA opiteekonda, nadalapohiseid ulesandeid, projektiartefakte ja portfoolio jaoks olulisi toonaiteid.
 
-## My contribution
+## Projektid
 
-- Worked on **Roll A – Müügitehingud** (`sales`: summad, kuupäevad)
-- Queried the `sales` table using SQL in Supabase
-- Verified key findings such as row counts, duplicates, missing values, and transaction extremes
-- Helped correct inaccurate AI-generated group notes by replacing them with verified SQL-based results
-- Created the final PDF version of the group presentation
-- Helped coordinate the final structure of the shared group output
+### Week 0: Onboarding
+- GitHub seadistamine
+- Supabase seadistamine
+- [Week 0 - Setup and First Collaboration](week0/README.md)
 
-## Tools used
+### Week 1: SQL Pohitoed
+- SQL andmete uurimine Supabase'is
+- Tulemuste dokumenteerimine ja esitlus
+- [Week 1 - SQL Basics and Data Exploration](week1/README.md)
 
-- GitHub
-- Supabase
-- Google Slides / PDF export
-- Google Chat
-- VS Code
-- ChatGPT
+### Week 2: SQL Andmete Puhastamine
+- Tulemas
 
+## Oskused
+- **SQL:** PostgreSQL, Supabase
+- **Python:** pandas, plotly *(tulemas)*
+- **Visualiseerimine:** Power BI / Streamlit *(tulemas)*
+- **Tooriistad:** Git, GitHub, VS Code
 
-## Key findings
-
-### Sales table
-- `sales` table contained **15,234 rows**
-- Found **5,116 duplicates**
-- `customer_id` was missing in **1,487** rows
-- `store_location` was missing in **5,204** rows
-- Smallest transaction: **-1405.32**
-- Largest transaction: **2170.4**
-
-### General structure
-- `customers` table contained **3,150 rows**
-- `products` table contained **362 rows**
-- Sales channels included `online` and `pood`
-- Store locations included Tallinn, Tartu, and Pärnu
-
-## What I learned
-
-- Basic SQL syntax: `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, `DISTINCT`, `COUNT`
-- How to detect missing values with `IS NULL`
-- How to distinguish between similar columns like `channel` and `store_location`
-- How important it is to verify findings directly from the database instead of trusting rough summaries
-- How to turn SQL findings into a presentation-friendly group summary
-
-## Reflection
-
-Week 1 was more demanding than Week 0 because the setup, workbook, SQL practice, group work, and presentation all happened at once. I learned not only the basics of SQL, but also how important it is to verify outputs carefully and keep group results grounded in actual queries. I also contributed beyond my assigned SQL role by assembling the final presentation PDF and helping move the team output into the required format.
-
-## Evidence
-
-### SQL exploration file
-See: `week1_sales_exploration.sql`
-
-### SQL results screenshot
-Shows verified results from Supabase.  
-File: `week1_results_screenshot.png`
-
-### Final team presentation PDF
-I created the final cleaned presentation PDF for the group.  
-File: `urbanstyle_week1_presentation.pdf`
+## Kontakt
+- **GitHub:** [ragnarlaak](https://github.com/ragnarlaak)
+- **Email:** ragnarlaak@gmail.com
