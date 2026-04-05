@@ -53,16 +53,16 @@ Week 1 was more demanding than Week 0 because the setup, workbook, SQL practice,
 ## Evidence
 
 ### SQL exploration file
-See: `week1_sales_exploration.sql`
+See: [week1_sales_exploration.sql](week1_sales_exploration.sql)
 
 ### SQL result screenshots
-Stored in `images/`, including:
-- `sales_row_count.png`
-- `sales_rows_and_columns.png`
-- `sales_missing_customer_id.png`
-- `sales_10_largest_orders.png`
-- `sales_10_smallest_orders.png`
+Stored in [images/](images/), including:
+- [sales_row_count.png](images/sales_row_count.png)
+- [sales_rows_and_columns.png](images/sales_rows_and_columns.png)
+- [sales_missing_customer_id.png](images/sales_missing_customer_id.png)
+- [sales_10_largest_orders.png](images/sales_10_largest_orders.png)
+- [sales_10_smallest_orders.png](images/sales_10_smallest_orders.png)
 
 ### Final team presentation PDF
 I created the final cleaned presentation PDF for the group.  
-File: `urbanstyle_week1_presentation.pdf`
+File: [urbanstyle_week1_presentation.pdf](urbanstyle_week1_presentation.pdf)
