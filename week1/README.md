@@ -54,9 +54,12 @@ Week 1 was more demanding than Week 0 because setup, workbook tasks, SQL practic
 
 ## Evidence
 
-### SQL Exploration File
+### SQL Files
 
-[week1_sales_exploration.sql](week1_sales_exploration.sql)
+- [week1_sales_exploration.sql](week1_sales_exploration.sql)  
+  Exploration queries used to check row counts, duplicates, missing values, transaction extremes, sales channels, and store locations.
+- [week1_individual_practice.sql](week1_individual_practice.sql)  
+  Individual practice queries used to explore grouped results such as total sales by channel, average transaction value by location, top customers, and transaction counts.
 
 ### SQL Result Screenshots
 
