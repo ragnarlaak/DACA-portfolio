@@ -65,10 +65,9 @@ ORDER BY channel;
 -- Millised kanalid on esindatud? Online ja pood.
 
 -- Paring 3: unikaalsed staatused
--- See paring annab vea, sest sales tabelis puudub status veerg.
--- SELECT DISTINCT status
--- FROM sales
--- ORDER BY status;
+SELECT DISTINCT status
+FROM sales
+ORDER BY status;
 -- Millised staatused on esindatud? Puudub column "status".
 
 -- Paring, et vaadata sales tabeli koik veerud ule
