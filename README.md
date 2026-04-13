@@ -21,7 +21,7 @@ This repository documents my weekly DACA progress, learning notes, project artif
 - Data checks, summary findings, and team presentation support
 - [Open Week 1](week1/README.md)
 
-### Week 2: Marketing Data and SQL Practice
+### Week 2: SQL Cleaning
 - SQL practice, group work, and presentation materials
 - [Open Week 2](week2/README.md)
 

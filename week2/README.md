@@ -1,52 +1,118 @@
-# Week 2 - Marketing Data and SQL Practice
+# Week 2 – SQL Cleaning
 
-## Focus
+## Overview
+This week focused on **data cleaning in SQL** using the UrbanStyle dataset in Supabase.
 
-Week 2 focused on continuing SQL practice, organizing weekly coursework, and contributing to group work around marketing data.
+The goal was to identify and safely handle common data quality issues before analysis, including:
+- duplicate values
+- missing values (`NULL`)
+- inconsistent text formatting
+- basic validation checks
 
-## My Contribution
+I worked with test tables instead of modifying the original tables directly.
 
-- Set up and organized the Week 2 portfolio structure
-- Prepared separate files for group work, lecture queries, and individual practice
-- Added the Week 2 presentation file to the portfolio folder
-- Started documenting Week 2 materials in a consistent format with the earlier weeks
-- Left space for the final SQL queries, findings, and screenshots to be added as the week progresses
+---
 
 ## Tools Used
-
-- GitHub
-- VS Code
+- Supabase SQL Editor
 - SQL
-- PowerPoint
-- ChatGPT
+- GitHub
 
-## What I Learned
+---
 
-- Keeping each week's files organized makes the portfolio easier to maintain
-- Separating lecture work, personal practice, and group work helps document contribution more clearly
-- Consistent naming and README structure make the overall repository look more professional
-- Weekly documentation is easier when it is updated alongside the work instead of afterward
+## Topics Covered
+- duplicate detection with `GROUP BY` + `HAVING`
+- missing value checks with `IS NULL` / `IS NOT NULL`
+- fallback values with `COALESCE()`
+- safe `UPDATE` and `DELETE` practice on test tables
+- text cleaning with `TRIM()`, `UPPER()`, `LOWER()`, `INITCAP()`
+- validation logic with `CASE WHEN`
+
+---
+
+## SQL Files Included
+
+### `week2_individual_practice.sql`
+Contains my individual Week 2 SQL practice queries, including:
+- duplicate checks
+- NULL checks
+- `COALESCE()` usage
+- city name consistency checks
+- validation queries
+
+### `week2_lecture_queries.sql`
+Contains SQL examples and queries covered during the Week 2 lecture, used as reference for understanding the cleaning workflow.
+
+### `week2_group_project.sql`
+Contains the SQL work related to the Week 2 group task, including customer-domain checks and summary findings used for presentation preparation.
+
+---
+
+## Main Tasks Completed
+
+### Duplicate Checks
+I explored duplicate-related issues in the dataset, especially in customer email fields and sales-related records.
+
+### NULL Analysis
+I checked missing values in customer fields such as:
+- first name
+- last name
+- email
+- phone
+
+### City Name Standardization
+I identified inconsistent city name formats and used SQL cleaning functions to group them into cleaner standardized forms.
+
+### Safe Cleaning Workflow
+I created and used test tables to practice:
+- previewing affected rows with `SELECT`
+- updating only intended rows with `WHERE`
+- deleting duplicates safely in a test environment
+
+### Validation
+I used simple validation logic to identify suspicious or inconsistent values in the data.
+
+---
+
+## Domain B – Customers Summary
+Main findings from the customer domain:
+
+- **128 duplicate email values**
+- **380 missing email values**
+- **0 missing first names**
+- **0 missing last names**
+- **0 missing phone numbers**
+- **12 cities with inconsistent naming variations**
+
+### Interpretation
+The most important customer-data issues were:
+1. missing email data
+2. duplicate email values
+3. inconsistent city name formatting
+
+These issues can affect:
+- customer communication
+- segmentation accuracy
+- reporting quality
+- trust in the dataset
+
+---
+
+## Presentation File
+This folder also includes the Week 2 presentation/supporting summary file for the customer domain.
+
+---
+
+## Key Takeaways
+- Data should be cleaned **before** drawing conclusions from it.
+- A duplicate depends on the column or logic being checked.
+- `NULL` is different from an empty string or zero.
+- Cleaning should be tested on a copy first.
+- Small data quality issues can have a real impact on analysis.
+
+---
 
 ## Reflection
+Week 2 was more demanding than Week 1 because it involved more decision-making, not just basic SQL syntax.
 
-Week 2 is still in progress, but the folder structure and documentation are now aligned more closely with the previous weeks. This creates a cleaner portfolio format and makes it easier to add completed SQL work and supporting evidence later without reorganizing everything again.
-
-## Evidence
-
-### SQL Files
-
-- [week2_group_project.sql](week2_group_project.sql)  
-  Shared SQL file for the group task.
-- [week2_lecture_queries.sql](week2_lecture_queries.sql)  
-  SQL queries and notes from the Week 2 lecture.
-- [week2_individual_practice.sql](week2_individual_practice.sql)  
-  Individual SQL practice and homework work.
-
-### Presentation
-
-- [Meeskond G4 - Marketing Data 08.04.2026.pptx](Meeskond%20G4%20-%20Marketing%20Data%2008.04.2026.pptx)  
-  Week 2 group presentation file.
-
-## Notes
-
-Add final query results, screenshots, and any confirmed findings here once the Week 2 exercises and group tasks are completed.
+The biggest lesson was that **data cleaning is not only about writing queries, but about understanding what can be trusted in the data and how to modify it safely.**
