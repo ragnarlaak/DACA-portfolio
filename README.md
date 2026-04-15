@@ -26,7 +26,7 @@ This repository documents my weekly DACA progress, learning notes, project artif
 - [Open Week 2](week2/README.md)
 
 ### Week 3: SQL Joins and Retail Inventory Analysis
-- Weekly materials and reflections will be added here
+- Team SQL joins work, evidence, and supporting notes
 - [Open Week 3](week3/README.md)
 
 ## Skills In Progress

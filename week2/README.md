@@ -30,8 +30,6 @@ I worked with test tables instead of modifying the original tables directly.
 
 ---
 
-## SQL Files Included
-
 ## Structure
 
 - `individual/` contains my own SQL practice and lecture/reference files

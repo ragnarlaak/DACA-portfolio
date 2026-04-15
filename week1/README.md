@@ -52,8 +52,6 @@ Week 1 focused on exploring UrbanStyle's database with SQL, understanding the st
 
 Week 1 was more demanding than Week 0 because setup, workbook tasks, SQL practice, group work, and presentation prep all happened at the same time. Alongside learning core SQL basics, I also saw how important it is to check outputs carefully and keep team conclusions grounded in actual query results.
 
-## Evidence
-
 ## Structure
 
 - `individual/` contains my own SQL work and screenshots
