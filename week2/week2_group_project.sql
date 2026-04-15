@@ -23,13 +23,13 @@ select
 FROM customers_test;
 -- 0 NULL eesnime ja 0 NULL perenime
 
--- Kontrolli linnade nimekujusid - kas on ebajarjekindlusi?
+-- Kontrolli linnade nimekujusid - kas on ebajärjekindlusi?
 SELECT city, COUNT(*) AS arv
 FROM customers_test
 GROUP BY city
 ORDER BY city;
 -- Tulemus:
--- Jah on kyll.
+-- Jah on küll.
 
 -- Leia, mitu variatsiooni on igal linnal
 SELECT INITCAP(TRIM(city)) AS puhas_linn,
@@ -52,7 +52,7 @@ ORDER BY erinevaid_kujusi DESC, puhas_linn;
 -- Narva = 4 erinevat nimekuju
 -- Valga = 2 erinevat nimekuju
 
--- Kontrolli kontaktandmeid — puuduvad telefoninumbrid ja e-mailid:
+-- Kontrolli kontaktandmeid - puuduvad telefoninumbrid ja e-mailid:
 SELECT
     COUNT(*) FILTER (WHERE phone IS NULL OR phone = '') AS null_telefon,
     COUNT(*) FILTER (WHERE email IS NULL OR email = '') AS null_email
@@ -78,7 +78,6 @@ FROM (
     GROUP BY email
     HAVING COUNT(*) > 1
 ) t;
-
 
 -- Puhastamisraporti kokkuvõte:
 -- Duplikaatsed e-mailid = 128

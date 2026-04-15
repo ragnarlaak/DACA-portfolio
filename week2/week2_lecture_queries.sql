@@ -1,9 +1,8 @@
 --week 2 lecture queries
 
--- Mitu rida on myygitabelis (sales) praegu 15 234 
+-- Mitu rida on müügitabelis (sales) praegu 15 234
 SELECT Count(*) AS ridade_arv
 FROM sales
-
 
 --Test tableiga toimetamine
 
@@ -55,17 +54,13 @@ FROM test_sales
 WHERE customer_id IS NULL
 LIMIT 10;
 
-
 -- Loo test koopia customers_test
-
 CREATE TABLE customers_test AS
 SELECT * FROM customers;
 
 -- Kontrolli: kas arvud on samad?
 SELECT COUNT(*) FROM customers_test;
 SELECT COUNT(*) FROM customers;
-
-
 
 -- Samm 1: Leia duplikaatsed invoice_id väärtused
 SELECT invoice_id, COUNT(*) AS koopiate_arv
@@ -76,7 +71,7 @@ ORDER BY koopiate_arv DESC
 LIMIT 10;
 
 -- Samm 2: Mitu rida on duplikaadid?
--- NB: kasutame id (PK), mitte sale_id – duplikaatidel on sama sale_id!
+-- NB: kasutame id (PK), mitte sale_id - duplikaatidel on sama sale_id!
 SELECT COUNT(*) AS duplikaat_read
 FROM test_sales
 WHERE id NOT IN (
@@ -106,9 +101,6 @@ WHERE id NOT IN (
 -- Samm 5: Kontrolli ridade arvu pärast kustutamist
 SELECT COUNT(*) AS parast
 FROM test_sales;
-
-
-
 
 -- COALESCE valib esimese mitte-NULL väärtuse
 SELECT COALESCE(NULL, 'Vaikeväärtus');
@@ -146,7 +138,6 @@ FROM test_sales
 WHERE sale_date > CURRENT_DATE
    OR sale_date < '2020-01-01';
 
-
 -- CASE WHEN üldine loogika:
 -- kui tingimus1 on tõene, siis tagasta tulemus1
 -- kui tingimus2 on tõene, siis tagasta tulemus2
@@ -156,7 +147,6 @@ CASE
     WHEN tingimus2 THEN tulemus2
     ELSE vaikimisi_tulemus
 END;
-
 
 -- Valideeri kuupäevad
 SELECT sale_id, sale_date,

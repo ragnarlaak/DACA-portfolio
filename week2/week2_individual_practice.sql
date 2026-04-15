@@ -10,8 +10,8 @@ HAVING COUNT(*) > 1
 ORDER BY koopiate_arv DESC;
 -- Vastuseks tuli success, mitte midagi abnormaalset
 
--- Loendan koik veerud, et naha, kas koik sale_id-d on unikaalsed
-SELECT 
+-- Loendan kõik veerud, et näha, kas kõik sale_id-d on unikaalsed
+SELECT
     COUNT(*) AS total_rows,
     COUNT(DISTINCT sale_id) AS unique_sale_ids
 FROM sales;
@@ -61,34 +61,33 @@ HAVING COUNT(*) > 1
 ORDER BY koopiate_arv DESC;
 -- Puuduvad
 
-
---Leia tellimused, kus klient on teadmata
+-- Leia tellimused, kus klient on teadmata
 SELECT sale_id, customer_id, total_price
 FROM sales
 WHERE customer_id IS NULL;
 
---Leia kliendid, kellel ON e-mail olemas
+-- Leia kliendid, kellel ON e-mail olemas
 SELECT customer_id, first_name, email
 FROM customers
 WHERE email IS NOT NULL;
 
---Asenda puudub kliendi nimi vaikevaartusega
+-- Asenda puuduv kliendi nimi vaikeväärtusega
 SELECT
     customer_id,
     COALESCE(first_name, 'Tundmatu') AS eesnimi,
     COALESCE(email, 'puudub@urbanstyle.ee') AS email
 FROM customers;
 
---Mitu asendvaartust (valib esimese mitte-NULL vaartuse)
+-- Mitu asendusväärtust (valib esimese mitte-NULL väärtuse)
 SELECT COALESCE(NULL, NULL, 'Kolmas valik');
---Tulemus: 'Kolmas valik'
+-- Tulemus: 'Kolmas valik'
 
--- Nullif vordleb kahte vaartust. Kui need on vordsed, tagastab NULL;
+-- NULLIF võrdleb kahte väärtust. Kui need on võrdsed, tagastab NULL;
 -- NULLIF(a, b): kui a = b, tagastab NULL; muidu tagastab a
 SELECT NULLIF(100, 100);
 SELECT NULLIF(100, 200);
 
--- Muuda 0-hinnaga tooted NULL-iks (hind pole tegeleikult 0, vaid puudub)
+-- Muuda 0-hinnaga tooted NULL-iks (hind pole tegelikult 0, vaid puudub)
 select
     product_id,
     product_name,
@@ -100,7 +99,7 @@ FROM products;
 SELECT NULL * 5;       -- Tulemus: NULL
 SELECT SUM(total_price) FROM sales;  -- SUM ignoreerib NULL-e!*/
 
---"Üks NULL vale koha peal ja kogu aruanne näitab vale tulemuse. Seetõttu kontrollime NULL-e ENNE igasugust analüüsi."
+-- "Üks NULL vale koha peal ja kogu aruanne näitab vale tulemuse. Seetõttu kontrollime NULL-e ENNE igasugust analüüsi."
 
 -- NULL-ide ülevaade customers tabelis
 SELECT
@@ -113,7 +112,7 @@ SELECT
     COUNT(*) - COUNT(phone) AS telefon_puudub
 FROM customers;
 
--- Kliendid, kellel puudub nimi voi email
+-- Kliendid, kellel puudub nimi või email
 SELECT customer_id, first_name, last_name, email, city
 FROM customers
 WHERE first_name IS null
@@ -122,10 +121,7 @@ WHERE first_name IS null
 ORDER BY customer_id
 LIMIT 15;
 
-
-
---Liis Koppel tahab näha kõiki kliente, aga tühjade nimede asemel peaks kuvama "Tundmatu klient". Kirjuta päring, mis kasutab COALESCE funktsiooni.
-
+-- Liis Koppel tahab näha kõiki kliente, aga tühjade nimede asemel peaks kuvama "Tundmatu klient". Kirjuta päring, mis kasutab COALESCE funktsiooni.
 SELECT customer_id,
     COALESCE(first_name, 'Tundmatu') AS eesnimi,
     COALESCE(last_name, 'Tundmatu') AS perekonnanimi,
@@ -141,10 +137,9 @@ WHERE first_name IS NULL
    OR email IS NULL
    OR phone IS NULL;
 
+-- ANDMEFORMAADID ja TÜÜPKONVERSIOONID
 
---ANDMEFORMAADID ja TYYPKONVERSIOONID
-
---Kaks viisi tyybi muutmiseks
+-- Kaks viisi tüübi muutmiseks
 -- CAST süntaks (standardne SQL)
 SELECT CAST('125.50' AS NUMERIC);  -- Tekst -> number
 SELECT CAST('2024-01-15' AS DATE); -- Tekst -> kuupäev
@@ -153,7 +148,7 @@ SELECT CAST('2024-01-15' AS DATE); -- Tekst -> kuupäev
 SELECT '125.50'::NUMERIC;          -- Sama tulemus
 SELECT '2024-01-15'::DATE;        -- Sama tulemus
 
---TO_CHAR() muudab kuupaeva tekstiformaati
+-- TO_CHAR() muudab kuupäeva tekstiformaati
 -- Kuupäev erinevates formaatides
 SELECT
     sale_date,
@@ -163,16 +158,16 @@ SELECT
 FROM sales
 LIMIT 5;
 
---TO_DATE() muudab teksti kuupaevaks
+-- TO_DATE() muudab teksti kuupäevaks
 -- Tekst -> kuupäev (pead ütlema, millises formaadis tekst on)
 SELECT TO_DATE('15/03/2024', 'DD/MM/YYYY');  -- Tulemus: 2024-03-15
 SELECT TO_DATE('2024-01-15', 'YYYY-MM-DD');  -- Tulemus: 2024-01-15
 
---Tekstifunktsioonid - TRIM(), UPPER(), LOWER()
---TRIM() eemaldab tyhikud teksti algusest ja lopust
+-- Tekstifunktsioonid - TRIM(), UPPER(), LOWER()
+-- TRIM() eemaldab tühikud teksti algusest ja lõpust
 SELECT TRIM('  Tallinn  ');  -- Tulemus: 'Tallinn'
 SELECT TRIM('  ');           -- Tulemus: '' (tühi string)
---UPPER() ja LOWER() muudavad teksti suurtahtedeks ja vaiketahtedeks
+-- UPPER() ja LOWER() muudavad teksti suurtähtedeks ja väiketähtedeks
 SELECT UPPER('tallinn');   -- Tulemus: 'TALLINN'
 SELECT LOWER('TALLINN');   -- Tulemus: 'tallinn'
 
