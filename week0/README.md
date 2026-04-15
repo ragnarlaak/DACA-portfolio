@@ -1,4 +1,4 @@
-# Week 0 - Setup and First Collaboration
+# Week 0 - Data Analytics Portfolio Setup and First Team Collaboration
 
 ## Focus
 

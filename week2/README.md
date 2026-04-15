@@ -1,4 +1,4 @@
-# Week 2 - SQL Cleaning
+# Week 2 - SQL Data Cleaning and Customer Data Quality Analysis
 
 ## Overview
 This week focused on **data cleaning in SQL** using the UrbanStyle dataset in Supabase.
@@ -32,7 +32,12 @@ I worked with test tables instead of modifying the original tables directly.
 
 ## SQL Files Included
 
-### [week2_individual_practice.sql](week2_individual_practice.sql)
+## Structure
+
+- `individual/` contains my own SQL practice and lecture/reference files
+- `team/` contains shared group project and presentation materials
+
+### [individual/week2_individual_practice.sql](individual/week2_individual_practice.sql)
 Contains my individual Week 2 SQL practice queries, including:
 - duplicate checks
 - NULL checks
@@ -40,10 +45,10 @@ Contains my individual Week 2 SQL practice queries, including:
 - city name consistency checks
 - validation queries
 
-### [week2_lecture_queries.sql](week2_lecture_queries.sql)
+### [individual/week2_lecture_queries.sql](individual/week2_lecture_queries.sql)
 Contains SQL examples and queries covered during the Week 2 lecture, used as reference for understanding the cleaning workflow.
 
-### [week2_group_project.sql](week2_group_project.sql)
+### [team/week2_group_project.sql](team/week2_group_project.sql)
 Contains the SQL work related to the Week 2 group task, including customer-domain checks and summary findings used for presentation preparation.
 
 ---
@@ -101,7 +106,7 @@ These issues can affect:
 ## Presentation File
 This folder also includes the Week 2 presentation/supporting summary file for the customer domain:
 
-- [week2_presentation.pptx](week2_presentation.pptx)
+- [team/week2_presentation.pptx](team/week2_presentation.pptx)
 
 ---
 

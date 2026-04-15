@@ -1,4 +1,4 @@
-# DACA Portfolio
+# DACA Portfolio - SQL, Data Cleaning, and Retail Data Analysis Projects
 
 Personal portfolio repository for the **Data Analyst Career Accelerator (DACA)** program.
 
@@ -11,21 +11,21 @@ This repository documents my weekly DACA progress, learning notes, project artif
 
 ## Portfolio Map
 
-### Week 0: Onboarding
+### Week 0: Data Analytics Portfolio Setup and Team Collaboration
 - GitHub and Supabase setup
 - Team charter and first shared deliverables
 - [Open Week 0](week0/README.md)
 
-### Week 1: SQL Basics
+### Week 1: SQL Basics and Sales Data Exploration
 - SQL exploration in Supabase
 - Data checks, summary findings, and team presentation support
 - [Open Week 1](week1/README.md)
 
-### Week 2: SQL Cleaning
+### Week 2: SQL Data Cleaning and Customer Data Quality Analysis
 - SQL practice, group work, and presentation materials
 - [Open Week 2](week2/README.md)
 
-### Week 3: In Progress
+### Week 3: SQL Joins and Retail Inventory Analysis
 - Weekly materials and reflections will be added here
 - [Open Week 3](week3/README.md)
 

@@ -1,4 +1,4 @@
-# Week 1 - SQL Basics and Data Exploration
+# Week 1 - SQL Basics and Sales Data Exploration
 
 ## Focus
 
@@ -54,23 +54,28 @@ Week 1 was more demanding than Week 0 because setup, workbook tasks, SQL practic
 
 ## Evidence
 
-### SQL Files
+## Structure
 
-- [week1_sales_exploration.sql](week1_sales_exploration.sql)  
+- `individual/` contains my own SQL work and screenshots
+- `team/` contains shared group deliverables
+
+### Individual SQL Files
+
+- [individual/week1_sales_exploration.sql](individual/week1_sales_exploration.sql)  
   Exploration queries used to check row counts, duplicates, missing values, transaction extremes, sales channels, and store locations.
-- [week1_individual_practice.sql](week1_individual_practice.sql)  
+- [individual/week1_individual_practice.sql](individual/week1_individual_practice.sql)  
   Individual practice queries used to explore grouped results such as total sales by channel, average transaction value by location, top customers, and transaction counts.
 
-### SQL Result Screenshots
+### Individual SQL Result Screenshots
 
-Stored in [images/](images/), including:
+Stored in [individual/images/](individual/images/), including:
 
-- [sales_row_count.png](images/sales_row_count.png)
-- [sales_rows_and_columns.png](images/sales_rows_and_columns.png)
-- [sales_missing_customer_id.png](images/sales_missing_customer_id.png)
-- [sales_10_largest_orders.png](images/sales_10_largest_orders.png)
-- [sales_10_smallest_orders.png](images/sales_10_smallest_orders.png)
+- [sales_row_count.png](individual/images/sales_row_count.png)
+- [sales_rows_and_columns.png](individual/images/sales_rows_and_columns.png)
+- [sales_missing_customer_id.png](individual/images/sales_missing_customer_id.png)
+- [sales_10_largest_orders.png](individual/images/sales_10_largest_orders.png)
+- [sales_10_smallest_orders.png](individual/images/sales_10_smallest_orders.png)
 
-### Final Team Presentation PDF
+### Team Deliverable
 
-[urbanstyle_week1_presentation.pdf](urbanstyle_week1_presentation.pdf)
+[team/urbanstyle_week1_presentation.pdf](team/urbanstyle_week1_presentation.pdf)
