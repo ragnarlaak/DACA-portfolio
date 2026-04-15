@@ -25,6 +25,10 @@ This repository documents my weekly DACA progress, learning notes, project artif
 - SQL practice, group work, and presentation materials
 - [Open Week 2](week2/README.md)
 
+### Week 3: In Progress
+- Weekly materials and reflections will be added here
+- [Open Week 3](week3/README.md)
+
 ## Skills In Progress
 
 - **SQL:** PostgreSQL, Supabase
