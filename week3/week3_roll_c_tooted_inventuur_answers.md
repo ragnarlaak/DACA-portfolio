@@ -1,19 +1,22 @@
-ROLL C – Tooted ja inventuur
+ROLL C - Tooted ja inventuur
 
-1. Müümata tooted
-Leidsime 12 toodet, mida ei ole kordagi müüdud. Need tuleks üle vaadata ja kaaluda nende eemaldamist sortimendist või allahindlusega toetada.
+1. Muumata tooted
+Leidsime 12 toodet, mida ei ole kordagi muudud. Need tuleks ule vaadata ja kaaluda nende eemaldamist sortimendist voi allahindlusega toetada.
 
 2. Juurde tellimine
-Juurde tuleks tellida eelkõige tooteid, mis müüvad hästi ja mille laoseis on juba kriitiline või alla tellimispunkti.
+Juurde tuleks tellida eelkige tooteid, mis muuvad hasti ja mille laoseis on juba kriitiline voi alla tellimispunkti.
 
-3. Kõige edukamad kategooriad
-Kõige tugevamad kategooriad kogumüügi põhjal olid:
-- jalanõusid
+3. Koige edukamad kategooriad
+Koige tugevamad kategooriad kogumuugi pohjal olid:
+- jalanousid
 - meeste_riided
 - naiste_riided
 
-4. Inventuuri tähelepanek
-Mitmel tootel oli laoseis väga madal, nullis või isegi negatiivne. See viitab sellele, et laoseisu tuleb paremini jälgida ja õigel ajal täiendada.
+4. Inventuuri tahelepanek
+Mitmel tootel oli laoseis vaga madal, nullis voi isegi negatiivne. See viitab sellele, et laoseisu tuleb paremini jalgida ja oigel ajal taiendada.
 
-Kokkuvõte
-Soovitame vähendada fookust müümata toodetel, hoida paremat varu enim müüdud kategooriates ja kontrollida üle negatiivsed laoseisud.
+5. Laos olemas, aga muumata tooted
+Paring ei tagastanud uhtegi rida, mis tahendab, et hetkel ei ole laos selliseid tooteid, mis oleksid muumata ja samal ajal positiivse laoseisuga. See viitab sellele, et muumata tooted ei seo praegu otseselt laoraha.
+
+Kokkuvote
+Soovitame vahendada fookust muumata toodetel, hoida paremat varu enim muudud kategooriates ja kontrollida ule negatiivsed laoseisud.

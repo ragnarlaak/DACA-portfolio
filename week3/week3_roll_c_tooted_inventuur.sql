@@ -72,3 +72,23 @@ FROM products p
 LEFT JOIN inventory i
     ON p.product_id = i.product_id
 ORDER BY i.quantity_available ASC NULLS LAST;
+
+-- 6. Leia tooted, mis on laos olemas, aga pole kunagi muudud
+SELECT
+    p.product_name,
+    p.category,
+    p.retail_price,
+    i.quantity_available,
+    (p.retail_price * i.quantity_available) AS kinni_olev_raha
+FROM products p
+LEFT JOIN sales s
+    ON p.product_id = s.product_id
+LEFT JOIN inventory i
+    ON p.product_id = i.product_id
+WHERE s.sale_id IS NULL
+  AND i.quantity_available > 0
+ORDER BY kinni_olev_raha DESC;
+
+-- Paring ei tagastanud uhtegi rida, mis tahendab, et hetkel ei ole laos selliseid tooteid,
+-- mis oleksid muumata ja samal ajal positiivse laoseisuga. See viitab sellele, et muumata
+-- tooted ei seo praegu otseselt laoraha.
