@@ -65,6 +65,7 @@ SELECT
     i.quantity_available,
     i.reorder_point,
     CASE
+        WHEN i.quantity_available IS NULL THEN 'INVENTUUR PUUDUB'
         WHEN i.quantity_available <= i.reorder_point THEN 'TELLI JUURDE'
         ELSE 'OK'
     END AS staatus
