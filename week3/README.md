@@ -55,6 +55,9 @@ Contains the Week 3 team SQL work for products and inventory analysis.
 ### [team/week3_roll_c_tooted_inventuur_answers.md](team/week3_roll_c_tooted_inventuur_answers.md)
 Contains the written summary of the team findings from the Week 3 task.
 
+### [team/Operatsioonide analüüsiosakond — JOIN-analüüs.pptx](<team/Operatsioonide analüüsiosakond — JOIN-analüüs.pptx>)
+Contains the Week 3 team presentation for the join analysis task.
+
 ---
 
 ## Main Tasks Completed
