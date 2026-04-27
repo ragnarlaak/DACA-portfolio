@@ -1,19 +1,31 @@
-# Week 0 - Data Analytics Portfolio Setup and First Team Collaboration
+# Week 0 - Portfolio Setup and First Team Collaboration
 
-## Focus
+## Problem
 
-Week 0 was about onboarding, setting up shared tools, and getting the team collaboration workflow started.
+The first challenge was not technical analysis yet. It was creating a working foundation for the program: shared tools, team coordination, onboarding structure, and a reliable way to document individual contribution from the start.
 
-## My Contribution
+## Approach
 
-- Completed the Team Charter section
-- Helped organize GitHub and Supabase onboarding tasks
-- Participated actively in group coordination
-- Prepared part of the shared onboarding slide output
-- Created and shared an early draft for review
-- Started documenting my own weekly contribution in this portfolio
+- completed my part of the Team Charter
+- helped organize GitHub and Supabase onboarding tasks
+- participated in group coordination and early planning
+- prepared part of the shared onboarding slide output
+- created and shared an early draft for review
+- started building this portfolio structure for weekly documentation
 
-## Tools Used
+## Result
+
+Week 0 established the collaboration workflow that the later SQL weeks depended on. By the end of the week, the team had shared onboarding artifacts in place and I had already started collecting evidence of my own contribution in a portfolio-friendly format.
+
+## Skills
+
+- GitHub collaboration
+- project setup and documentation
+- team communication
+- early deliverable drafting
+- contribution tracking
+
+## Tools
 
 - GitHub
 - Supabase
@@ -23,26 +35,11 @@ Week 0 was about onboarding, setting up shared tools, and getting the team colla
 
 ## Evidence
 
-### GitHub Team Charter
-![GitHub Team Charter](github-team-charter.png)
+- [github-team-charter.png](github-team-charter.png)
+- [supabase-charter-table.png](supabase-charter-table.png)
+- [presentation-slide.png](presentation-slide.png)
+- [group-slide-draft-shared.png](group-slide-draft-shared.png)
 
-### Supabase Charter Table
-![Supabase Charter Table](supabase-charter-table.png)
+## Why It Matters
 
-### Group Presentation Slide
-![Group Slide](presentation-slide.png)
-
-### Shared Output Draft
-![Shared Slide Draft](group-slide-draft-shared.png)
-
-## What I Learned
-
-- Early project structure has a big impact on collaboration
-- Clear ownership helps group work move faster
-- Personal documentation is important for showing individual contribution
-- Shared setup work is part of the project foundation, not just admin work
-- Keeping weekly notes and screenshots will make later portfolio work easier
-
-## Reflection
-
-Week 0 was mainly about building the foundation for the rest of the program. Alongside the Team Charter work, I contributed to the first shared team output and helped move the setup process forward. This week reinforced how important communication, structure, and documentation are in collaborative work.
+This week showed that setup work is real project work. Strong structure, clear ownership, and early documentation made the later technical weeks easier to manage and present.

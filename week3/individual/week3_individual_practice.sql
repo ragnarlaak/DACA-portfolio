@@ -1,4 +1,4 @@
--- INNER JOIN: kliendid koos nende müükidega
+-- INNER JOIN: kliendid koos nende muukidega
 SELECT
     c.first_name,
     c.last_name,
@@ -11,9 +11,8 @@ INNER JOIN customers c ON s.customer_id = c.customer_id
 ORDER BY s.total_price DESC
 LIMIT 20;
 
--- Kirjuta päring, mis ühendab sales ja products tabelid,
--- et näha tootenimesid koos kokku müüdud kogustega.
-
+-- Kirjuta paring, mis uhendab sales ja products tabelid,
+-- et naha tootenimesid koos kokku muudud kogustega.
 SELECT
     p.product_name,
     p.category,
@@ -29,7 +28,7 @@ GROUP BY
 ORDER BY muudud_kogus DESC, kogumuuk DESC
 LIMIT 15;
 
--- Kliendid, kes pole KUNAGI ostnud
+-- Kliendid, kes pole kunagi ostnud
 SELECT
     c.first_name,
     c.last_name,
@@ -41,10 +40,9 @@ LEFT JOIN sales s ON c.customer_id = s.customer_id
 WHERE s.sale_id IS NULL;
 
 -- Leia kliendid, kes pole kunagi ostnud
--- LEFT JOIN hoiab kõik customers read alles
--- WHERE s.sale_id IS NULL jätab alles ainult need,
--- kellel ei leitud ühtegi vastet sales tabelis
-
+-- LEFT JOIN hoiab koik customers read alles
+-- WHERE s.sale_id IS NULL jatab alles ainult need,
+-- kellel ei leitud uhtegi vastet sales tabelis
 SELECT
     c.customer_id,
     c.first_name || ' ' || c.last_name AS nimi,
@@ -57,28 +55,22 @@ LEFT JOIN sales s
 WHERE s.sale_id IS NULL
 ORDER BY c.registration_date DESC;
 
-
 -- Loenda aktiivsed kliendid ehk need,
--- kellel on vähemalt üks ost olemas
-
+-- kellel on vahemalt uks ost olemas
 SELECT
     COUNT(DISTINCT c.customer_id) AS aktiivseid_kliente
 FROM sales s
 INNER JOIN customers c
     ON s.customer_id = c.customer_id;
 
-
--- Loenda kõik kliendid customers tabelis
-
+-- Loenda koik kliendid customers tabelis
 SELECT
     COUNT(*) AS koik_kliendid
 FROM customers;
 
-
--- Leia tooted, mida pole kunagi müüdud
+-- Leia tooted, mida pole kunagi muudud
 -- Vasak tabel on products, parem tabel on sales
--- Kui s.sale_id on NULL, siis sellele tootele ei leitud ühtegi müüki
-
+-- Kui s.sale_id on NULL, siis sellele tootele ei leitud uhtegi muuki
 SELECT
     p.product_name AS toode,
     p.category AS kategooria,
@@ -89,9 +81,7 @@ LEFT JOIN sales s
 WHERE s.sale_id IS NULL
 ORDER BY p.category, p.retail_price DESC;
 
-
--- Loenda, mitu müümata toodet on kokku
-
+-- Loenda, mitu muumata toodet on kokku
 SELECT
     COUNT(*) AS muumata_tooteid
 FROM products p
@@ -99,10 +89,8 @@ LEFT JOIN sales s
     ON p.product_id = s.product_id
 WHERE s.sale_id IS NULL;
 
-
--- Grupeeri kliendid linna järgi ja näita,
+-- Grupeeri kliendid linna jargi ja naita,
 -- mitu klienti igast linnast pole kunagi ostnud
-
 SELECT
     c.city AS linn,
     COUNT(*) AS kadunud_kliente
@@ -113,10 +101,8 @@ WHERE s.sale_id IS NULL
 GROUP BY c.city
 ORDER BY kadunud_kliente DESC, c.city;
 
-
--- Ühenda kliendiandmed, müügiandmed ja tooteandmed
--- Näita klient, linn, müügikuupäev, toode, kategooria, kogus, ühikuhind ja rea summa
-
+-- Uhenda kliendiandmed, muugiandmed ja tooteandmed
+-- Naita klient, linn, muugikuupaev, toode, kategooria, kogus, uhikuhind ja rea summa
 SELECT
     c.first_name || ' ' || c.last_name AS klient,
     c.city AS linn,
@@ -134,11 +120,9 @@ INNER JOIN products p
 ORDER BY rea_summa DESC
 LIMIT 20;
 
-
--- Näita, millised tootekategooriad müüvad igas linnas kõige rohkem
--- Arvuta esmalt iga linna-kategooria kogumüük,
--- siis jäta alles ainult iga linna parim kategooria
-
+-- Naita, millised tootekategooriad muuvad igas linnas koige rohkem
+-- Arvuta esmalt iga linna-kategooria kogumuuk,
+-- siis jata alles ainult iga linna parim kategooria
 WITH category_sales AS (
     SELECT
         c.city AS linn,
@@ -173,10 +157,8 @@ FROM ranked_categories
 WHERE rn = 1
 ORDER BY kogumuuk DESC;
 
-
--- Näita kliendid, kes ostavad kõige kallimaid tooteid
--- Sorteeri ühikuhinna järgi kahanevalt
-
+-- Naita kliendid, kes ostavad koige kallimaid tooteid
+-- Sorteeri uhikuhinna jargi kahanevalt
 SELECT
     c.first_name || ' ' || c.last_name AS klient,
     c.city AS linn,
@@ -192,11 +174,9 @@ INNER JOIN products p
 ORDER BY s.unit_price DESC
 LIMIT 20;
 
-
--- Näita TOP kliendid koos tootekategooriatega
--- Grupeeri kliendi ja kategooria järgi
--- SUM arvutab kogumüügi
-
+-- Naita TOP kliendid koos tootekategooriatega
+-- Grupeeri kliendi ja kategooria jargi
+-- SUM arvutab kogumuugi
 SELECT
     c.first_name || ' ' || c.last_name AS klient,
     c.city AS linn,
@@ -216,10 +196,8 @@ GROUP BY
 ORDER BY kogumuuk DESC
 LIMIT 20;
 
-
--- Näita kategooriate kaupa, mitu toodet pole kunagi müüdud
+-- Naita kategooriate kaupa, mitu toodet pole kunagi muudud
 -- Lisaks arvuta nende toodete keskmine hind
-
 SELECT
     p.category AS kategooria,
     COUNT(*) AS muumata_tooteid,
@@ -231,9 +209,7 @@ WHERE s.sale_id IS NULL
 GROUP BY p.category
 ORDER BY muumata_tooteid DESC;
 
-
--- Leia TOP 5 tootekategooriat kogumüügi järgi
-
+-- Leia TOP 5 tootekategooriat kogumuugi jargi
 SELECT
     p.category AS kategooria,
     SUM(s.total_price) AS kogumuuk

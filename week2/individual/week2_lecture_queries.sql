@@ -1,18 +1,18 @@
---week 2 lecture queries
+-- Nadal 2 loenguparingud
 
--- Mitu rida on müügitabelis (sales) praegu 15 234
-SELECT Count(*) AS ridade_arv
-FROM sales
+-- Mitu rida on muugitabelis sales praegu? 15 234
+SELECT COUNT(*) AS ridade_arv
+FROM sales;
 
---Test tableiga toimetamine
+-- Testtabeliga toimetamine
 
--- Vaata ühte näidisrida olemasolevast test_sales tabelist
+-- Vaata uhte naidisrida olemasolevast test_sales tabelist
 SELECT * FROM test_sales LIMIT 1;
 
 -- Kustuta vana testtabel, et saaks selle uuesti puhtalt luua
 DROP TABLE test_sales;
 
--- Loo uus testtabel sales tabeli põhjal
+-- Loo uus testtabel sales tabeli pohjal
 CREATE TABLE test_sales AS
 SELECT * FROM sales;
 
@@ -23,7 +23,7 @@ SELECT COUNT(*) FROM test_sales;
 DELETE FROM test_sales
 WHERE ...;
 
--- Kustuta test_sales tabelist read, kus poe asukoht on 'Tartu'
+-- Kustuta test_sales tabelist read, kus poe asukoht on Tartu
 DELETE FROM test_sales
 WHERE store_location = 'Tartu';
 
@@ -33,17 +33,17 @@ FROM test_sales
 WHERE store_location = 'Tartu'
 LIMIT 100;
 
--- TURVALINE! Muudab ainult NULL väärtusi
+-- TURVALINE! Muudab ainult NULL vaartusi
 UPDATE test_sales
 SET customer_id = 0
 WHERE customer_id IS NULL;
 
--- OHTLIK! Muudab KÕIK read!
--- ÄRA KÄIVITA SEDA!
---UPDATE sales
---SET customer_id = 0;
+-- OHTLIK! Muudab KOKIK read!
+-- ARA KAIVITA SEDA!
+-- UPDATE sales
+-- SET customer_id = 0;
 
--- TURVALINE! Muudab ainult NULL väärtusi
+-- TURVALINE! Muudab ainult NULL vaartusi
 UPDATE test_sales
 SET customer_id = 0
 WHERE customer_id IS NULL;
@@ -54,7 +54,7 @@ FROM test_sales
 WHERE customer_id IS NULL
 LIMIT 10;
 
--- Loo test koopia customers_test
+-- Loo testkoopia customers_test
 CREATE TABLE customers_test AS
 SELECT * FROM customers;
 
@@ -62,7 +62,7 @@ SELECT * FROM customers;
 SELECT COUNT(*) FROM customers_test;
 SELECT COUNT(*) FROM customers;
 
--- Samm 1: Leia duplikaatsed invoice_id väärtused
+-- Samm 1: leia duplikaatsed invoice_id vaartused
 SELECT invoice_id, COUNT(*) AS koopiate_arv
 FROM test_sales
 GROUP BY invoice_id
@@ -70,8 +70,8 @@ HAVING COUNT(*) > 1
 ORDER BY koopiate_arv DESC
 LIMIT 10;
 
--- Samm 2: Mitu rida on duplikaadid?
--- NB: kasutame id (PK), mitte sale_id - duplikaatidel on sama sale_id!
+-- Samm 2: mitu rida on duplikaadid?
+-- NB: kasutame id ehk PK, mitte sale_id, sest duplikaatidel on sama sale_id
 SELECT COUNT(*) AS duplikaat_read
 FROM test_sales
 WHERE id NOT IN (
@@ -80,17 +80,17 @@ WHERE id NOT IN (
     GROUP BY invoice_id
 );
 
--- Samm 2.5: Kontrolli ühte konkreetset duplikaatset invoice_id näidet
+-- Samm 2.5: kontrolli uhte konkreetset duplikaatset invoice_id naidet
 SELECT *
 FROM test_sales
 WHERE invoice_id = 'INV-202301-00005'
 LIMIT 5;
 
--- Samm 3: Enne kustutamist - kirjuta üles ridade arv
+-- Samm 3: enne kustutamist kirjuta ules ridade arv
 SELECT COUNT(*) AS enne
 FROM test_sales;
 
--- Samm 4: Kustuta duplikaadid
+-- Samm 4: kustuta duplikaadid
 DELETE FROM test_sales
 WHERE id NOT IN (
     SELECT MIN(id)
@@ -98,15 +98,15 @@ WHERE id NOT IN (
     GROUP BY invoice_id
 );
 
--- Samm 5: Kontrolli ridade arvu pärast kustutamist
+-- Samm 5: kontrolli ridade arvu parast kustutamist
 SELECT COUNT(*) AS parast
 FROM test_sales;
 
--- COALESCE valib esimese mitte-NULL väärtuse
-SELECT COALESCE(NULL, 'Vaikeväärtus');
--- Tulemus: 'Vaikeväärtus'
+-- COALESCE valib esimese mitte-NULL vaartuse
+SELECT COALESCE(NULL, 'Vaikevaartus');
+-- Tulemus: 'Vaikevaartus'
 
-SELECT COALESCE('Olemas', 'Vaikeväärtus');
+SELECT COALESCE('Olemas', 'Vaikevaartus');
 -- Tulemus: 'Olemas'
 
 -- Praktiline kasutus: asenda NULL customer_id
@@ -114,18 +114,18 @@ UPDATE test_sales
 SET customer_id = 0
 WHERE customer_id IS NULL;
 
--- Kontroll: 0 NULL väärtust
+-- Kontroll: 0 NULL vaartust
 SELECT COUNT(*)
 FROM test_sales
 WHERE customer_id IS NULL;
 
--- Näita invoice_id ja sale_date ning võrdle customer_id algset väärtust
+-- Naita invoice_id ja sale_date ning vordle customer_id algset vaartust
 -- COALESCE(customer_id, 0) kuvab NULL asemel 0
 SELECT invoice_id, sale_date, COALESCE(customer_id, 0), customer_id
 FROM test_sales
 LIMIT 50;
 
--- Valideeri kuupäevad
+-- Valideeri kuupaevad
 SELECT sale_id, sale_date,
     CASE
         WHEN sale_date > CURRENT_DATE
@@ -138,9 +138,9 @@ FROM test_sales
 WHERE sale_date > CURRENT_DATE
    OR sale_date < '2020-01-01';
 
--- CASE WHEN üldine loogika:
--- kui tingimus1 on tõene, siis tagasta tulemus1
--- kui tingimus2 on tõene, siis tagasta tulemus2
+-- CASE WHEN uldine loogika:
+-- kui tingimus1 on toene, siis tagasta tulemus1
+-- kui tingimus2 on toene, siis tagasta tulemus2
 -- muul juhul tagasta vaikimisi_tulemus
 CASE
     WHEN tingimus1 THEN tulemus1
@@ -148,7 +148,7 @@ CASE
     ELSE vaikimisi_tulemus
 END;
 
--- Valideeri kuupäevad
+-- Valideeri kuupaevad
 SELECT sale_id, sale_date,
     CASE
         WHEN sale_date > CURRENT_DATE THEN 'TULEVIKUS!'
@@ -159,8 +159,8 @@ FROM test_sales
 WHERE sale_date > CURRENT_DATE
    OR sale_date < '2020-01-01';
 
--- Leia sales_test tabeli kõige varasem sale_date väärtus
+-- Leia sales_test tabeli koige varasem sale_date vaartus
 SELECT MIN(sale_date)
 FROM sales_test;
 
-SELECT Count(*) FROM sales;
+SELECT COUNT(*) FROM sales;
