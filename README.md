@@ -2,8 +2,6 @@
 
 SQL, data cleaning, and retail data analysis projects built during the **Data Analyst Career Accelerator (DACA)** program.
 
-**GitHub:** [ragnarlaak](https://github.com/ragnarlaak)  
-**Email:** ragnarlaak@gmail.com  
 **Started:** 23.03.2026
 
 ## Profile
