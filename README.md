@@ -71,6 +71,12 @@ I am building a junior data analyst portfolio focused on practical SQL work, dat
 - Started Power BI reporting with an individual UrbanStyle dashboard file
 - [Open Week 5](week5/README.md)
 
+## Course Context
+
+This portfolio is being developed as part of the [Data Analyst Career Accelerator by Ettevõtluskeskus](https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator), an intensive practical mentorship program focused on SQL, PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling, teamwork, and GitHub portfolio development.
+
+The program includes mentor-guided sessions and practical UrbanStyle business simulation work. Publicly listed program experts include Silver Toompalu, Jelena Laudver, and Renee Kooli.
+
 ## Working Style
 
 - I document both the SQL and the reasoning behind the result
