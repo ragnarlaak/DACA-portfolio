@@ -40,7 +40,7 @@ The first dashboard page shows:
 
 ## Files
 
-- [individual/week5_powerbi_urbanstyle_dashboard.pbix](individual/week5_powerbi_urbanstyle_dashboard.pbix)
+- [individual/week5_powerbi_urbanstyle_dashboard.pbix][powerbi-dashboard]
 - [individual/images/](individual/images/)
 - [individual/](individual/)
 - [team/](team/)
@@ -48,7 +48,7 @@ The first dashboard page shows:
 
 ## Image Evidence
 
-- [week5_01_powerbi_dashboard_overview.png](individual/images/week5_01_powerbi_dashboard_overview.png)
+- [week5_01_powerbi_dashboard_overview.png][dashboard-overview]
 
 ## Connection Troubleshooting
 
@@ -92,3 +92,6 @@ For Power BI weeks, the main portfolio pattern should be:
   business value
 - keep SQL files only when a week includes SQL prep, validation, or data
   extraction work
+
+[powerbi-dashboard]: individual/week5_powerbi_urbanstyle_dashboard.pbix
+[dashboard-overview]: individual/images/week5_01_powerbi_dashboard_overview.png

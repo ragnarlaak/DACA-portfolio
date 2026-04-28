@@ -25,7 +25,8 @@ technical work and the way I contribute inside team-based projects.
 
 ### 2. SQL JOINs and Inventory Analysis
 
-- Focus: relational analysis across `sales`, `customers`, `products`, and `inventory`
+- Focus: relational analysis across `sales`, `customers`, `products`, and
+  `inventory`
 - Skills: `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, multi-table
   analysis, troubleshooting
 - Result: restored a broken database setup, validated the cleaned environment,
@@ -48,7 +49,7 @@ technical work and the way I contribute inside team-based projects.
   dashboard layout
 - Result: created KPI cards for ~10K orders and ~2.91M revenue, plus revenue
   trend, category comparison, and traffic-source visuals
-- Project: [Week 5](week5/README.md)
+- Project: [Week 5][week5]
 
 ## What This Portfolio Shows
 
@@ -101,7 +102,7 @@ technical work and the way I contribute inside team-based projects.
 ### Week 5 - Power BI Dashboard
 
 - Started Power BI reporting with an individual UrbanStyle dashboard file
-- [Open Week 5](week5/README.md)
+- [Open Week 5][week5]
 
 ## Course Context
 
@@ -127,3 +128,4 @@ Jelena Laudver, and Renee Kooli.
 - **Email:** ragnarlaak@gmail.com
 
 [daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
+[week5]: week5/README.md
