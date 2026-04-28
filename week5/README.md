@@ -47,6 +47,28 @@ The first dashboard page shows:
 
 - [week5_01_powerbi_dashboard_overview.png](individual/images/week5_01_powerbi_dashboard_overview.png)
 
+## Connection Troubleshooting
+
+During the Power BI setup, the built-in PostgreSQL connector produced SSL/certificate validation errors when connecting directly to Supabase and through the Supabase session pooler.
+
+To resolve this, I:
+
+- identified that the issue was related to Power BI's PostgreSQL connector and Supabase SSL validation
+- installed the 64-bit PostgreSQL ODBC driver (`psqlODBC`)
+- created a 64-bit System DSN for the Supabase session pooler
+- configured the connection with:
+  - session pooler host
+  - PostgreSQL database name
+  - Supabase pooler username
+  - SSL mode set to `require`
+- verified the connection through ODBC before importing the data into Power BI
+
+This allowed the Supabase PostgreSQL database to be connected successfully to Power BI and used for dashboard development.
+
+## Key Learning
+
+A major part of BI work is not only building visuals, but also handling data connectivity, drivers, authentication, and reliable source connections before analysis can begin.
+
 ## Team Image Evidence
 
 Add team screenshots here once Week 5 group work is complete.
