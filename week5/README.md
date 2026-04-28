@@ -2,7 +2,9 @@
 
 ## Problem
 
-Week 5 marks the move from SQL-only analysis into Power BI reporting. The goal is to turn the UrbanStyle retail data work into a first dashboard artifact that can be opened, reviewed, and later supported with screenshot evidence.
+Week 5 marks the move from SQL-only analysis into Power BI reporting. The goal
+is to turn the UrbanStyle retail data work into a first dashboard artifact that
+can be opened, reviewed, and later supported with screenshot evidence.
 
 ## Approach
 
@@ -49,11 +51,14 @@ The first dashboard page shows:
 
 ## Connection Troubleshooting
 
-During the Power BI setup, the built-in PostgreSQL connector produced SSL/certificate validation errors when connecting directly to Supabase and through the Supabase session pooler.
+During the Power BI setup, the built-in PostgreSQL connector produced
+SSL/certificate validation errors when connecting directly to Supabase and
+through the Supabase session pooler.
 
 To resolve this, I:
 
-- identified that the issue was related to Power BI's PostgreSQL connector and Supabase SSL validation
+- identified that the issue was related to Power BI's PostgreSQL connector and
+  Supabase SSL validation
 - installed the 64-bit PostgreSQL ODBC driver (`psqlODBC`)
 - created a 64-bit System DSN for the Supabase session pooler
 - configured the connection with:
@@ -63,11 +68,14 @@ To resolve this, I:
   - SSL mode set to `require`
 - verified the connection through ODBC before importing the data into Power BI
 
-This allowed the Supabase PostgreSQL database to be connected successfully to Power BI and used for dashboard development.
+This allowed the Supabase PostgreSQL database to be connected successfully to
+Power BI and used for dashboard development.
 
 ## Key Learning
 
-A major part of BI work is not only building visuals, but also handling data connectivity, drivers, authentication, and reliable source connections before analysis can begin.
+A major part of BI work is not only building visuals, but also handling data
+connectivity, drivers, authentication, and reliable source connections before
+analysis can begin.
 
 ## Team Image Evidence
 

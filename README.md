@@ -1,12 +1,16 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, Power BI, data cleaning, and retail data analysis projects built during the **Data Analyst Career Accelerator (DACA)** program.
+SQL, Power BI, data cleaning, and retail data analysis projects built during the
+**Data Analyst Career Accelerator (DACA)** program.
 
 **Started:** 23.03.2026
 
 ## Profile
 
-I am building a junior data analyst portfolio focused on practical SQL work, data quality checks, relational analysis, Power BI reporting, and clear documentation of results. This repository is structured to show both my technical work and the way I contribute inside team-based projects.
+I am building a junior data analyst portfolio focused on practical SQL work,
+data quality checks, relational analysis, Power BI reporting, and clear
+documentation of results. This repository is structured to show both my
+technical work and the way I contribute inside team-based projects.
 
 ## Featured Projects
 
@@ -73,9 +77,15 @@ I am building a junior data analyst portfolio focused on practical SQL work, dat
 
 ## Course Context
 
-This portfolio is being developed as part of the [Data Analyst Career Accelerator by Ettevõtluskeskus](https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator), an intensive practical mentorship program focused on SQL, PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling, teamwork, and GitHub portfolio development.
+This portfolio is being developed as part of the
+[Data Analyst Career Accelerator by Ettevotluskeskus](https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator),
+an intensive practical mentorship program focused on SQL,
+PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling, teamwork,
+and GitHub portfolio development.
 
-The program includes mentor-guided sessions and practical UrbanStyle business simulation work. Publicly listed program experts include Silver Toompalu, Jelena Laudver, and Renee Kooli.
+The program includes mentor-guided sessions and practical UrbanStyle business
+simulation work. Publicly listed program experts include Silver Toompalu,
+Jelena Laudver, and Renee Kooli.
 
 ## Working Style
 
