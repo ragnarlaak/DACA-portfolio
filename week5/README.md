@@ -10,7 +10,8 @@ can be opened, reviewed, and later supported with screenshot evidence.
 
 - saved the first Power BI dashboard file in the `individual/` folder
 - kept screenshot evidence in `individual/images/`
-- kept a separate `team/` folder ready for later group dashboard or presentation work
+- kept a separate `team/` folder ready for later group dashboard or
+  presentation work
 - documented the new file structure for the Power BI phase of the portfolio
 
 ## Result
@@ -87,5 +88,7 @@ For Power BI weeks, the main portfolio pattern should be:
 
 - keep `.pbix` files in the matching `individual/` or `team/` folder
 - export report-page screenshots into the matching `images/` folder
-- use the README to explain the dashboard goal, main visuals, key findings, and business value
-- keep SQL files only when a week includes SQL prep, validation, or data extraction work
+- use the README to explain the dashboard goal, main visuals, key findings, and
+  business value
+- keep SQL files only when a week includes SQL prep, validation, or data
+  extraction work

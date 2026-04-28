@@ -15,22 +15,40 @@ technical work and the way I contribute inside team-based projects.
 ## Featured Projects
 
 ### 1. Retail Data Quality Analysis
+
 - Focus: customer data cleaning and validation in SQL
-- Skills: `GROUP BY`, `HAVING`, `COALESCE()`, `CASE WHEN`, text standardization, safe update/delete workflow
-- Result: identified **128 duplicate emails**, **380 missing emails**, and **12 city naming variations**
+- Skills: `GROUP BY`, `HAVING`, `COALESCE()`, `CASE WHEN`, text
+  standardization, safe update/delete workflow
+- Result: identified **128 duplicate emails**, **380 missing emails**, and
+  **12 city naming variations**
 - Project: [Week 2](week2/README.md)
 
 ### 2. SQL JOINs and Inventory Analysis
+
 - Focus: relational analysis across `sales`, `customers`, `products`, and `inventory`
-- Skills: `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, multi-table analysis, troubleshooting
-- Result: restored a broken database setup, validated the cleaned environment, and found **12 unsold products**
+- Skills: `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, multi-table
+  analysis, troubleshooting
+- Result: restored a broken database setup, validated the cleaned environment,
+  and found **12 unsold products**
 - Project: [Week 3](week3/README.md)
 
 ### 3. SQL Aggregation for Business Reporting
+
 - Focus: turning transaction data into management-level summaries
-- Skills: aggregation, `GROUP BY`, `HAVING`, CTEs, window functions, business reporting
-- Result: analyzed monthly sales, city performance, customer segments, category performance, and marketing-channel effectiveness
+- Skills: aggregation, `GROUP BY`, `HAVING`, CTEs, window functions, business
+  reporting
+- Result: analyzed monthly sales, city performance, customer segments, category
+  performance, and marketing-channel effectiveness
 - Project: [Week 4](week4/README.md)
+
+### 4. Power BI Retail Dashboard
+
+- Focus: building a first business-facing dashboard from UrbanStyle retail data
+- Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
+  dashboard layout
+- Result: created KPI cards for ~10K orders and ~2.91M revenue, plus revenue
+  trend, category comparison, and traffic-source visuals
+- Project: [Week 5](week5/README.md)
 
 ## What This Portfolio Shows
 
@@ -43,42 +61,52 @@ technical work and the way I contribute inside team-based projects.
 
 ## Core Skills
 
-- **SQL:** `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `COUNT`, `SUM`, `AVG`, `CASE WHEN`
-- **Data cleaning:** duplicate checks, `NULL` analysis, `COALESCE()`, text standardization, validation logic
-- **Relational analysis:** `INNER JOIN`, `LEFT JOIN`, multi-table joins, missing-match analysis
-- **Reporting:** Power BI dashboards, summary tables, screenshot evidence, presentation support, written findings
+- **SQL:** `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `COUNT`, `SUM`, `AVG`,
+  `CASE WHEN`
+- **Data cleaning:** duplicate checks, `NULL` analysis, `COALESCE()`, text
+  standardization, validation logic
+- **Relational analysis:** `INNER JOIN`, `LEFT JOIN`, multi-table joins,
+  missing-match analysis
+- **Reporting:** Power BI dashboards, summary tables, screenshot evidence,
+  presentation support, written findings
 - **Tools:** Git, GitHub, VS Code, Supabase, Power BI
 
 ## Portfolio Map
 
 ### Week 0 - Portfolio Setup and Team Collaboration
+
 - Built the initial collaboration and documentation structure
 - [Open Week 0](week0/README.md)
 
 ### Week 1 - SQL Basics and Sales Data Exploration
+
 - Verified row counts, duplicates, missing values, and transaction extremes
 - [Open Week 1](week1/README.md)
 
 ### Week 2 - SQL Data Cleaning and Customer Quality Analysis
+
 - Documented customer-data quality issues and safe cleaning practice
 - [Open Week 2](week2/README.md)
 
 ### Week 3 - SQL JOINs and Inventory Analysis
+
 - Rebuilt the working database state and completed JOIN-based analysis
 - [Open Week 3](week3/README.md)
 
 ### Week 4 - SQL Aggregation and Marketing Analysis
+
 - Added individual aggregation work, image evidence, and team channel analysis
 - [Open Week 4](week4/README.md)
 
 ### Week 5 - Power BI Dashboard
+
 - Started Power BI reporting with an individual UrbanStyle dashboard file
 - [Open Week 5](week5/README.md)
 
 ## Course Context
 
 This portfolio is being developed as part of the
-[Data Analyst Career Accelerator by Ettevotluskeskus](https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator),
+[Data Analyst Career Accelerator by Ettevotluskeskus][daca-course],
 an intensive practical mentorship program focused on SQL,
 PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling, teamwork,
 and GitHub portfolio development.
@@ -97,3 +125,5 @@ Jelena Laudver, and Renee Kooli.
 
 - **GitHub:** [ragnarlaak](https://github.com/ragnarlaak)
 - **Email:** ragnarlaak@gmail.com
+
+[daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
