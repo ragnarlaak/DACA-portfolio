@@ -1,12 +1,12 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, data cleaning, and retail data analysis projects built during the **Data Analyst Career Accelerator (DACA)** program.
+SQL, Power BI, data cleaning, and retail data analysis projects built during the **Data Analyst Career Accelerator (DACA)** program.
 
 **Started:** 23.03.2026
 
 ## Profile
 
-I am building a junior data analyst portfolio focused on practical SQL work, data quality checks, relational analysis, and clear documentation of results. This repository is structured to show both my technical work and the way I contribute inside team-based projects.
+I am building a junior data analyst portfolio focused on practical SQL work, data quality checks, relational analysis, Power BI reporting, and clear documentation of results. This repository is structured to show both my technical work and the way I contribute inside team-based projects.
 
 ## Featured Projects
 
@@ -33,6 +33,7 @@ I am building a junior data analyst portfolio focused on practical SQL work, dat
 - practical SQL analysis in Supabase/PostgreSQL
 - data cleaning and validation workflows
 - business-focused analysis of retail data
+- Power BI dashboard development
 - readable project documentation with evidence
 - individual contribution inside group work
 
@@ -41,8 +42,8 @@ I am building a junior data analyst portfolio focused on practical SQL work, dat
 - **SQL:** `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `COUNT`, `SUM`, `AVG`, `CASE WHEN`
 - **Data cleaning:** duplicate checks, `NULL` analysis, `COALESCE()`, text standardization, validation logic
 - **Relational analysis:** `INNER JOIN`, `LEFT JOIN`, multi-table joins, missing-match analysis
-- **Reporting:** summary tables, screenshot evidence, presentation support, written findings
-- **Tools:** Git, GitHub, VS Code, Supabase
+- **Reporting:** Power BI dashboards, summary tables, screenshot evidence, presentation support, written findings
+- **Tools:** Git, GitHub, VS Code, Supabase, Power BI
 
 ## Portfolio Map
 
@@ -65,6 +66,10 @@ I am building a junior data analyst portfolio focused on practical SQL work, dat
 ### Week 4 - SQL Aggregation and Marketing Analysis
 - Added individual aggregation work, image evidence, and team channel analysis
 - [Open Week 4](week4/README.md)
+
+### Week 5 - Power BI Dashboard
+- Started Power BI reporting with an individual UrbanStyle dashboard file
+- [Open Week 5](week5/README.md)
 
 ## Working Style
 
