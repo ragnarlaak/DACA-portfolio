@@ -139,6 +139,17 @@ the required files to the shared Drive for team integration. The output was
 shared for **Role D / Investor synthesis**, where the different role-based views
 can be combined into the final investor-facing story.
 
+During Week 5, I also supported teammates with Power BI setup and dashboard
+creation. This included helping with ODBC/SSL connection troubleshooting,
+Navigator table selection, and deciding when to use **Load** versus
+**Transform Data** before building visuals.
+
+I also helped a teammate understand why a structured GitHub portfolio matters
+for showing data analytics work clearly. To support this, I created an Estonian
+PDF tutorial explaining how to use VS Code, Codex, and GitHub to build a DACA
+portfolio structure with weekly folders, individual/team sections, README files,
+SQL and Power BI files, screenshots, and recruiter-friendly documentation.
+
 ## AI Usage
 
 I used AI support to help structure the portfolio documentation, clarify the
