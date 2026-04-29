@@ -46,9 +46,10 @@ technical work and the way I contribute inside team-based projects.
 
 - Focus: building a first business-facing dashboard from UrbanStyle retail data
 - Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
-  dashboard layout
+  dashboard layout, executive reporting
 - Result: created KPI cards for ~10K orders and ~2.91M revenue, plus revenue
-  trend, category comparison, and traffic-source visuals
+  trend, category comparison, traffic-source visuals, and a team CEO revenue
+  view showing **19.08%** growth in 2024 versus 2023
 - Project: [Week 5][week5]
 
 ## What This Portfolio Shows
@@ -101,7 +102,8 @@ technical work and the way I contribute inside team-based projects.
 
 ### Week 5 - Power BI Dashboard
 
-- Started Power BI reporting with an individual UrbanStyle dashboard file
+- Added individual and team UrbanStyle Power BI dashboard files with screenshot
+  evidence and CEO-facing revenue insight
 - [Open Week 5][week5]
 
 ## Course Context
