@@ -7,9 +7,9 @@ the UrbanStyle retail data. My completed individual group-work contribution was
 **Role A — CEO Dashboard / Kristi vaade**.
 
 The dashboard was built to answer the stakeholder question:
-**"Kas UrbanStyle kasvab?"** The final Power BI file, screenshot, and CEO notes
-were prepared for team use and shared through the group Drive for the combined
-Role D / Investor synthesis.
+**"Kas UrbanStyle kasvab?"** The final Power BI file, screenshot, and CEO
+notes were prepared for team use and shared through the group Drive for the
+combined Role D / Investor synthesis.
 
 ## Role A — CEO Dashboard
 
@@ -90,7 +90,8 @@ GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
 ORDER BY year_month;
 ```
 
-For the year-over-year comparison, the interpretation uses comparable full-year periods:
+For the year-over-year comparison, the interpretation uses comparable
+full-year periods:
 
 ```SQL
 SELECT
@@ -105,9 +106,9 @@ ORDER BY aasta;
 
 ## Business Interpretation
 
-UrbanStyle had around **10K orders** and **2.91M kogukäive** in the dashboard
-scope. Based on comparable full-year periods, 2024 revenue was **19.08% higher**
-than 2023.
+UrbanStyle had around **10K orders** and **2.91M kogukäive** in the
+dashboard scope. Based on comparable full-year periods, 2024 revenue was
+**19.08% higher** than 2023.
 
 This means the CEO question **"Kas UrbanStyle kasvab?"** can be answered
 positively. Monthly revenue still fluctuates, so growth is not smooth every

@@ -47,10 +47,10 @@ technical work and the way I contribute inside team-based projects.
 - Focus: building a first business-facing dashboard from UrbanStyle retail data
 - Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
   dashboard layout, executive reporting
-- Result: built a CEO-focused Power BI dashboard with KPI cards for ~10K
-  orders, ~2.91M kogukäive, and **19.08%** growth in 2024 versus 2023,
-  supported by a `YearMonth` revenue trend and documented Supabase/ODBC
-  troubleshooting
+- Result: built a CEO-focused Power BI dashboard with KPI cards for
+  ~10K orders, ~2.91M kogukäive, and **19.08%** growth in 2024
+  versus 2023, supported by a `YearMonth` revenue trend and documented
+  Supabase/ODBC troubleshooting
 - Project: [Week 5][week5]
 
 ## What This Portfolio Shows
@@ -112,8 +112,8 @@ technical work and the way I contribute inside team-based projects.
 This portfolio is being developed as part of the
 [Data Analyst Career Accelerator by Ettevotluskeskus][daca-course],
 an intensive practical mentorship program focused on SQL,
-PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling, teamwork,
-and GitHub portfolio development.
+PostgreSQL/Supabase, Power BI, Python, AI tools, data storytelling,
+teamwork, and GitHub portfolio development.
 
 The program includes mentor-guided sessions and practical UrbanStyle business
 simulation work. Publicly listed program experts include Silver Toompalu,
