@@ -187,7 +187,9 @@ team file sharing were completed as my Week 5 group-work contribution.
 - [team/images/urbanstyle_ariraport_slide_05.png][team-slide-05]
 - [team/ceo_view_notes.txt][team-ceo-notes]
 - [individual/week5_powerbi_urbanstyle_dashboard.pbix][powerbi-dashboard]
+- [individual/week5_powerbi_urbanstyle_dashboard_revenue.pbix][individual-revenue-dashboard]
 - [individual/images/week5_01_powerbi_dashboard_overview.png][dashboard-overview]
+- [individual/images/urbanstyle_revenue_dashboard.png][individual-revenue-screenshot]
 - [team/](team/)
 - [team/images/](team/images/)
 - [individual/](individual/)
@@ -198,6 +200,8 @@ team file sharing were completed as my Week 5 group-work contribution.
 [team-presentation]: team/urbanstyle_ariraport_presentation.pptx
 [team-ceo-notes]: team/ceo_view_notes.txt
 [dashboard-overview]: individual/images/week5_01_powerbi_dashboard_overview.png
+[individual-revenue-dashboard]: individual/week5_powerbi_urbanstyle_dashboard_revenue.pbix
+[individual-revenue-screenshot]: individual/images/urbanstyle_revenue_dashboard.png
 [team-dashboard-overview]: team/images/urbanstyle_revenue_dashboard.png
 [team-slide-01]: team/images/urbanstyle_ariraport_slide_01.png
 [team-slide-02]: team/images/urbanstyle_ariraport_slide_02.png
