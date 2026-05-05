@@ -53,12 +53,23 @@ technical work and the way I contribute inside team-based projects.
   Supabase/ODBC troubleshooting
 - Project: [Week 5][week5]
 
+### 5. Power BI Data Storytelling
+
+- Focus: turning a dashboard into a stakeholder-specific Tartu store data story
+- Skills: Power BI, annotations, reference lines, KPI storytelling,
+  audience-focused dashboard design
+- Result: built a Role B Tartu store view showing **13%** 2024 growth versus
+  UrbanStyle's **19%** company-wide growth, with a clear management
+  recommendation for deeper comparison against stronger locations
+- Project: [Week 6][week6]
+
 ## What This Portfolio Shows
 
 - practical SQL analysis in Supabase/PostgreSQL
 - data cleaning and validation workflows
 - business-focused analysis of retail data
 - Power BI dashboard development
+- stakeholder-focused data storytelling
 - readable project documentation with evidence
 - individual contribution inside group work
 
@@ -70,8 +81,8 @@ technical work and the way I contribute inside team-based projects.
   standardization, validation logic
 - **Relational analysis:** `INNER JOIN`, `LEFT JOIN`, multi-table joins,
   missing-match analysis
-- **Reporting:** Power BI dashboards, summary tables, screenshot evidence,
-  presentation support, written findings
+- **Reporting:** Power BI dashboards, data storytelling, annotations,
+  summary tables, screenshot evidence, presentation support, written findings
 - **Tools:** Git, GitHub, VS Code, Supabase, Power BI
 
 ## Portfolio Map
@@ -107,6 +118,12 @@ technical work and the way I contribute inside team-based projects.
   evidence, final presentation materials, and CEO-facing revenue insight
 - [Open Week 5][week5]
 
+### Week 6 - Power BI Data Storytelling
+
+- Added Role B Tartu store dashboard files, screenshot evidence, and
+  stakeholder-focused storytelling documentation
+- [Open Week 6][week6]
+
 ## Course Context
 
 This portfolio is being developed as part of the
@@ -132,3 +149,4 @@ Jelena Laudver, and Renee Kooli.
 
 [daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
 [week5]: week5/README.md
+[week6]: week6/README.md
