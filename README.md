@@ -53,15 +53,16 @@ technical work and the way I contribute inside team-based projects.
   Supabase/ODBC troubleshooting
 - Project: [Week 5][week5]
 
-### 5. Power BI Data Storytelling
+### 5. Power BI Data Storytelling - Tartu Store View
 
-- Focus: turning a dashboard into a stakeholder-specific Tartu store data story
-- Skills: Power BI, annotations, reference lines, KPI storytelling,
+- Focus: turning a Power BI dashboard into a stakeholder-specific data story
+- Skills: Power BI, KPI cards, reference lines, annotations, executive summary,
   audience-focused dashboard design
-- Result: built a Role B Tartu store view showing **13%** 2024 growth versus
-  UrbanStyle's **19%** company-wide growth, with a clear management
-  recommendation for deeper comparison against stronger locations
-- Project: [Week 6][week6]
+- Result: built a Tartu-focused dashboard showing that Tartu grew **13%** in
+  2024 versus 2023, but underperformed UrbanStyle's **19%** overall growth;
+  recommended comparing Tartu product mix, average order, and customer segments
+  against Tallinn and Online
+- Project: [Week 6](week6/README.md)
 
 ## What This Portfolio Shows
 
@@ -118,11 +119,15 @@ technical work and the way I contribute inside team-based projects.
   evidence, final presentation materials, and CEO-facing revenue insight
 - [Open Week 5][week5]
 
-### Week 6 - Power BI Data Storytelling
+### Week 6 - Power BI Data Storytelling and Tartu Store View
 
-- Added Role B Tartu store dashboard files, screenshot evidence, and
-  stakeholder-focused storytelling documentation
-- [Open Week 6][week6]
+- Built a stakeholder-specific Tartu dashboard with KPI cards, annotations, a
+  reference line, and executive summary
+- Reframed the expected story from "Tartu is declining" to "Tartu is growing
+  slower than the company" based on filtered Power BI data
+- Main finding: Tartu grew **13%** in 2024 vs 2023, while UrbanStyle overall
+  grew **19%**
+- [Open Week 6](week6/README.md)
 
 ### Week 7 - TBD
 
