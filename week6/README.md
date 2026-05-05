@@ -91,7 +91,6 @@ andmeloo näited ja 5 Why's metoodika.
 - [individual/images/week6_lecture_08_science_storytelling_example.png][lecture-08]
 - [individual/images/week6_lecture_09_session_2_next_steps.png][lecture-09]
 - [individual/images/week6_lecture_10_5_whys_methodology.png][lecture-10]
-- [team/](team/)
 - [individual/](individual/)
 - [individual/images/](individual/images/)
 
