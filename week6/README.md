@@ -81,8 +81,6 @@ andmeloo näited ja 5 Why's metoodika.
 
 - [individual/week6_tartu_dashboard_role_b.pbix][individual-powerbi-dashboard]
 - [individual/week6_tartu_dashboard_storytelling.png][individual-dashboard-storytelling]
-- [team/week6_tartu_dashboard_role_b.pbix][team-powerbi-dashboard]
-- [team/week6_tartu_dashboard_storytelling.png][team-dashboard-storytelling]
 - [individual/images/week6_lecture_01_30_second_pitch.png][lecture-01]
 - [individual/images/week6_lecture_02_creating_narrative.png][lecture-02]
 - [individual/images/week6_lecture_03_knaflic_principles.png][lecture-03]
@@ -99,8 +97,6 @@ andmeloo näited ja 5 Why's metoodika.
 
 [individual-powerbi-dashboard]: individual/week6_tartu_dashboard_role_b.pbix
 [individual-dashboard-storytelling]: individual/week6_tartu_dashboard_storytelling.png
-[team-powerbi-dashboard]: team/week6_tartu_dashboard_role_b.pbix
-[team-dashboard-storytelling]: team/week6_tartu_dashboard_storytelling.png
 [lecture-01]: individual/images/week6_lecture_01_30_second_pitch.png
 [lecture-02]: individual/images/week6_lecture_02_creating_narrative.png
 [lecture-03]: individual/images/week6_lecture_03_knaflic_principles.png
