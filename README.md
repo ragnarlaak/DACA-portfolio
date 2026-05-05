@@ -124,6 +124,26 @@ technical work and the way I contribute inside team-based projects.
   stakeholder-focused storytelling documentation
 - [Open Week 6][week6]
 
+### Week 7 - TBD
+
+- Scaffold ready for upcoming individual and team materials
+- [Open Week 7][week7]
+
+### Week 8 - TBD
+
+- Scaffold ready for upcoming individual and team materials
+- [Open Week 8][week8]
+
+### Week 9 - TBD
+
+- Scaffold ready for upcoming individual and team materials
+- [Open Week 9][week9]
+
+### Week 10 - TBD
+
+- Scaffold ready for upcoming individual and team materials
+- [Open Week 10][week10]
+
 ## Course Context
 
 This portfolio is being developed as part of the
@@ -150,3 +170,7 @@ Jelena Laudver, and Renee Kooli.
 [daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
 [week5]: week5/README.md
 [week6]: week6/README.md
+[week7]: week7/README.md
+[week8]: week8/README.md
+[week9]: week9/README.md
+[week10]: week10/README.md
