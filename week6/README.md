@@ -1,36 +1,45 @@
-# Week 6 - Visualiseerimise andmed & Data Storytelling
+# Week 6 - Data Visualization and Data Storytelling
 
-## Ülevaade
+## English summary
 
-Nädal 6 keskendus sellele, kuidas muuta dashboard lihtsalt visuaalide kogust
-selgeks andmelooks. Fookus oli annotatsioonidel, viitejoontel, juhtide
-kokkuvõttel, publiku-põhisel disainil ja "ja mis siis?" põhimõttel.
+Week 6 focused on turning a Power BI dashboard into a clearer stakeholder data
+story. I built the Role B / Tartu store dashboard using KPI cards, a monthly
+trend, a reference line, annotations, and an executive summary. The main finding
+was that Tartu grew **13%** in 2024 versus 2023, but slower than UrbanStyle's
+overall **19%** growth, leading to a recommendation to compare Tartu's product
+mix, average order, and customer segments with stronger locations.
 
-Selle nädala töö eesmärk oli võtta Nädal 5 Power BI dashboard ning viimistleda
-seda nii, et see vastaks konkreetse stakeholder'i küsimusele, mitte ei näitaks
-lihtsalt kõiki andmeid korraga.
+## Overview
 
-Minu grupitöö roll oli **Roll B - Tartu kaupluse vaade**.
+Week 6 focused on turning a dashboard from a set of visuals into a clear data
+story. The work emphasized annotations, reference lines, executive summaries,
+audience-focused design, and the Estonian course prompt "ja mis siis?"
+
+The goal was to take the Week 5 Power BI dashboard and refine it so it answered
+a specific stakeholder question instead of showing all available data at once.
+
+My group-work role was **Roll B - Tartu kaupluse vaade**.
 
 ---
 
-## Minu roll: Tartu kaupluse dashboard
+## My Role: Tartu Store Dashboard
 
-Minu ülesanne oli luua Tartu kaupluse jaoks eraldi dashboard ja andmelugu. Töö
-keskendus sellele, kas Tartu kauplus kasvab, kuidas see võrdub UrbanStyle'i
-üldise kasvuga ning milliseid samme võiks juhtkond edasi teha.
+My task was to create a separate dashboard and data story for the Tartu store.
+The work focused on whether the Tartu store was growing, how it compared with
+UrbanStyle's overall growth, and what next steps management could consider.
 
-Kuigi grupitöö juhend viitas Tartule kui võimalikule probleemsele asukohale,
-näitasid minu filtreeritud andmed, et Tartu ei ole tegelikult languses. Tartu
-2024. aasta käive kasvas võrreldes 2023. aastaga **13%**, kuid jäi alla
-ettevõtte üldisele **19%** kasvule. Seetõttu kujunes dashboard'i peamiseks
-sõnumiks:
+Although the group-work brief suggested that Tartu might be a problem location,
+my filtered analysis showed that Tartu was not actually declining. Tartu's 2024
+revenue grew by **13%** compared with 2023, but remained below the company's
+overall **19%** growth. Because of that, the main dashboard message became:
 
 > Tartu kauplus kasvab, kuid aeglasemalt kui UrbanStyle tervikuna.
 
 ---
 
-## Dashboard'i põhisõnum
+## Dashboard Core Message
+
+The final stakeholder message was kept in Estonian for the dashboard narrative:
 
 **Peamine järeldus:**  
 Tartu 2024. aasta käive kasvas 13%, kuid jäi alla UrbanStyle'i 19%
@@ -47,9 +56,10 @@ ning Online'i tulemustega, et leida, mis Tartu kasvu piirab.
 
 ---
 
-## Loodud Power BI vaade
+## Created Power BI View
 
-Dashboard sisaldab järgmisi elemente:
+The dashboard includes the following elements, using Estonian wording where it
+appears in the actual deliverable:
 
 - KPI kaardid:
   - Tellimused kokku
@@ -62,7 +72,7 @@ Dashboard sisaldab järgmisi elemente:
 - Annotatsioon TOP-toodete võrdlemiseks Tallinna ja Online'i tulemustega
 - Juhtkokkuvõte dashboard'i ülaosas
 
-Fail:
+File:
 
 ```text
 individual/week6_tartu_dashboard_storytelling.png
@@ -70,12 +80,24 @@ individual/week6_tartu_dashboard_storytelling.png
 
 ![Tartu dashboard storytelling view][individual-dashboard-storytelling]
 
-## Loengu märkmed ja visuaalsed näited
+## Lecture Notes and Visual Examples
 
-Individuaalse töö kausta lisasin loengust pärit screenshot'id, mis toetavad
-Week 6 põhiteemasid: 30-sekundiline pitch, narratiivi loomine, Knaflicu
-põhimõtted, executive summary ülesehitus, multi-audience lähenemine,
-andmeloo näited ja 5 Why's metoodika.
+I added lecture screenshots to the individual work folder to support the main
+Week 6 topics: the 30-second pitch, narrative creation, Knaflic's principles,
+executive summary structure, multi-audience storytelling, data story examples,
+and the 5 Why's methodology.
+
+## Teamwork reflection
+
+For the group task, I completed and shared the Role B / Tartu dashboard files in
+the team Drive folder. I also supported the group by helping clarify the minimum
+dashboard structure: role-specific filter, KPI cards, monthly trend, supporting
+chart, and short business recommendation.
+
+This reinforced that dashboard development is partly technical and partly
+communication-focused. When tools or visuals become confusing, returning to the
+stakeholder question and the required business story helps keep the work
+focused.
 
 ## Files
 

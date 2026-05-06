@@ -1,5 +1,14 @@
 # Week 5 - Power BI Visualization Design
 
+## English summary
+
+Week 5 focused on Power BI dashboard design and business storytelling with
+UrbanStyle retail data. I built the Role A / CEO dashboard for Kristi using KPI
+cards, DAX measures, a monthly revenue trend, and Estonian stakeholder labels.
+The dashboard answered the business question "Kas UrbanStyle kasvab?" by
+showing that 2024 revenue was **19.08%** higher than 2023, while also documenting
+Power BI and Supabase/ODBC setup decisions for the team.
+
 ## Overview
 
 Week 5 focused on Power BI dashboard design and business storytelling using
