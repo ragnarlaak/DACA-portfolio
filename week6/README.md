@@ -20,8 +20,6 @@ a specific stakeholder question instead of showing all available data at once.
 
 My group-work role was **Roll B - Tartu kaupluse vaade**.
 
----
-
 ## My contribution
 
 My role in the Week 6 group task was **Role B - Tartu store view**. I built a
@@ -41,8 +39,6 @@ message became:
 
 > Tartu kauplus kasvab, kuid aeglasemalt kui UrbanStyle tervikuna.
 
----
-
 ## Dashboard Core Message
 
 The final stakeholder message was kept in Estonian for the dashboard narrative:
@@ -60,8 +56,6 @@ asukohtadega.
 Võrrelda Tartu tootevalikut, keskmist tellimust ja kliendisegmente Tallinna
 ning Online'i tulemustega, et leida, mis Tartu kasvu piirab.
 
----
-
 ## Created Power BI View
 
 The dashboard includes the following elements, using Estonian wording where it
@@ -78,11 +72,9 @@ appears in the actual deliverable:
 - Annotatsioon TOP-toodete võrdlemiseks Tallinna ja Online'i tulemustega
 - Juhtkokkuvõte dashboard'i ülaosas
 
-File:
+The exported screenshot is stored as dashboard evidence:
 
-```text
-individual/week6_tartu_dashboard_storytelling.png
-```
+- [individual/week6_tartu_dashboard_storytelling.png][individual-dashboard-storytelling]
 
 ![Tartu dashboard storytelling view][individual-dashboard-storytelling]
 
@@ -117,15 +109,13 @@ structured it around the completed team outputs: Tallinn, Tartu, and Online.
 
 For the koondvaade, I summarized each available view using the minimum business
 inputs required for the presentation: location, main number, main finding, and
-recommendation. I also kept the presentation honest by marking the Pärnu view
-as out of scope and requiring later follow-up instead of inventing an analysis
-that had not been completed.
+recommendation. I kept the Pärnu part honest by marking it as out of scope /
+requiring later follow-up instead of inventing an analysis that had not been
+completed.
 
-I integrated the dashboard screenshots into the presentation, kept the slide
-structure simple, and adjusted the wording so it sounded like an internal
-business presentation rather than a course exercise. This included removing
-unnecessary company-name repetition and focusing the language on location-level
-findings and recommendations.
+I integrated the dashboard screenshots into the presentation and kept the slide
+structure simple so the group had a presentable version ready under time
+pressure.
 
 This was a practical lesson in scope control, communication, and team
 coordination: when a group deliverable is under time pressure, the priority is
