@@ -22,16 +22,22 @@ My group-work role was **Roll B - Tartu kaupluse vaade**.
 
 ---
 
-## My Role: Tartu Store Dashboard
+## My contribution
 
-My task was to create a separate dashboard and data story for the Tartu store.
-The work focused on whether the Tartu store was growing, how it compared with
-UrbanStyle's overall growth, and what next steps management could consider.
+My role in the Week 6 group task was **Role B - Tartu store view**. I built a
+stakeholder-specific Power BI dashboard focused on Tartu's performance and
+turned the visual analysis into a short business narrative.
 
-Although the group-work brief suggested that Tartu might be a problem location,
-my filtered analysis showed that Tartu was not actually declining. Tartu's 2024
-revenue grew by **13%** compared with 2023, but remained below the company's
-overall **19%** growth. Because of that, the main dashboard message became:
+I filtered the dashboard to `store_location = Tartu`, created KPI cards, a
+monthly revenue trend, an average reference line, a December peak annotation,
+and a Top 5 products chart. The main finding was that Tartu did not decline; it
+grew **13%** in 2024 compared with 2023, but this was below UrbanStyle's
+**19%** overall growth.
+
+Based on this, my recommendation was to compare Tartu's product mix, average
+order value, and customer segments against Tallinn and Online to understand
+what may be limiting Tartu's growth. Because of that, the main dashboard
+message became:
 
 > Tartu kauplus kasvab, kuid aeglasemalt kui UrbanStyle tervikuna.
 
@@ -87,17 +93,21 @@ Week 6 topics: the 30-second pitch, narrative creation, Knaflic's principles,
 executive summary structure, multi-audience storytelling, data story examples,
 and the 5 Why's methodology.
 
-## Teamwork reflection
+## Additional responsibility
 
-For the group task, I completed and shared the Role B / Tartu dashboard files in
-the team Drive folder. I also supported the group by helping clarify the minimum
-dashboard structure: role-specific filter, KPI cards, monthly trend, supporting
-chart, and short business recommendation.
+Because the group workflow became constrained by availability and technical
+issues, I took extra responsibility for helping structure the final combined
+view and presentation.
 
-This reinforced that dashboard development is partly technical and partly
-communication-focused. When tools or visuals become confusing, returning to the
-stakeholder question and the required business story helps keep the work
-focused.
+I clarified the minimum required input for each role: location, main number,
+main finding, recommendation, and dashboard screenshot, so the team could still
+build a coherent summary from completed work. I also made sure my own Tartu
+dashboard was ready and documented, so it could serve as one reliable part of
+the final presentation.
+
+This reinforced an important project-management lesson: when the full group
+output is at risk, the best response is not to overcomplicate the work, but to
+reduce scope, define the required inputs, and keep the final story honest.
 
 ## Files
 
