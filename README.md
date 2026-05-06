@@ -57,11 +57,12 @@ technical work and the way I contribute inside team-based projects.
 
 - Focus: turning a Power BI dashboard into a stakeholder-specific data story
 - Skills: Power BI, KPI cards, reference lines, annotations, executive summary,
-  audience-focused dashboard design
+  audience-focused dashboard design, presentation synthesis, scope management
 - Result: built a Tartu-focused dashboard showing that Tartu grew **13%** in
   2024 versus 2023, but underperformed UrbanStyle's **19%** overall growth;
   recommended comparing Tartu product mix, average order, and customer segments
-  against Tallinn and Online
+  against Tallinn and Online, and helped assemble the final group presentation
+  around completed Tallinn, Tartu, and Online evidence
 - Project: [Week 6](week6/README.md)
 
 ## What This Portfolio Shows
@@ -127,6 +128,8 @@ technical work and the way I contribute inside team-based projects.
   slower than the company" based on filtered Power BI data
 - Main finding: Tartu grew **13%** in 2024 vs 2023, while UrbanStyle overall
   grew **19%**
+- Helped assemble the final group presentation and combined view from completed
+  Tallinn, Tartu, and Online dashboard evidence
 - [Open Week 6](week6/README.md)
 
 ### Week 7 - TBD

@@ -109,10 +109,34 @@ This reinforced an important project-management lesson: when the full group
 output is at risk, the best response is not to overcomplicate the work, but to
 reduce scope, define the required inputs, and keep the final story honest.
 
+## Final presentation contribution
+
+After completing my own Tartu dashboard, I also helped assemble the final group
+PowerPoint presentation. I created the combined view / koondvaade slide and
+structured it around the completed team outputs: Tallinn, Tartu, and Online.
+
+For the koondvaade, I summarized each available view using the minimum business
+inputs required for the presentation: location, main number, main finding, and
+recommendation. I also kept the presentation honest by marking the Pärnu view
+as out of scope and requiring later follow-up instead of inventing an analysis
+that had not been completed.
+
+I integrated the dashboard screenshots into the presentation, kept the slide
+structure simple, and adjusted the wording so it sounded like an internal
+business presentation rather than a course exercise. This included removing
+unnecessary company-name repetition and focusing the language on location-level
+findings and recommendations.
+
+This was a practical lesson in scope control, communication, and team
+coordination: when a group deliverable is under time pressure, the priority is
+to use completed evidence, reduce complexity, and still present a clear and
+honest business story.
+
 ## Files
 
 - [individual/week6_tartu_dashboard_role_b.pbix][individual-powerbi-dashboard]
 - [individual/week6_tartu_dashboard_storytelling.png][individual-dashboard-storytelling]
+- [team/UrbanStyle äriraport_ linnade-online lõikes.pptx][team-presentation]
 - [individual/images/week6_lecture_01_30_second_pitch.png][lecture-01]
 - [individual/images/week6_lecture_02_creating_narrative.png][lecture-02]
 - [individual/images/week6_lecture_03_knaflic_principles.png][lecture-03]
@@ -128,6 +152,7 @@ reduce scope, define the required inputs, and keep the final story honest.
 
 [individual-powerbi-dashboard]: individual/week6_tartu_dashboard_role_b.pbix
 [individual-dashboard-storytelling]: individual/week6_tartu_dashboard_storytelling.png
+[team-presentation]: <team/UrbanStyle äriraport_ linnade-online lõikes.pptx>
 [lecture-01]: individual/images/week6_lecture_01_30_second_pitch.png
 [lecture-02]: individual/images/week6_lecture_02_creating_narrative.png
 [lecture-03]: individual/images/week6_lecture_03_knaflic_principles.png
