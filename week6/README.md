@@ -151,7 +151,7 @@ honest business story.
 
 [individual-powerbi-dashboard]: individual/week6_tartu_dashboard_role_b.pbix
 [individual-dashboard-storytelling]: individual/week6_tartu_dashboard_storytelling.png
-[team-presentation]: <team/UrbanStyle äriraport_ linnade-online lõikes.pptx>
+[team-presentation]: team/UrbanStyle%C2%A0%C3%A4riraport_%20linnade-online%20l%C3%B5ikes.pptx
 [lecture-01]: individual/images/week6_lecture_01_30_second_pitch.png
 [lecture-02]: individual/images/week6_lecture_02_creating_narrative.png
 [lecture-03]: individual/images/week6_lecture_03_knaflic_principles.png
