@@ -2,7 +2,10 @@
 
 ## Problem
 
-The first challenge was not technical analysis yet. It was creating a working foundation for the program: shared tools, team coordination, onboarding structure, and a reliable way to document individual contribution from the start.
+The first challenge was not technical analysis yet. It was creating a working
+foundation for the program: shared tools, team coordination, onboarding
+structure, and a reliable way to document individual contribution from the
+start.
 
 ## Approach
 
@@ -15,7 +18,10 @@ The first challenge was not technical analysis yet. It was creating a working fo
 
 ## Result
 
-Week 0 established the collaboration workflow that the later SQL weeks depended on. By the end of the week, the team had shared onboarding artifacts in place and I had already started collecting evidence of my own contribution in a portfolio-friendly format.
+Week 0 established the collaboration workflow that the later SQL weeks depended
+on. By the end of the week, the team had shared onboarding artifacts in place
+and I had already started collecting evidence of my own contribution in a
+portfolio-friendly format.
 
 ## Skills
 
@@ -42,4 +48,6 @@ Week 0 established the collaboration workflow that the later SQL weeks depended 
 
 ## Why It Matters
 
-This week showed that setup work is real project work. Strong structure, clear ownership, and early documentation made the later technical weeks easier to manage and present.
+This week showed that setup work is real project work. Strong structure, clear
+ownership, and early documentation made the later technical weeks easier to
+manage and present.

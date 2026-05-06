@@ -2,7 +2,9 @@
 
 ## Problem
 
-Before using customer data for analysis, I needed to identify the most important quality issues in the UrbanStyle dataset: duplicates, missing values, inconsistent text formatting, and validation problems.
+Before using customer data for analysis, I needed to identify the most important
+quality issues in the UrbanStyle dataset: duplicates, missing values,
+inconsistent text formatting, and validation problems.
 
 ## Approach
 
@@ -11,7 +13,8 @@ Before using customer data for analysis, I needed to identify the most important
 - reviewed missing values with `IS NULL` and `IS NOT NULL`
 - practiced fallback handling with `COALESCE()`
 - explored text standardization with `TRIM()`, `UPPER()`, `LOWER()`, and `INITCAP()`
-- used test tables for safe `UPDATE` and `DELETE` practice instead of editing original tables directly
+- used test tables for safe `UPDATE` and `DELETE` practice instead of editing
+  original tables directly
 - added simple validation logic with `CASE WHEN`
 
 ## Result
@@ -25,7 +28,9 @@ The customer-domain review produced clear quality findings:
 - missing phone numbers: **0**
 - city naming variations identified: **12**
 
-The biggest issues were missing email data, duplicate emails, and inconsistent city formatting. These directly affect communication quality, segmentation, reporting, and confidence in the dataset.
+The biggest issues were missing email data, duplicate emails, and inconsistent
+city formatting. These directly affect communication quality, segmentation,
+reporting, and confidence in the dataset.
 
 ## Skills
 
@@ -51,4 +56,6 @@ The biggest issues were missing email data, duplicate emails, and inconsistent c
 
 ## Portfolio Value
 
-Week 2 shows a shift from basic querying to decision-oriented SQL work. The main lesson was that useful analysis depends on understanding what can be trusted in the data and how to clean it safely.
+Week 2 shows a shift from basic querying to decision-oriented SQL work. The main
+lesson was that useful analysis depends on understanding what can be trusted in
+the data and how to clean it safely.

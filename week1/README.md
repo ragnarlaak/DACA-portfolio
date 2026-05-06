@@ -2,7 +2,9 @@
 
 ## Problem
 
-The goal for Week 1 was to understand the structure and quality of UrbanStyle's retail database, especially the `sales` table, and turn those findings into reliable input for the team presentation.
+The goal for Week 1 was to understand the structure and quality of UrbanStyle's
+retail database, especially the `sales` table, and turn those findings into
+reliable input for the team presentation.
 
 ## Approach
 
@@ -26,7 +28,8 @@ The week produced a verified baseline view of the sales data:
 - `customers` contained **3,150 rows**
 - `products` contained **362 rows**
 
-These checks gave the team a more accurate foundation than relying on unverified summaries.
+These checks gave the team a more accurate foundation than relying on unverified
+summaries.
 
 ## Skills
 
@@ -54,4 +57,6 @@ These checks gave the team a more accurate foundation than relying on unverified
 
 ## Portfolio Value
 
-Week 1 shows the start of my SQL workflow: querying real tables, validating results carefully, and turning raw outputs into something useful for collaborative project work.
+Week 1 shows the start of my SQL workflow: querying real tables, validating
+results carefully, and turning raw outputs into something useful for
+collaborative project work.
