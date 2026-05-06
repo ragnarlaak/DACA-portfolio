@@ -74,6 +74,9 @@ technical work and the way I contribute inside team-based projects.
 - stakeholder-focused data storytelling
 - readable project documentation with evidence
 - individual contribution inside group work
+- consistent presentation of assigned analysis in weekly group work
+- increasing responsibility for intro/context and group-level summary delivery
+  in later weeks
 
 ## Core Skills
 

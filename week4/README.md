@@ -53,6 +53,7 @@ The Role D work included:
 - using CTEs to compare channel efficiency
 - analyzing monthly campaign trends by channel
 - supporting the team presentation with SQL results and evidence
+- presenting my assigned part during the group presentation
 
 ## Files
 

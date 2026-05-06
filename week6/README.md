@@ -120,6 +120,12 @@ I integrated the dashboard screenshots into the presentation and kept the slide
 structure simple so the group had a presentable version ready under time
 pressure.
 
+During the final delivery, I presented the intro/context, the combined view /
+koondvaade, and my own Role B / Tartu dashboard part. Other role owners
+presented their own Tallinn and Online views. The combined view was based on
+completed evidence and kept Pärnu as a follow-up instead of inventing missing
+analysis.
+
 This was a practical lesson in scope control, communication, and team
 coordination: when a group deliverable is under time pressure, the priority is
 to use completed evidence, reduce complexity, and still present a clear and

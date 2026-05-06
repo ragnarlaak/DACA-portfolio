@@ -152,11 +152,10 @@ the required files to the shared Drive for team integration. The output was
 shared for **Role D / Investor synthesis**, where the different role-based views
 can be combined into the final investor-facing story.
 
-For the final group presentation, Karmo and I helped carry the live delivery
-because Kätlin and Mari were unavailable due to holidays. I presented the CEO
-view and helped explain the operations/investor parts using the shared team
-materials. The final presentation deck and exported slide images are included
-as team evidence.
+For the final group presentation, I presented the CEO view, helped with the
+intro/context, and helped explain the operations/investor parts using the shared
+team materials. The final presentation deck and exported slide images are
+included as team evidence.
 
 During Week 5, I also supported teammates with Power BI setup and dashboard
 creation. This included helping with Supabase to Power BI ODBC/SSL connection

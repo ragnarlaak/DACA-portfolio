@@ -14,6 +14,7 @@ reliable input for the team presentation.
 - compared table structure across `sales`, `customers`, and `products`
 - replaced inaccurate rough notes with verified SQL-based findings
 - supported the final formatting and export of the team presentation
+- presented my assigned part during the group presentation
 
 ## Result
 
