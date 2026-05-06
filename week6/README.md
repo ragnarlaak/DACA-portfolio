@@ -43,16 +43,19 @@ message became:
 
 The final stakeholder message was kept in Estonian for the dashboard narrative:
 
-**Peamine järeldus:**  
+**Peamine järeldus:**
+
 Tartu 2024. aasta käive kasvas 13%, kuid jäi alla UrbanStyle'i 19%
 koondkasvule.
 
-**Miks see oluline on:**  
+**Miks see oluline on:**
+
 Tartu ei ole languses, kuid selle kasvutempo on nõrgem kui ettevõttel
 tervikuna. See tähendab, et Tartu võib vajada täpsemat võrdlust tugevamate
 asukohtadega.
 
-**Soovitus:**  
+**Soovitus:**
+
 Võrrelda Tartu tootevalikut, keskmist tellimust ja kliendisegmente Tallinna
 ning Online'i tulemustega, et leida, mis Tartu kasvu piirab.
 
