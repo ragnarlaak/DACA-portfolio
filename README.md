@@ -21,7 +21,7 @@ technical work and the way I contribute inside team-based projects.
   standardization, safe update/delete workflow
 - Result: identified **128 duplicate emails**, **380 missing emails**, and
   **12 city naming variations**
-- Project: [Week 2](week2/README.md)
+- Project: [Week 2](week2-sql-data-cleaning/README.md)
 
 ### 2. SQL JOINs and Inventory Analysis
 
@@ -31,7 +31,7 @@ technical work and the way I contribute inside team-based projects.
   analysis, troubleshooting
 - Result: restored a broken database setup, validated the cleaned environment,
   and found **12 unsold products**
-- Project: [Week 3](week3/README.md)
+- Project: [Week 3](week3-sql-joins/README.md)
 
 ### 3. SQL Aggregation for Business Reporting
 
@@ -40,7 +40,7 @@ technical work and the way I contribute inside team-based projects.
   reporting
 - Result: analyzed monthly sales, city performance, customer segments, category
   performance, and marketing-channel effectiveness
-- Project: [Week 4](week4/README.md)
+- Project: [Week 4](week4-sql-aggregation/README.md)
 
 ### 4. Power BI Retail Dashboard
 
@@ -63,7 +63,7 @@ technical work and the way I contribute inside team-based projects.
   recommended comparing Tartu product mix, average order, and customer segments
   against Tallinn and Online, and helped assemble the final group presentation
   around completed Tallinn, Tartu, and Online evidence
-- Project: [Week 6](week6/README.md)
+- Project: [Week 6](week6-data-storytelling/README.md)
 
 ## What This Portfolio Shows
 
@@ -95,27 +95,27 @@ technical work and the way I contribute inside team-based projects.
 ### Week 0 - Portfolio Setup and Team Collaboration
 
 - Built the initial collaboration and documentation structure
-- [Open Week 0](week0/README.md)
+- [Open Week 0](week0-portfolio-setup/README.md)
 
 ### Week 1 - SQL Basics and Sales Data Exploration
 
 - Verified row counts, duplicates, missing values, and transaction extremes
-- [Open Week 1](week1/README.md)
+- [Open Week 1](week1-sql-basics/README.md)
 
 ### Week 2 - SQL Data Cleaning and Customer Quality Analysis
 
 - Documented customer-data quality issues and safe cleaning practice
-- [Open Week 2](week2/README.md)
+- [Open Week 2](week2-sql-data-cleaning/README.md)
 
 ### Week 3 - SQL JOINs and Inventory Analysis
 
 - Rebuilt the working database state and completed JOIN-based analysis
-- [Open Week 3](week3/README.md)
+- [Open Week 3](week3-sql-joins/README.md)
 
 ### Week 4 - SQL Aggregation and Marketing Analysis
 
 - Added individual aggregation work, image evidence, and team channel analysis
-- [Open Week 4](week4/README.md)
+- [Open Week 4](week4-sql-aggregation/README.md)
 
 ### Week 5 - Power BI Dashboard
 
@@ -123,7 +123,7 @@ technical work and the way I contribute inside team-based projects.
   evidence, final presentation materials, and CEO-facing revenue insight
 - [Open Week 5][week5]
 
-### Week 6 - Power BI Data Storytelling and Tartu Store View
+### Week 6 - Data Storytelling and Tartu Store View
 
 - Built a stakeholder-specific Tartu dashboard with KPI cards, annotations, a
   reference line, and executive summary
@@ -133,11 +133,11 @@ technical work and the way I contribute inside team-based projects.
   grew **19%**
 - Helped assemble the final group presentation and combined view from completed
   Tallinn, Tartu, and Online dashboard evidence
-- [Open Week 6](week6/README.md)
+- [Open Week 6](week6-data-storytelling/README.md)
 
-### Week 7 - TBD
+### Week 7 - Python
 
-- Scaffold ready for upcoming individual and team materials
+- Python and Jupyter workspace ready for Week 7 notebook work
 - [Open Week 7][week7]
 
 ### Week 8 - TBD
@@ -179,9 +179,9 @@ Jelena Laudver, and Renee Kooli.
 - **Email:** ragnarlaak@gmail.com
 
 [daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
-[week5]: week5/README.md
-[week6]: week6/README.md
-[week7]: week7/README.md
-[week8]: week8/README.md
-[week9]: week9/README.md
-[week10]: week10/README.md
+[week5]: week5-power-bi/README.md
+[week6]: week6-data-storytelling/README.md
+[week7]: week7-python/README.md
+[week8]: week8-tbd/README.md
+[week9]: week9-tbd/README.md
+[week10]: week10-tbd/README.md
