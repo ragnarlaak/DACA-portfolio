@@ -16,6 +16,8 @@ The Week 7 team project is an UrbanStyle RFM analysis built in Python and
 Pandas. The notebook loads sales and customer data from Supabase, cleans the
 combined dataset, calculates customer-level recency, frequency, and monetary
 metrics, creates customer segments, and summarizes business recommendations.
+The public notebook keeps customer contact fields out of saved outputs and
+exports while preserving customer IDs and segment-level analysis.
 
 - [Open team project folder](team/README.md)
 - [Open completed RFM notebook](team/week7_rfm_complete.ipynb)

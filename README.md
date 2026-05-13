@@ -1,16 +1,16 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, Python, Power BI, data cleaning, and retail data analysis projects built
+SQL, Power BI, Python, data cleaning, and retail data analysis projects built
 during the **Data Analyst Career Accelerator (DACA)** program.
 
 **Started:** 23.03.2026
 
 ## Profile
 
-I am building a junior data analyst portfolio focused on practical SQL work,
-Python/Jupyter analysis, data quality checks, relational analysis, Power BI
-reporting, and clear documentation of results. This repository is structured to
-show both my technical work and the way I contribute inside team-based projects.
+This portfolio presents junior data analyst work across SQL, Python/Jupyter,
+Power BI, data quality checks, relational analysis, dashboard reporting, and
+clear documentation of results. The repository is structured to show both my
+technical work and the way I contribute inside team-based projects.
 
 ## Featured Projects
 
@@ -48,9 +48,9 @@ show both my technical work and the way I contribute inside team-based projects.
 - Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
   dashboard layout, executive reporting
 - Result: built a CEO-focused Power BI dashboard with KPI cards for
-  ~10K orders, ~2.91M kogukäive, and **19.08%** growth in 2024
-  versus 2023, supported by a `YearMonth` revenue trend and documented
-  Supabase/ODBC troubleshooting
+  ~10K orders, ~2.91M total revenue, and **19.08%** growth in 2024 versus
+  2023, supported by a `YearMonth` revenue trend and documented Supabase/ODBC
+  troubleshooting
 - Project: [Week 5][week5]
 
 ### 5. Power BI Data Storytelling - Tartu Store View
@@ -189,6 +189,8 @@ Jelena Laudver, and Renee Kooli.
 - I document both the SQL and the reasoning behind the result
 - I keep screenshots and outputs linked to the actual query work
 - I separate individual work from team deliverables so contribution is visible
+- I keep public notebooks and exports focused on analysis, avoiding unnecessary
+  customer contact details
 
 ## Contact
 

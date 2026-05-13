@@ -1,7 +1,21 @@
-SELECT COUNT(*) FROM web_logs;
-SELECT * FROM web_logs LIMIT 5;
-SELECT * FROM sales LIMIT 5;
-SELECT * FROM customers LIMIT 5;
+SELECT
+    COUNT(*)
+FROM web_logs;
+
+SELECT
+    *
+FROM web_logs
+LIMIT 5;
+
+SELECT
+    *
+FROM sales
+LIMIT 5;
+
+SELECT
+    *
+FROM customers
+LIMIT 5;
 
 -- Roll D, samm 1: turunduskanalite kokkuvote
 -- Eesmark: uhendada sales, customers ja web_logs uheks kanalitaseme kokkuvotteks
@@ -16,11 +30,16 @@ WITH customer_source AS (
     GROUP BY customer_id
 )
 SELECT
-    cs.source AS turunduskanal,                 -- turunduskanal ehk liikluse allikas
-    COUNT(DISTINCT c.customer_id) AS kliente,  -- unikaalsed kliendid
-    COUNT(DISTINCT s.sale_id) AS tellimusi,    -- unikaalsed tellimused
-    SUM(s.total_price) AS kogukaive,           -- kogukaive
-    ROUND(AVG(s.total_price), 2) AS keskmine_tellimus -- keskmine tellimuse vaartus
+    -- Turunduskanal ehk liikluse allikas
+    cs.source AS turunduskanal,
+    -- Unikaalsed kliendid
+    COUNT(DISTINCT c.customer_id) AS kliente,
+    -- Unikaalsed tellimused
+    COUNT(DISTINCT s.sale_id) AS tellimusi,
+    -- Kogukaive
+    SUM(s.total_price) AS kogukaive,
+    -- Keskmine tellimuse vaartus
+    ROUND(AVG(s.total_price), 2) AS keskmine_tellimus
 FROM sales s
 JOIN customers c
     ON s.customer_id = c.customer_id

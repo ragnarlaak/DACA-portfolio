@@ -7,17 +7,24 @@ FROM sales;
 -- Testtabeliga toimetamine
 
 -- Vaata uhte naidisrida olemasolevast test_sales tabelist
-SELECT * FROM test_sales LIMIT 1;
+SELECT
+    *
+FROM test_sales
+LIMIT 1;
 
 -- Kustuta vana testtabel, et saaks selle uuesti puhtalt luua
 DROP TABLE test_sales;
 
 -- Loo uus testtabel sales tabeli pohjal
 CREATE TABLE test_sales AS
-SELECT * FROM sales;
+SELECT
+    *
+FROM sales;
 
 -- Kontrolli, mitu rida test_sales tabelis on
-SELECT COUNT(*) FROM test_sales;
+SELECT
+    COUNT(*)
+FROM test_sales;
 
 -- Kustuta read test_sales tabelist vastavalt tingimusele
 DELETE FROM test_sales
@@ -56,14 +63,23 @@ LIMIT 10;
 
 -- Loo testkoopia customers_test
 CREATE TABLE customers_test AS
-SELECT * FROM customers;
+SELECT
+    *
+FROM customers;
 
 -- Kontrolli: kas arvud on samad?
-SELECT COUNT(*) FROM customers_test;
-SELECT COUNT(*) FROM customers;
+SELECT
+    COUNT(*)
+FROM customers_test;
+
+SELECT
+    COUNT(*)
+FROM customers;
 
 -- Samm 1: leia duplikaatsed invoice_id vaartused
-SELECT invoice_id, COUNT(*) AS koopiate_arv
+SELECT
+    invoice_id,
+    COUNT(*) AS koopiate_arv
 FROM test_sales
 GROUP BY invoice_id
 HAVING COUNT(*) > 1
@@ -103,10 +119,12 @@ SELECT COUNT(*) AS parast
 FROM test_sales;
 
 -- COALESCE valib esimese mitte-NULL vaartuse
-SELECT COALESCE(NULL, 'Vaikevaartus');
+SELECT
+    COALESCE(NULL, 'Vaikevaartus');
 -- Tulemus: 'Vaikevaartus'
 
-SELECT COALESCE('Olemas', 'Vaikevaartus');
+SELECT
+    COALESCE('Olemas', 'Vaikevaartus');
 -- Tulemus: 'Olemas'
 
 -- Praktiline kasutus: asenda NULL customer_id
@@ -121,12 +139,18 @@ WHERE customer_id IS NULL;
 
 -- Naita invoice_id ja sale_date ning vordle customer_id algset vaartust
 -- COALESCE(customer_id, 0) kuvab NULL asemel 0
-SELECT invoice_id, sale_date, COALESCE(customer_id, 0), customer_id
+SELECT
+    invoice_id,
+    sale_date,
+    COALESCE(customer_id, 0),
+    customer_id
 FROM test_sales
 LIMIT 50;
 
 -- Valideeri kuupaevad
-SELECT sale_id, sale_date,
+SELECT
+    sale_id,
+    sale_date,
     CASE
         WHEN sale_date > CURRENT_DATE
             THEN 'TULEVIKUS!'
@@ -149,7 +173,9 @@ CASE
 END;
 
 -- Valideeri kuupaevad
-SELECT sale_id, sale_date,
+SELECT
+    sale_id,
+    sale_date,
     CASE
         WHEN sale_date > CURRENT_DATE THEN 'TULEVIKUS!'
         WHEN sale_date < '2020-01-01' THEN 'LIIGA VANA'
@@ -160,7 +186,10 @@ WHERE sale_date > CURRENT_DATE
    OR sale_date < '2020-01-01';
 
 -- Leia sales_test tabeli koige varasem sale_date vaartus
-SELECT MIN(sale_date)
+SELECT
+    MIN(sale_date)
 FROM sales_test;
 
-SELECT COUNT(*) FROM sales;
+SELECT
+    COUNT(*)
+FROM sales;

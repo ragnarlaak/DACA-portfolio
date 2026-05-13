@@ -18,6 +18,8 @@ module.
 - Build customer-level RFM metrics: recency, frequency, and monetary value.
 - Segment customers into groups such as VIP Champions, Loyal Customers, At Risk,
   and Lost.
+- Create interactive Plotly charts for segment distribution, RFM comparison, and
+  top VIP customers.
 - Summarize business recommendations for Marko based on customer segment value
   and retention risk.
 
@@ -26,3 +28,6 @@ module.
 The notebook expects `SUPABASE_URL` and `SUPABASE_KEY` in the local
 `week7-python/.env` file. Generated team exports such as `rfm_segments.csv`
 should stay in this team folder.
+
+Public notebook outputs and exports avoid unnecessary customer contact fields
+such as email addresses and phone numbers.

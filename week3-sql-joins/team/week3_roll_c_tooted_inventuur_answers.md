@@ -11,6 +11,7 @@ Juurde tuleks tellida eelkõige tooteid, mis müüvad hästi ja mille laoseis on
 ## 3. Kõige edukamad kategooriad
 
 Kõige tugevamad kategooriad kogumüügi põhjal olid:
+
 - jalanõud
 - meeste_riided
 - naiste_riided

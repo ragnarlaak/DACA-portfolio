@@ -43,11 +43,16 @@ SELECT
     COUNT(DISTINCT sale_id) AS unikaalseid,
     COUNT(*) - COUNT(DISTINCT sale_id) AS duplikaate,
     SUM(total_price) AS summa_duplikaatidega,
-    (SELECT SUM(total_price) FROM (
-        SELECT DISTINCT ON (sale_id) total_price
-        FROM sales
-        ORDER BY sale_id, sale_date
-    ) unikaalsed) AS summa_ilma_duplikaatideta
+    (
+        SELECT
+            SUM(total_price)
+        FROM (
+            SELECT DISTINCT ON (sale_id)
+                total_price
+            FROM sales
+            ORDER BY sale_id, sale_date
+        ) unikaalsed
+    ) AS summa_ilma_duplikaatideta
 FROM sales;
 -- Kontrolli tulemusel selgus, et sales tabelis ei ole korduvaid sale_id vaartusi.
 -- Seega ei mojuta sale_id duplikaadid muuginumbreid ega kogusummasid.
@@ -96,9 +101,17 @@ SELECT
 FROM products;
 
 -- OHTLIK: iga aritmeetiline operatsioon NULL-ga annab NULL
-/*SELECT 100 + NULL;     -- Tulemus: NULL
-SELECT NULL * 5;       -- Tulemus: NULL
-SELECT SUM(total_price) FROM sales;  -- SUM ignoreerib NULL-e!*/
+/*
+-- Tulemus: NULL
+SELECT 100 + NULL;
+
+-- Tulemus: NULL
+SELECT NULL * 5;
+
+-- SUM ignoreerib NULL-e!
+SELECT SUM(total_price)
+FROM sales;
+*/
 
 -- Uks NULL vales kohas ja kogu aruanne naitab valet tulemust.
 -- Seetottu kontrollime NULL-e enne igasugust analyysi.
@@ -125,7 +138,8 @@ LIMIT 15;
 
 -- Liis Koppel tahab naha koiki kliente, aga tuhjade nimede asemel
 -- peaks kuvama "Tundmatu klient". Kasutan COALESCE funktsiooni.
-SELECT customer_id,
+SELECT
+    customer_id,
     COALESCE(first_name, 'Tundmatu') AS eesnimi,
     COALESCE(last_name, 'Tundmatu') AS perekonnanimi,
     COALESCE(email, 'Tundmatu') AS email,
@@ -144,12 +158,22 @@ WHERE first_name IS NULL
 
 -- Kaks viisi tuubi muutmiseks
 -- CAST syntaks, standardne SQL
-SELECT CAST('125.50' AS NUMERIC);  -- Tekst -> number
-SELECT CAST('2024-01-15' AS DATE); -- Tekst -> kuupaev
+-- Tekst -> number
+SELECT
+    CAST('125.50' AS NUMERIC);
+
+-- Tekst -> kuupaev
+SELECT
+    CAST('2024-01-15' AS DATE);
 
 -- :: syntaks, PostgreSQL-i kiirviis
-SELECT '125.50'::NUMERIC;          -- Sama tulemus
-SELECT '2024-01-15'::DATE;        -- Sama tulemus
+-- Sama tulemus
+SELECT
+    '125.50'::NUMERIC;
+
+-- Sama tulemus
+SELECT
+    '2024-01-15'::DATE;
 
 -- TO_CHAR() muudab kuupaeva tekstiformaati
 -- Kuupaev erinevates formaatides
@@ -163,16 +187,32 @@ LIMIT 5;
 
 -- TO_DATE() muudab teksti kuupaevaks
 -- Tekst -> kuupaev, pead utlema millises formaadis tekst on
-SELECT TO_DATE('15/03/2024', 'DD/MM/YYYY');  -- Tulemus: 2024-03-15
-SELECT TO_DATE('2024-01-15', 'YYYY-MM-DD');  -- Tulemus: 2024-01-15
+-- Tulemus: 2024-03-15
+SELECT
+    TO_DATE('15/03/2024', 'DD/MM/YYYY');
+
+-- Tulemus: 2024-01-15
+SELECT
+    TO_DATE('2024-01-15', 'YYYY-MM-DD');
 
 -- Tekstifunktsioonid: TRIM(), UPPER(), LOWER()
 -- TRIM() eemaldab tuhikud teksti algusest ja lopust
-SELECT TRIM('  Tallinn  ');  -- Tulemus: 'Tallinn'
-SELECT TRIM('  ');           -- Tulemus: '' ehk tuhi string
+-- Tulemus: 'Tallinn'
+SELECT
+    TRIM('  Tallinn  ');
+
+-- Tulemus: '' ehk tuhi string
+SELECT
+    TRIM('  ');
+
 -- UPPER() ja LOWER() muudavad teksti suurtahteks ja vaiketahteks
-SELECT UPPER('tallinn');   -- Tulemus: 'TALLINN'
-SELECT LOWER('TALLINN');   -- Tulemus: 'tallinn'
+-- Tulemus: 'TALLINN'
+SELECT
+    UPPER('tallinn');
+
+-- Tulemus: 'tallinn'
+SELECT
+    LOWER('TALLINN');
 
 -- Kuupaevade vormindamine UrbanStyle andmetes
 SELECT
