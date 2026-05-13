@@ -88,21 +88,17 @@ Week 6 topics: the 30-second pitch, narrative creation, Knaflic's principles,
 executive summary structure, multi-audience storytelling, data story examples,
 and the 5 Why's methodology.
 
-## Additional responsibility
+## Team coordination note
 
-Because the group workflow became constrained by availability and technical
-issues, I took extra responsibility for helping structure the final combined
-view and presentation.
+I also helped structure the final combined view and presentation so the team
+could bring the completed dashboard evidence together clearly.
 
-I clarified the minimum required input for each role: location, main number,
-main finding, recommendation, and dashboard screenshot, so the team could still
-build a coherent summary from completed work. I also made sure my own Tartu
-dashboard was ready and documented, so it could serve as one reliable part of
-the final presentation.
+I clarified the key inputs for each role: location, main number, main finding,
+recommendation, and dashboard screenshot. I also made sure my own Tartu
+dashboard was ready and documented for the final presentation.
 
-This reinforced an important project-management lesson: when the full group
-output is at risk, the best response is not to overcomplicate the work, but to
-reduce scope, define the required inputs, and keep the final story honest.
+This was a useful teamwork lesson: keep the story simple, use completed
+evidence, and make the recommendation clear.
 
 ## Final presentation contribution
 
@@ -110,26 +106,21 @@ After completing my own Tartu dashboard, I also helped assemble the final group
 PowerPoint presentation. I created the combined view / koondvaade slide and
 structured it around the completed team outputs: Tallinn, Tartu, and Online.
 
-For the koondvaade, I summarized each available view using the minimum business
+For the koondvaade, I summarized each available view using the key business
 inputs required for the presentation: location, main number, main finding, and
-recommendation. I kept the Pärnu part honest by marking it as out of scope /
-requiring later follow-up instead of inventing an analysis that had not been
-completed.
+recommendation. Pärnu was kept as a follow-up item because there was not enough
+completed evidence to include it in the same way as the other locations.
 
 I integrated the dashboard screenshots into the presentation and kept the slide
-structure simple so the group had a presentable version ready under time
-pressure.
+structure simple and readable.
 
 During the final delivery, I presented the intro/context, the combined view /
 koondvaade, and my own Role B / Tartu dashboard part. Other role owners
 presented their own Tallinn and Online views. The combined view was based on
-completed evidence and kept Pärnu as a follow-up instead of inventing missing
-analysis.
+completed evidence and kept Pärnu as a follow-up item.
 
-This was a practical lesson in scope control, communication, and team
-coordination: when a group deliverable is under time pressure, the priority is
-to use completed evidence, reduce complexity, and still present a clear and
-honest business story.
+This was a practical lesson in communication and team coordination: use
+completed evidence, reduce complexity, and present a clear business story.
 
 ## Files
 

@@ -28,14 +28,14 @@ technical work and the way I contribute inside team-based projects.
 - Focus: relational analysis across `sales`, `customers`, `products`, and
   `inventory`
 - Skills: `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, multi-table
-  analysis, troubleshooting
-- Result: restored a broken database setup, validated the cleaned environment,
-  and found **12 unsold products**
+  analysis, database setup checks
+- Result: helped restore a usable database setup, validated the cleaned
+  environment, and found **12 unsold products**
 - Project: [Week 3](week3-sql-joins/README.md)
 
 ### 3. SQL Aggregation for Business Reporting
 
-- Focus: turning transaction data into management-level summaries
+- Focus: turning transaction data into business summaries
 - Skills: aggregation, `GROUP BY`, `HAVING`, CTEs, window functions, business
   reporting
 - Result: analyzed monthly sales, city performance, customer segments, category
@@ -46,7 +46,7 @@ technical work and the way I contribute inside team-based projects.
 
 - Focus: building a first business-facing dashboard from UrbanStyle retail data
 - Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
-  dashboard layout, executive reporting
+  dashboard layout, business reporting
 - Result: built a CEO-focused Power BI dashboard with KPI cards for
   ~10K orders, ~2.91M total revenue, and **19.08%** growth in 2024 versus
   2023, supported by a `YearMonth` revenue trend and documented Supabase/ODBC
@@ -82,7 +82,7 @@ technical work and the way I contribute inside team-based projects.
 - business-focused analysis of retail data
 - Python/Pandas customer segmentation and notebook-based analysis
 - Power BI dashboard development
-- stakeholder-focused data storytelling
+- audience-focused data storytelling
 - readable project documentation with evidence
 - individual contribution inside group work
 - consistent presentation of assigned analysis in weekly group work

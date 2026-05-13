@@ -18,7 +18,7 @@ the UrbanStyle retail data. My completed individual group-work contribution was
 The dashboard was built to answer the stakeholder question:
 **"Kas UrbanStyle kasvab?"** The final Power BI file, screenshot, and CEO
 notes were prepared for team use and shared through the group Drive for the
-combined Role D / Investor synthesis.
+combined team presentation.
 
 ## Role A — CEO Dashboard
 
@@ -26,8 +26,8 @@ My responsibility was to create a focused CEO view for Kristi. The dashboard
 summarizes company growth using order volume, total revenue, year-over-year
 growth, and monthly revenue movement.
 
-This was my completed individual part of the group work. The combined investor
-view remains a separate team deliverable built from all roles.
+This was my completed individual part of the group work. The combined team view
+remains a separate deliverable built from all roles.
 
 ## Dashboard Output
 
@@ -47,7 +47,7 @@ The exported screenshot is stored as dashboard evidence:
 
 ## DAX Measures
 
-The dashboard measures were built around simple executive KPIs:
+The dashboard measures were built around simple business KPIs:
 
 ```DAX
 Tellimused kokku = COUNTROWS(sales)
@@ -149,24 +149,22 @@ more complete and comparable periods in this dashboard.
 
 After completing the Role A dashboard, I exported the screenshot and uploaded
 the required files to the shared Drive for team integration. The output was
-shared for **Role D / Investor synthesis**, where the different role-based views
-can be combined into the final investor-facing story.
+shared for the combined team view, where the different role-based dashboards
+could be brought together for the final presentation.
 
 For the final group presentation, I presented the CEO view, helped with the
-intro/context, and helped explain the operations/investor parts using the shared
-team materials. The final presentation deck and exported slide images are
-included as team evidence.
+intro/context and helped explain the other team materials where needed. The
+final presentation deck and exported slide images are included as team evidence.
 
 During Week 5, I also supported teammates with Power BI setup and dashboard
 creation. This included helping with Supabase to Power BI ODBC/SSL connection
 troubleshooting, Navigator table and `public` schema selection, and deciding
 when to use **Load** versus **Transform Data** before building visuals.
 
-I also helped Karmo understand why a structured GitHub portfolio matters
-for showing data analytics work clearly. To support this, I created an Estonian
-PDF tutorial explaining how to use VS Code, Codex, and GitHub to build a DACA
-portfolio structure with weekly folders, individual/team sections, README files,
-SQL and Power BI files, screenshots, and recruiter-friendly documentation.
+I also shared practical portfolio-structure guidance with a teammate, including
+how weekly folders, individual/team sections, README files, SQL and Power BI
+files, screenshots, and clear documentation can make data analytics work easier
+to review.
 
 ## Week 5 Reflection
 
