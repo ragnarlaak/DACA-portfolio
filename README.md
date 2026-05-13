@@ -65,11 +65,22 @@ technical work and the way I contribute inside team-based projects.
   around completed Tallinn, Tartu, and Online evidence
 - Project: [Week 6](week6-data-storytelling/README.md)
 
+### 6. Python Pandas RFM Customer Segmentation
+
+- Focus: customer-level RFM analysis for UrbanStyle using Python and Pandas
+- Skills: Jupyter Notebook, Pandas, data cleaning, Supabase data loading,
+  customer segmentation, Plotly visualization, business recommendations
+- Result: created a complete team notebook that segments customers into groups
+  such as VIP Champions, Loyal Customers, At Risk, and Lost, with
+  recommendations for retention and targeted marketing
+- Project: [Week 7][week7]
+
 ## What This Portfolio Shows
 
 - practical SQL analysis in Supabase/PostgreSQL
 - data cleaning and validation workflows
 - business-focused analysis of retail data
+- Python/Pandas customer segmentation and notebook-based analysis
 - Power BI dashboard development
 - stakeholder-focused data storytelling
 - readable project documentation with evidence
@@ -88,6 +99,8 @@ technical work and the way I contribute inside team-based projects.
   missing-match analysis
 - **Reporting:** Power BI dashboards, data storytelling, annotations,
   summary tables, screenshot evidence, presentation support, written findings
+- **Python:** Jupyter Notebook, Pandas, RFM analysis, customer segmentation,
+  Plotly visualization
 - **Tools:** Git, GitHub, VS Code, Supabase, Power BI
 
 ## Portfolio Map
@@ -137,7 +150,8 @@ technical work and the way I contribute inside team-based projects.
 
 ### Week 7 - Python
 
-- Python and Jupyter workspace ready for Week 7 notebook work
+- Added the Week 7 team Python/Pandas RFM analysis notebook and project
+  workbook for UrbanStyle customer segmentation
 - [Open Week 7][week7]
 
 ### Week 8 - TBD

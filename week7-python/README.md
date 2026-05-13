@@ -5,10 +5,21 @@ DACA portfolio.
 
 ## Folder Structure
 
-- `notebooks/` - Jupyter notebooks for analysis and exploration.
-- `data/` - Local datasets used by notebooks or scripts.
-- `outputs/` - Generated charts, exports, or other analysis outputs.
+- `individual/` - Individual Week 7 notebook workspace, data folder, and
+  generated outputs.
+- `team/` - Week 7 group project notebook and project workbook.
 - `.env.example` - Template for local environment variables.
+
+## Team Project
+
+The Week 7 team project is an UrbanStyle RFM analysis built in Python and
+Pandas. The notebook loads sales and customer data from Supabase, cleans the
+combined dataset, calculates customer-level recency, frequency, and monetary
+metrics, creates customer segments, and summarizes business recommendations.
+
+- [Open team project folder](team/README.md)
+- [Open completed RFM notebook](team/week7_rfm_complete.ipynb)
+- [Open individual setup notebook](individual/notebooks/week7_setup_test.ipynb)
 
 ## Setup Notes
 
