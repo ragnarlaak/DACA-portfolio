@@ -1,16 +1,16 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, Power BI, data cleaning, and retail data analysis projects built during the
-**Data Analyst Career Accelerator (DACA)** program.
+SQL, Python, Power BI, data cleaning, and retail data analysis projects built
+during the **Data Analyst Career Accelerator (DACA)** program.
 
 **Started:** 23.03.2026
 
 ## Profile
 
 I am building a junior data analyst portfolio focused on practical SQL work,
-data quality checks, relational analysis, Power BI reporting, and clear
-documentation of results. This repository is structured to show both my
-technical work and the way I contribute inside team-based projects.
+Python/Jupyter analysis, data quality checks, relational analysis, Power BI
+reporting, and clear documentation of results. This repository is structured to
+show both my technical work and the way I contribute inside team-based projects.
 
 ## Featured Projects
 
@@ -65,14 +65,14 @@ technical work and the way I contribute inside team-based projects.
   around completed Tallinn, Tartu, and Online evidence
 - Project: [Week 6](week6-data-storytelling/README.md)
 
-### 6. Python Pandas RFM Customer Segmentation
+### 6. Week 7 - Python Pandas and RFM Customer Segmentation
 
 - Focus: customer-level RFM analysis for UrbanStyle using Python and Pandas
-- Skills: Jupyter Notebook, Pandas, data cleaning, Supabase data loading,
-  customer segmentation, Plotly visualization, business recommendations
-- Result: created a complete team notebook that segments customers into groups
-  such as VIP Champions, Loyal Customers, At Risk, and Lost, with
-  recommendations for retention and targeted marketing
+- Skills: VS Code, Jupyter Notebook, pandas, Plotly, Supabase Python client,
+  data cleaning, customer segmentation, business recommendations
+- Result: set up a Python/Jupyter workflow, loaded UrbanStyle sales and customer
+  data from Supabase into pandas, and organized a team notebook for loading,
+  cleaning, RFM analysis, visualization, and stakeholder recommendations
 - Project: [Week 7][week7]
 
 ## What This Portfolio Shows
@@ -100,8 +100,8 @@ technical work and the way I contribute inside team-based projects.
 - **Reporting:** Power BI dashboards, data storytelling, annotations,
   summary tables, screenshot evidence, presentation support, written findings
 - **Python:** Jupyter Notebook, Pandas, RFM analysis, customer segmentation,
-  Plotly visualization
-- **Tools:** Git, GitHub, VS Code, Supabase, Power BI
+  Plotly visualization, Supabase Python client
+- **Tools:** Git, GitHub, VS Code, Jupyter, Supabase, Power BI
 
 ## Portfolio Map
 
@@ -148,10 +148,13 @@ technical work and the way I contribute inside team-based projects.
   Tallinn, Tartu, and Online dashboard evidence
 - [Open Week 6](week6-data-storytelling/README.md)
 
-### Week 7 - Python
+### Week 7 - Python Pandas and RFM Customer Segmentation
 
-- Added the Week 7 team Python/Pandas RFM analysis notebook and project
-  workbook for UrbanStyle customer segmentation
+- Set up a VS Code + Jupyter Python workflow
+- Loaded UrbanStyle sales/customer data from Supabase into pandas
+- Prepared RFM customer segmentation workflow
+- Built and organized the team notebook for loading, cleaning, RFM analysis,
+  visualization, and business recommendations
 - [Open Week 7][week7]
 
 ### Week 8 - TBD
@@ -195,7 +198,7 @@ Jelena Laudver, and Renee Kooli.
 [daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
 [week5]: week5-power-bi/README.md
 [week6]: week6-data-storytelling/README.md
-[week7]: week7-python/README.md
+[week7]: ./week7-python
 [week8]: week8-tbd/README.md
 [week9]: week9-tbd/README.md
 [week10]: week10-tbd/README.md

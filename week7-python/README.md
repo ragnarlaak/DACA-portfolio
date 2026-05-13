@@ -21,6 +21,14 @@ metrics, creates customer segments, and summarizes business recommendations.
 - [Open completed RFM notebook](team/week7_rfm_complete.ipynb)
 - [Open individual setup notebook](individual/notebooks/week7_setup_test.ipynb)
 
+## Collaboration and AI Workflow Support
+
+During Week 7, I also supported teammates with Python/Jupyter setup questions
+and helped them use AI tools more effectively for debugging and notebook
+development. This included showing how to write clearer prompts, share error
+messages, ask for targeted fixes, and verify AI-generated code before using it
+in the group notebook.
+
 ## Setup Notes
 
 Use Windows-compatible commands from this folder:
