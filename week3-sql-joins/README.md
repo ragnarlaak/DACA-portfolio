@@ -13,7 +13,8 @@ problems.
 - created a `sales_raw` staging table for the raw sales import
 - converted mixed `sale_date` formats before inserting into the final `sales` table
 - removed duplicate rows from `sales`
-- standardized customer city values
+- standardized inconsistent customer city values to improve grouping accuracy
+  and reporting consistency
 - practiced `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, and 3-table joins
 - applied joins to customer activity, product sales, category performance, and
   inventory analysis
@@ -28,13 +29,14 @@ First, I restored the environment to a reliable working state:
 
 Then I used JOIN-based analysis to produce team results:
 
-- unsold products found: **12**
+- unsold products identified for follow-up: **12**
 - strongest sales categories included footwear, men's clothing, and women's clothing
 - inventory review revealed low stock, zero stock, and negative stock cases
 - no unsold products were found with positive stock on hand
 
-This week combined technical repair work with business-focused SQL analysis,
-which made it one of the strongest portfolio pieces so far.
+This week combined technical repair work with business-focused SQL analysis.
+The cleaned setup made it possible to connect sales, products, customers, and
+inventory in a more reliable way.
 
 ## Skills
 
@@ -68,9 +70,9 @@ which made it one of the strongest portfolio pieces so far.
 
 ## Portfolio Value
 
-Week 3 shows more than JOIN syntax. It demonstrates that I can diagnose broken
-data workflows, rebuild a usable analysis environment, complete my assigned SQL
-work, and still contribute to team coordination and practical support.
+Week 3 shows more than JOIN syntax. It demonstrates troubleshooting a broken
+database setup, cleaning imported sales data, validating the working state, and
+using JOINs to support product and inventory analysis.
 
 [team-role-c-sql]: team/week3_roll_c_tooted_inventuur.sql
 [team-role-c-answers]: team/week3_roll_c_tooted_inventuur_answers.md

@@ -47,7 +47,7 @@ summaries.
 - Google Slides / PDF export
 - Google Chat
 - VS Code
-- ChatGPT
+- documentation and debugging support tools
 
 ## Files and Evidence
 
@@ -58,6 +58,6 @@ summaries.
 
 ## Portfolio Value
 
-Week 1 shows the start of my SQL workflow: querying real tables, validating
-results carefully, and turning raw outputs into something useful for
+Week 1 shows the start of my SQL workflow: querying course database tables,
+validating results carefully, and turning raw outputs into useful inputs for
 collaborative project work.

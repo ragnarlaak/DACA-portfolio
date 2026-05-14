@@ -12,24 +12,24 @@ DACA portfolio.
 
 ## Team Project
 
-The Week 7 team project is an UrbanStyle RFM analysis built in Python and
-Pandas. The notebook loads sales and customer data from Supabase, cleans the
-combined dataset, calculates customer-level recency, frequency, and monetary
-metrics, creates customer segments, and summarizes business recommendations.
-The public notebook keeps customer contact fields out of saved outputs and
-exports while preserving customer IDs and segment-level analysis.
+The Week 7 team project is an UrbanStyle course-data RFM analysis built in
+Python and Pandas. The notebook loads sales and customer data from Supabase,
+cleans the combined dataset, calculates customer-level recency, frequency, and
+monetary metrics, creates customer segments, and summarizes recommendations for
+retention and campaign-targeting analysis. The public notebook keeps customer
+contact fields out of saved outputs and exports while preserving customer IDs
+and segment-level analysis.
 
 - [Open team project folder](team/README.md)
 - [Open completed RFM notebook](team/week7_rfm_complete.ipynb)
 - [Open individual setup notebook](individual/notebooks/week7_setup_test.ipynb)
 
-## Collaboration and AI Workflow Support
+## Collaboration and Documentation Support
 
 During Week 7, I also supported teammates with Python/Jupyter setup questions
-and helped them use AI tools more effectively for debugging and notebook
-development. This included showing how to write clearer prompts, share error
-messages, ask for targeted fixes, and verify AI-generated code before using it
-in the group notebook.
+and helped document debugging steps more clearly. This included sharing error
+messages, asking for targeted fixes, and checking code before using it in the
+group notebook.
 
 ## Setup Notes
 

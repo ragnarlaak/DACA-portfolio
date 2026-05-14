@@ -3,9 +3,8 @@
 ## Problem
 
 Week 4 focused on SQL aggregation and business reporting. The work moved from
-basic table exploration into grouped summaries, filtered aggregates, CTEs,
-window functions, and management-level analysis of UrbanStyle sales and
-marketing data.
+basic table exploration into grouped summaries, filtered aggregates, CTEs, and
+window functions for UrbanStyle course sales and marketing data.
 
 ## Approach
 
@@ -22,8 +21,9 @@ marketing data.
 
 The Week 4 work produced individual and team reporting outputs:
 
-- monthly sales and revenue summaries
-- city, weekday, customer, and category-level sales analysis
+- monthly sales and revenue summaries to show sales movement over time
+- city, weekday, customer, and category-level sales analysis to support
+  comparison across business dimensions
 - customer segmentation using CTEs
 - top product and category ranking with window functions
 - team marketing-channel analysis connected to web traffic sources
@@ -88,7 +88,7 @@ The Role D work included:
 ## Portfolio Value
 
 Week 4 shows the transition from writing individual SQL queries to producing
-business-ready summaries and team presentation material. The Role D work adds
+business summaries and team presentation material. The Role D work adds
 marketing context by connecting sales performance to customer traffic sources.
 
 [team-presentation]: team/week4_team_sql_aggregation_presentation.pptx

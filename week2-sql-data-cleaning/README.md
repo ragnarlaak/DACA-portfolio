@@ -2,14 +2,15 @@
 
 ## Problem
 
-Before using customer data for analysis, I needed to identify the most important
-quality issues in the UrbanStyle dataset: duplicates, missing values,
-inconsistent text formatting, and validation problems.
+Before using customer data for analysis, I needed to identify quality issues in
+the UrbanStyle course dataset that could affect segmentation, reporting, and
+confidence in later analysis: duplicates, missing values, inconsistent text
+formatting, and validation problems.
 
 ## Approach
 
 - used SQL in Supabase to inspect customer-related data quality
-- checked duplicates with `GROUP BY` and `HAVING`
+- identified duplicate values with `GROUP BY` and `HAVING`
 - reviewed missing values with `IS NULL` and `IS NOT NULL`
 - practiced fallback handling with `COALESCE()`
 - explored text standardization with `TRIM()`, `UPPER()`, `LOWER()`, and `INITCAP()`
@@ -29,8 +30,8 @@ The customer-domain review produced clear quality findings:
 - city naming variations identified: **12**
 
 The biggest issues were missing email data, duplicate emails, and inconsistent
-city formatting. These directly affect communication quality, segmentation,
-reporting, and confidence in the dataset.
+city formatting. Identifying these issues supported cleaner customer grouping,
+more reliable segmentation, and clearer reporting assumptions.
 
 ## Skills
 
@@ -56,6 +57,6 @@ reporting, and confidence in the dataset.
 
 ## Portfolio Value
 
-Week 2 shows a shift from basic querying to decision-oriented SQL work. The main
-lesson was that useful analysis depends on understanding what can be trusted in
-the data and how to clean it safely.
+Week 2 shows a shift from basic querying to data-quality analysis. The work
+connects duplicate checks, missing-value review, and text standardization to
+more reliable segmentation and reporting.

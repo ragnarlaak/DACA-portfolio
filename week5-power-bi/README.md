@@ -3,16 +3,17 @@
 ## English summary
 
 Week 5 focused on Power BI dashboard design and business storytelling with
-UrbanStyle retail data. I built the Role A / CEO dashboard for Kristi using KPI
-cards, DAX measures, a monthly revenue trend, and Estonian stakeholder labels.
-The dashboard answered the business question "Kas UrbanStyle kasvab?" by
-showing that 2024 revenue was **19.08%** higher than 2023, while also documenting
-Power BI and Supabase/ODBC setup decisions for the team.
+UrbanStyle course retail data. I built the Role A / CEO dashboard for Kristi
+using KPI cards, DAX measures, a monthly revenue trend, and Estonian stakeholder
+labels.
+The dashboard supported interpretation of the business question "Kas UrbanStyle
+kasvab?" by showing that 2024 revenue was **19.08%** higher than 2023, while
+also documenting Power BI and Supabase/ODBC setup decisions for the team.
 
 ## Overview
 
 Week 5 focused on Power BI dashboard design and business storytelling using
-the UrbanStyle retail data. My completed individual group-work contribution was
+the UrbanStyle course retail data. My completed individual group-work contribution was
 **Role A — CEO Dashboard / Kristi vaade**.
 
 The dashboard was built to answer the stakeholder question:
@@ -140,7 +141,7 @@ more complete and comparable periods in this dashboard.
 
 - kept the CEO view focused on growth instead of product or marketing detail
 - removed irrelevant marketing/product visuals from this page
-- used KPI cards for the main executive numbers
+- used KPI cards for the main stakeholder numbers
 - used a monthly line chart to show whether growth was consistent or uneven
 - used Estonian labels to match the stakeholder context
 - used UrbanStyle teal `#009B8D` for the main visual identity
@@ -174,12 +175,13 @@ example, Power BI connection setup, ODBC/SSL configuration, Navigator table
 selection, and basic dashboard creation would be easier if supported by short
 reference videos alongside the written handouts.
 
-## AI Usage
+## Documentation Support
 
-I used AI support to help structure the portfolio documentation, clarify the
-business interpretation, and keep the README concise and recruiter-friendly. The
-dashboard design choices, KPI selection, Power BI work, screenshot export, and
-team file sharing were completed as my Week 5 group-work contribution.
+I used modern tooling for documentation and debugging support while keeping the
+analysis work grounded in the Power BI file, DAX measures, screenshots, and team
+deliverables. The dashboard design choices, KPI selection, Power BI work,
+screenshot export, and team file sharing were completed as my Week 5 group-work
+contribution.
 
 ## Files
 

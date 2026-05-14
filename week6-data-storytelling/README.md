@@ -4,7 +4,7 @@
 
 Week 6 focused on turning a Power BI dashboard into a clearer stakeholder data
 story. I built the Role B / Tartu store dashboard using KPI cards, a monthly
-trend, a reference line, annotations, and an executive summary. The main finding
+trend, a reference line, annotations, and a concise summary. The main finding
 was that Tartu grew **13%** in 2024 versus 2023, but slower than UrbanStyle's
 overall **19%** growth, leading to a recommendation to compare Tartu's product
 mix, average order, and customer segments with stronger locations.
@@ -12,7 +12,7 @@ mix, average order, and customer segments with stronger locations.
 ## Overview
 
 Week 6 focused on turning a dashboard from a set of visuals into a clear data
-story. The work emphasized annotations, reference lines, executive summaries,
+story. The work emphasized annotations, reference lines, summary messages,
 audience-focused design, and the Estonian course prompt "ja mis siis?"
 
 The goal was to take the Week 5 Power BI dashboard and refine it so it answered
@@ -85,7 +85,7 @@ The exported screenshot is stored as dashboard evidence:
 
 I added lecture screenshots to the individual work folder to support the main
 Week 6 topics: the 30-second pitch, narrative creation, Knaflic's principles,
-executive summary structure, multi-audience storytelling, data story examples,
+summary structure, multi-audience storytelling, data story examples,
 and the 5 Why's methodology.
 
 ## Team coordination note
