@@ -1,7 +1,7 @@
-# Week 7 Python/Jupyter Workspace
+# Week 7 - Python and RFM Customer Segmentation
 
-This folder is a clean Python and Jupyter workspace for Week 7 work in the
-DACA portfolio.
+This folder contains the Week 7 Python/Jupyter work for the DACA portfolio,
+focused on customer-level RFM segmentation with UrbanStyle course data.
 
 ## Folder Structure
 
@@ -12,13 +12,12 @@ DACA portfolio.
 
 ## Team Project
 
-The Week 7 team project is an UrbanStyle course-data RFM analysis built in
-Python and Pandas. The notebook loads sales and customer data from Supabase,
+The Week 7 team project is an UrbanStyle course-data RFM analysis built with
+Python and pandas. The notebook loads sales and customer data from Supabase,
 cleans the combined dataset, calculates customer-level recency, frequency, and
-monetary metrics, creates customer segments, and summarizes recommendations for
-retention and campaign-targeting analysis. The public notebook keeps customer
-contact fields out of saved outputs and exports while preserving customer IDs
-and segment-level analysis.
+monetary metrics, and classifies customers into value and risk groups. The
+result supports retention and campaign-targeting analysis while keeping
+customer contact fields out of saved public outputs.
 
 - [Open team project folder](team/README.md)
 - [Open completed RFM notebook](team/week7_rfm_complete.ipynb)
@@ -26,10 +25,9 @@ and segment-level analysis.
 
 ## Collaboration and Documentation Support
 
-During Week 7, I also supported teammates with Python/Jupyter setup questions
-and helped document debugging steps more clearly. This included sharing error
-messages, asking for targeted fixes, and checking code before using it in the
-group notebook.
+During Week 7, I documented Python/Jupyter setup and debugging steps for the
+team. This included recording error messages, asking for targeted fixes, and
+reviewing notebook code flow before it was used in the group notebook.
 
 ## Setup Notes
 
@@ -39,7 +37,7 @@ Use Windows-compatible commands from this folder:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install jupyter pandas matplotlib plotly python-dotenv supabase
+python -m pip install -r requirements.txt
 ```
 
 If local environment variables are needed, copy `.env.example` to `.env` and

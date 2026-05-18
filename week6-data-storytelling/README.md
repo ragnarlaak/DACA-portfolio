@@ -88,10 +88,10 @@ Week 6 topics: the 30-second pitch, narrative creation, Knaflic's principles,
 summary structure, multi-audience storytelling, data story examples,
 and the 5 Why's methodology.
 
-## Team coordination note
+## Team Coordination Note
 
-I also helped structure the final combined view and presentation so the team
-could bring the completed dashboard evidence together clearly.
+I structured the final combined view and presentation flow so the team could
+bring the completed dashboard evidence together clearly.
 
 I clarified the key inputs for each role: location, main number, main finding,
 recommendation, and dashboard screenshot. I also made sure my own Tartu
@@ -102,8 +102,8 @@ evidence, and make the recommendation clear.
 
 ## Final presentation contribution
 
-After completing my own Tartu dashboard, I also helped assemble the final group
-PowerPoint presentation. I created the combined view / koondvaade slide and
+After completing my own Tartu dashboard, I assembled the final group PowerPoint
+presentation structure. I created the combined view / koondvaade slide and
 structured it around the completed team outputs: Tallinn, Tartu, and Online.
 
 For the koondvaade, I summarized each available view using the key business

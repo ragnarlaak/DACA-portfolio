@@ -46,7 +46,8 @@ inventory in a more reliable way.
 - schema troubleshooting
 - import cleanup and validation
 - inventory analysis
-- teamwork and technical support
+- database setup troubleshooting
+- product and inventory reporting
 
 ## Tools
 
@@ -72,7 +73,7 @@ inventory in a more reliable way.
 
 Week 3 shows more than JOIN syntax. It demonstrates troubleshooting a broken
 database setup, cleaning imported sales data, validating the working state, and
-using JOINs to support product and inventory analysis.
+using JOINs to identify product and inventory issues for business review.
 
 [team-role-c-sql]: team/week3_roll_c_tooted_inventuur.sql
 [team-role-c-answers]: team/week3_roll_c_tooted_inventuur_answers.md

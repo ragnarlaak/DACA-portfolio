@@ -153,19 +153,19 @@ the required files to the shared Drive for team integration. The output was
 shared for the combined team view, where the different role-based dashboards
 could be brought together for the final presentation.
 
-For the final group presentation, I presented the CEO view, helped with the
-intro/context and helped explain the other team materials where needed. The
-final presentation deck and exported slide images are included as team evidence.
+For the final group presentation, I presented the CEO view and intro/context,
+then explained the related team materials where needed. The final presentation
+deck and exported slide images are included as team evidence.
 
-During Week 5, I also supported teammates with Power BI setup and dashboard
-creation. This included helping with Supabase to Power BI ODBC/SSL connection
-troubleshooting, Navigator table and `public` schema selection, and deciding
-when to use **Load** versus **Transform Data** before building visuals.
+During Week 5, I documented Power BI setup and dashboard-creation steps for the
+team. This included Supabase to Power BI ODBC/SSL connection troubleshooting,
+Navigator table and `public` schema selection, and deciding when to use
+**Load** versus **Transform Data** before building visuals.
 
-I also shared practical portfolio-structure guidance with a teammate, including
-how weekly folders, individual/team sections, README files, SQL and Power BI
-files, screenshots, and clear documentation can make data analytics work easier
-to review.
+I also documented practical portfolio-structure guidance, including how weekly
+folders, individual/team sections, README files, SQL and Power BI files,
+screenshots, and clear documentation can make data analytics work easier to
+review.
 
 ## Week 5 Reflection
 

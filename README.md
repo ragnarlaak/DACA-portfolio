@@ -13,6 +13,20 @@ reporting, and customer segmentation. The projects use UrbanStyle course data
 to show how I prepare reliable datasets, summarize business findings, and
 document analysis clearly for review.
 
+## How to Review This Portfolio
+
+For a quick review, start with:
+
+1. **Week 6 – Data Storytelling / Power BI Dashboard**  
+   Shows dashboard interpretation, KPI framing, and business recommendations.
+
+2. **Week 7 – Python / RFM Customer Segmentation**  
+   Shows Python/pandas workflow, customer segmentation, and business-focused
+   analysis.
+
+3. **Week 4 – SQL Aggregation and Business KPIs**  
+   Shows SQL aggregation, grouped analysis, CTEs, and business reporting logic.
+
 ## Featured Projects
 
 ### 1. Retail Data Quality Analysis
@@ -191,13 +205,13 @@ document analysis clearly for review.
 
 This portfolio is being developed as part of the
 [Data Analyst Career Accelerator by Ettevotluskeskus][daca-course],
-an intensive practical mentorship program focused on SQL,
-PostgreSQL/Supabase, Power BI, Python, data storytelling,
-teamwork, and GitHub portfolio development.
+an intensive practical mentorship program.
 
 The program includes mentor-guided sessions and practical UrbanStyle business
-simulation work. Publicly listed program experts include Silver Toompalu,
-Jelena Laudver, and Renee Kooli.
+simulation work focused on SQL, PostgreSQL/Supabase, Power BI, Python, data
+storytelling, teamwork, GitHub portfolio development, and modern data workflow
+tools. Publicly listed program experts include Silver Toompalu, Jelena Laudver,
+and Renee Kooli.
 
 ## Working Style
 

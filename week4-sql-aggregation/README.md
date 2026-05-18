@@ -36,7 +36,8 @@ The Week 4 work produced individual and team reporting outputs:
 - window functions
 - business reporting
 - marketing-channel analysis
-- teamwork and presentation support
+- marketing-channel reporting
+- presentation delivery
 
 ## Team Role
 
@@ -52,7 +53,7 @@ The Role D work included:
   per customer
 - using CTEs to compare channel efficiency
 - analyzing monthly campaign trends by channel
-- supporting the team presentation with SQL results and evidence
+- preparing SQL results and evidence for the team presentation
 - presenting my assigned part during the group presentation
 
 ## Files

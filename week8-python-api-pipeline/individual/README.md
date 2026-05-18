@@ -76,6 +76,12 @@ From the `week8-python-api-pipeline/individual` folder, run:
 python pipeline.py
 ```
 
+To run the lightweight project check used by GitHub Actions:
+
+```powershell
+python test.py
+```
+
 ## Expected Output
 
 The script saves:
@@ -95,6 +101,8 @@ It also prints the first five rows as a quick validation check.
 - Environment variables help keep credentials separate from code.
 - Logging makes the pipeline easier to follow and debug.
 - A simple pipeline structure is easier to present, maintain, and reuse.
+- GitHub Actions can check project files automatically without publishing real
+  credentials.
 
 ## AI and Tooling Note
 

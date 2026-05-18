@@ -1,0 +1,28 @@
+name: Run test
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r week8-python-api-pipeline/individual/requirements.txt
+
+      - name: Run Week 8 checks
+        run: python week8-python-api-pipeline/individual/test.py
