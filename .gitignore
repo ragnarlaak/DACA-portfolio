@@ -3,3 +3,5 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+output/*.csv
+week8-python-api-pipeline/individual/output/*.csv

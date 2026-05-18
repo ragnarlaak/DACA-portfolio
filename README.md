@@ -170,9 +170,11 @@ document analysis clearly for review.
   visualization, and business recommendations
 - [Open Week 7][week7]
 
-### Week 8 - TBD
+### Week 8 - Python API Pipeline
 
-- Scaffold ready for upcoming individual and team materials
+- Built an individual Python API pipeline that extracts UrbanStyle sales and
+  customer data from Supabase, merges the tables with pandas, and saves a clean
+  output file for later analysis
 - [Open Week 8][week8]
 
 ### Week 9 - TBD
@@ -214,6 +216,6 @@ Jelena Laudver, and Renee Kooli.
 [week5]: week5-power-bi/README.md
 [week6]: week6-data-storytelling/README.md
 [week7]: ./week7-python
-[week8]: week8-tbd/README.md
+[week8]: week8-python-api-pipeline/README.md
 [week9]: week9-tbd/README.md
 [week10]: week10-tbd/README.md
