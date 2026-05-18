@@ -7,11 +7,11 @@ during the **Data Analyst Career Accelerator (DACA)** program.
 
 ## Profile
 
-This portfolio presents junior data analyst project work across SQL,
-Python/Jupyter, Power BI, data quality checks, relational analysis, dashboard
-reporting, and customer segmentation. The projects use UrbanStyle course data
-to show how I prepare reliable datasets, summarize business findings, and
-document analysis clearly for review.
+This portfolio presents junior data analyst project work across SQL, Power BI,
+Python, data quality checks, relational analysis, dashboard reporting, and
+customer segmentation. The projects use UrbanStyle course data to show how I
+prepare reliable datasets, summarize business findings, and document analysis
+clearly for review.
 
 ## How to Review This Portfolio
 
@@ -122,9 +122,9 @@ For a quick review, start with:
   missing-match analysis
 - **Reporting:** Power BI dashboards, data storytelling, annotations,
   summary tables, screenshot evidence, presentation support, written findings
-- **Python:** Jupyter Notebook, Pandas, RFM analysis, customer segmentation,
-  Plotly visualization, Supabase Python client
-- **Tools:** Git, GitHub, VS Code, Jupyter, Supabase, Power BI
+- **Python:** Pandas, RFM analysis, customer segmentation, Plotly visualization,
+  Supabase Python client
+- **Tools:** Git, GitHub, VS Code, Supabase, Power BI
 
 ## Portfolio Map
 
