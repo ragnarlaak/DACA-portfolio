@@ -32,6 +32,15 @@ The week produced a verified baseline view of the sales data:
 These checks gave the team a more accurate foundation than relying on unverified
 summaries.
 
+## Business Problem and Solution
+
+**Problem:** The team could not build reliable analysis until the basic sales
+data shape and quality issues were understood.
+
+**Solution:** I used SQL to profile the `sales`, `customers`, and `products`
+tables, checking row counts, duplicates, missing values, and transaction
+extremes so later reporting could start from verified numbers.
+
 ## Skills
 
 - basic SQL querying

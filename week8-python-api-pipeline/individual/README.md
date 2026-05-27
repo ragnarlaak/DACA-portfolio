@@ -4,12 +4,24 @@
 
 This project turns the Week 7 notebook-style analysis into a small reusable
 Python pipeline. The goal is to practice extracting data from Supabase,
-preparing it with pandas, and saving a clean merged file that could support
-later analysis or reporting.
+preparing it with pandas, validating the merge, and saving a clean merged file
+that could support later analysis, customer segmentation, or reporting.
 
 The work focuses on learning good project habits: keeping credentials out of
 GitHub, writing readable scripts, using simple logging, and separating
 exploration from repeatable pipeline code.
+
+## Business Value
+
+This pipeline prepares sales and customer data for repeatable analysis instead
+of relying only on one-time notebook exploration.
+
+It supports future questions such as:
+
+- Which customers are active, at risk, or lost?
+- How does revenue differ by customer group?
+- Which customer fields are needed for segmentation and reporting?
+- Can the same dataset be refreshed consistently for dashboards or analysis?
 
 ## What the Pipeline Does
 
@@ -31,6 +43,7 @@ week8-python-api-pipeline/
     pipeline.py
     requirements.txt
     .env.example
+    learning/
     output/
     README.md
 ```
@@ -41,6 +54,7 @@ week8-python-api-pipeline/
 - `pipeline.py` - main pipeline that loads, merges, validates, and saves data
 - `requirements.txt` - Python packages needed for this work
 - `.env.example` - placeholder environment variable names, without real secrets
+- `learning/` - summary notes from the Week 8 individual learning workbook
 - `output/` - local output folder for generated CSV files
 
 ## Setup
@@ -104,7 +118,25 @@ It also prints the first five rows as a quick validation check.
 - GitHub Actions can check project files automatically without publishing real
   credentials.
 
+## Connection to Team Work
+
+The individual pipeline is the smaller version of the Week 8 automation idea.
+The team project expands the same direction into a modular RFM and marketing
+pipeline with separate extraction, transformation, visualization, orchestration,
+and notification components.
+
+My team role was **Role D - automation and orchestration**, documented in:
+
+- [../team/README.md](../team/README.md)
+- [../team/pipeline.py](../team/pipeline.py)
+
+## Learning Notes
+
+- [learning/README.md](learning/README.md)
+
 ## AI and Tooling Note
 
-Used tooling for debugging and documentation support. Analytical logic and
-validation were reviewed manually.
+Used ChatGPT, Codex, NotebookLM, and other tooling support for debugging,
+course-material review, README structure, repository cleanup, and wording
+clarity. Analytical logic, validation checks, and final business interpretation
+were reviewed manually.

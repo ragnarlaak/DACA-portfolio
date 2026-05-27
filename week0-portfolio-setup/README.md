@@ -23,6 +23,14 @@ on. By the end of the week, the team had shared onboarding artifacts in place
 and I had already started collecting evidence of my own contribution in a
 portfolio-friendly format.
 
+## Project Problem and Solution
+
+**Problem:** Before analysis could start, the team needed a shared working
+setup, clear ownership, and a way to preserve evidence of contribution.
+
+**Solution:** I helped create the collaboration structure, onboarding evidence,
+and portfolio documentation habits used throughout the later technical weeks.
+
 ## Skills
 
 - GitHub collaboration

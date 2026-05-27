@@ -38,6 +38,15 @@ This week combined technical repair work with business-focused SQL analysis.
 The cleaned setup made it possible to connect sales, products, customers, and
 inventory in a more reliable way.
 
+## Business Problem and Solution
+
+**Problem:** UrbanStyle needed product and inventory insight, but broken import
+state and inconsistent sales data made JOIN analysis unreliable.
+
+**Solution:** I helped restore the database state, cleaned duplicate and date
+issues, and used SQL JOINs to connect sales, customers, products, and inventory
+for unsold-product and stock follow-up analysis.
+
 ## Skills
 
 - SQL JOINs

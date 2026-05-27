@@ -23,6 +23,19 @@ module, focused on customer segmentation using UrbanStyle course data.
 - Summarize business recommendations for Marko based on customer segment value
   and retention risk.
 
+## Business Problem and Solution
+
+**Problem:** UrbanStyle needed to know which customers were high value, which
+customers were still developing, and which customers were at risk of leaving.
+
+**Solution:** The team notebook calculated RFM metrics and created customer
+segments that can be used for different actions:
+
+- VIP Champions: protect with loyalty and early-access offers
+- Loyal Customers: grow basket size with cross-sell offers
+- Potential Customers: encourage a second or next purchase
+- At Risk / Lost: use win-back messaging and measure reactivation
+
 ## Notes
 
 The notebook expects `SUPABASE_URL` and `SUPABASE_KEY` in the local

@@ -28,6 +28,16 @@ The Week 4 work produced individual and team reporting outputs:
 - top product and category ranking with window functions
 - team marketing-channel analysis connected to web traffic sources
 
+## Business Problem and Solution
+
+**Problem:** UrbanStyle needed grouped business summaries, not only raw sales
+rows. The team needed to compare revenue by time, city, category, customer
+group, and marketing source.
+
+**Solution:** I used SQL aggregation, CTEs, and window functions to turn
+transaction-level data into reporting tables that could support marketing and
+management decisions.
+
 ## Skills
 
 - SQL aggregation

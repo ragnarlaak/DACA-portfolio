@@ -21,6 +21,16 @@ The dashboard was built to answer the stakeholder question:
 notes were prepared for team use and shared through the group Drive for the
 combined team presentation.
 
+## Business Problem and Solution
+
+**Problem:** Kristi, the CEO, needed a quick view of whether UrbanStyle was
+growing, without being distracted by product-level or channel-level detail.
+
+**Solution:** I built a focused CEO Power BI dashboard with KPI cards, a
+monthly revenue trend, and a year-over-year growth measure. The dashboard
+answered the main question directly: 2024 revenue was **19.08%** higher than
+2023 in the comparable full-year view.
+
 ## Role A — CEO Dashboard
 
 My responsibility was to create a focused CEO view for Kristi. The dashboard

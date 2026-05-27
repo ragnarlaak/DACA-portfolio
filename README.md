@@ -1,17 +1,30 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, Power BI, Python, data cleaning, and retail data analysis projects built
-during the **Data Analyst Career Accelerator (DACA)** program.
+SQL, Power BI, Python, data cleaning, API pipeline, and retail data analysis
+projects built during the **Data Analyst Career Accelerator (DACA)** program.
 
-**Started:** 23.03.2026
+**Started:** 23.03.2026  
+**Current status:** core technical portfolio completed through Week 8.
 
 ## Profile
 
 This portfolio presents junior data analyst project work across SQL, Power BI,
-Python, data quality checks, relational analysis, dashboard reporting, and
-customer segmentation. The projects use UrbanStyle course data to show how I
-prepare reliable datasets, summarize business findings, and document analysis
-clearly for review.
+Python, data quality checks, relational analysis, dashboard reporting, customer
+segmentation, and reusable API pipeline work. The projects use UrbanStyle
+course data to show how I prepare reliable datasets, summarize business
+findings, automate repeatable steps, and document analysis clearly for review.
+
+## Portfolio Business Thread
+
+The portfolio follows one connected retail analytics story:
+
+| Stage | Business question | Portfolio evidence |
+| --- | --- | --- |
+| Data quality | Can UrbanStyle trust the customer and sales data? | Weeks 1-3 |
+| Business reporting | What is happening across sales, products, cities, and channels? | Weeks 4-5 |
+| Data storytelling | What should a stakeholder understand and check next? | Week 6 |
+| Customer analytics | Which customers need retention, loyalty, or win-back action? | Week 7 |
+| Automation | How can the analysis be refreshed without manual CSV work? | Week 8 |
 
 ## How to Review This Portfolio
 
@@ -24,7 +37,11 @@ For a quick review, start with:
    Shows Python/pandas workflow, customer segmentation, and business-focused
    analysis.
 
-3. **Week 4 – SQL Aggregation and Business KPIs**  
+3. **Week 8 - Python API Pipeline and Automation**  
+   Shows repeatable data extraction, pipeline orchestration, validation, and
+   automated reporting from Supabase data.
+
+4. **Week 4 – SQL Aggregation and Business KPIs**  
    Shows SQL aggregation, grouped analysis, CTEs, and business reporting logic.
 
 ## Featured Projects
@@ -94,6 +111,19 @@ For a quick review, start with:
   and lost customer groups
 - Project: [Week 7][week7]
 
+### 7. Week 8 - Python API Pipeline and Automation
+
+- Focus: turning notebook-style analysis into repeatable Python pipeline work
+  for UrbanStyle sales, customer, and product data
+- Skills: Python scripts, pandas, Supabase API, pagination, environment
+  variables, YAML config, logging, validation, pipeline orchestration, Plotly
+  HTML exports
+- Result: built an individual Supabase-to-pandas pipeline and imported the
+  Week 8 team modular API pipeline; my team role was **Role D - automation and
+  orchestration**, connecting extraction, transformation, validation, export,
+  and optional notification steps into one repeatable workflow
+- Project: [Week 8][week8]
+
 ## What This Portfolio Shows
 
 - practical SQL analysis in Supabase/PostgreSQL
@@ -103,10 +133,14 @@ For a quick review, start with:
 - Power BI dashboards that summarize trends and support business interpretation
 - Python/Pandas customer segmentation for retention and campaign-targeting
   analysis
+- Python API pipeline work that turns analysis into repeatable extraction,
+  validation, reporting, and automation
 - operational troubleshooting through database setup, import cleanup, and
   validation
 - audience-focused data storytelling
 - readable project documentation with evidence
+- responsible use of AI tools for debugging, documentation support, and
+  improving workflow efficiency
 - individual contribution inside group work
 - consistent presentation of assigned analysis in weekly group work
 - increasing responsibility for intro/context and group-level summary delivery
@@ -122,9 +156,33 @@ For a quick review, start with:
   missing-match analysis
 - **Reporting:** Power BI dashboards, data storytelling, annotations,
   summary tables, screenshot evidence, presentation support, written findings
-- **Python:** Pandas, RFM analysis, customer segmentation, Plotly visualization,
-  Supabase Python client
-- **Tools:** Git, GitHub, VS Code, Supabase, Power BI
+- **Python:** Pandas, RFM analysis, customer segmentation, reusable scripts,
+  pipeline orchestration, Plotly visualization, Supabase Python client
+- **Tools:** Git, GitHub, VS Code, Supabase, Power BI, AI-assisted debugging
+  and documentation workflows
+
+## Responsible AI Use
+
+I use AI tools, including ChatGPT, Codex, and NotebookLM, as a practical support
+layer for learning and project work, not as a replacement for understanding the
+analysis. In this portfolio, AI support was used for tasks such as:
+
+- debugging SQL, Python, Git, and environment setup problems
+- using Codex to inspect repository structure, edit documentation, and run
+  local checks
+- using ChatGPT to clarify concepts, improve explanations, and practice
+  business-focused wording
+- using NotebookLM to work with course notes and connect weekly concepts across
+  the DACA learning material
+- improving README structure and recruiter readability
+- checking whether project explanations clearly connect to business questions
+- refining wording for stakeholder summaries and portfolio documentation
+- validating next steps while keeping analysis logic and final conclusions
+  reviewed manually
+
+This reflects how I expect to work in a modern data team: use AI to move faster,
+ask better questions, document more clearly, and still take responsibility for
+the data, reasoning, and final recommendation.
 
 ## Portfolio Map
 
@@ -189,17 +247,13 @@ For a quick review, start with:
 - Built an individual Python API pipeline that extracts UrbanStyle sales and
   customer data from Supabase, merges the tables with pandas, and saves a clean
   output file for later analysis
+- Imported and documented the Week 8 team modular API pipeline for RFM,
+  retention, marketing campaign planning, HTML dashboard exports, validation,
+  logging, and optional notifications
+- My team role was **Role D - automation and orchestration**, connecting the
+  separate modules into the end-to-end `extract -> transform -> validate ->
+  export -> notify` workflow
 - [Open Week 8][week8]
-
-### Week 9 - TBD
-
-- Scaffold ready for upcoming individual and team materials
-- [Open Week 9][week9]
-
-### Week 10 - TBD
-
-- Scaffold ready for upcoming individual and team materials
-- [Open Week 10][week10]
 
 ## Course Context
 
@@ -231,5 +285,3 @@ and Renee Kooli.
 [week6]: week6-data-storytelling/README.md
 [week7]: ./week7-python
 [week8]: week8-python-api-pipeline/README.md
-[week9]: week9-tbd/README.md
-[week10]: week10-tbd/README.md

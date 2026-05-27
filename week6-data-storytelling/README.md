@@ -18,7 +18,19 @@ audience-focused design, and the Estonian course prompt "ja mis siis?"
 The goal was to take the Week 5 Power BI dashboard and refine it so it answered
 a specific stakeholder question instead of showing all available data at once.
 
-My group-work role was **Roll B - Tartu kaupluse vaade**.
+My group-work role was **Role B - Tartu store view**.
+
+## Business Problem and Solution
+
+**Problem:** A stakeholder could misread the Tartu store as a weak location if
+the dashboard only showed isolated numbers. The real question was whether Tartu
+was underperforming relative to the whole company.
+
+**Solution:** I built a Tartu-specific Power BI story that compared local
+growth with UrbanStyle's overall growth. The recommendation shifted from
+"Tartu is declining" to "Tartu is growing, but slower than the company, so
+compare product mix, average order value, and customer segments against
+stronger locations."
 
 ## My contribution
 
