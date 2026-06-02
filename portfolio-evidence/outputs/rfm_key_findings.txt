@@ -1,7 +1,0 @@
-reference_date=2025-02-28
-total_customers=2540
-total_revenue=2676850.54
-highest_value_segment=VIP Champions|customers=455|revenue=1146295.15|revenue_share_pct=42.82
-largest_segment=Potential|customers=758|customer_share_pct=29.84|revenue_share_pct=19.49
-at_risk_segment=At Risk|customers=533|customer_share_pct=20.98|revenue=193876.62|revenue_share_pct=7.24|avg_recency_days=310.35
-lost_segment=Lost|customers=116|customer_share_pct=4.57|revenue=19540.79|revenue_share_pct=0.73|avg_recency_days=516.1
