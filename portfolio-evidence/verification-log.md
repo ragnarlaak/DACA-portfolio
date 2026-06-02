@@ -153,14 +153,60 @@ run.
 If opening the copied `.pbix` files in Power BI Desktop later, improve only the
 copied files:
 
-- Make KPI cards larger and more visually dominant.
-- Align cards and chart edges consistently.
-- Use concise insight and recommendation text boxes.
-- Keep existing measures, filters, data model, relationships and date logic
-  unchanged.
-- Export high-resolution screenshots named
-  `powerbi_sales_performance_dashboard.png` and
-  `powerbi_tartu_growth_drilldown.png` into `portfolio-evidence/outputs/`.
+### Week 5 CEO Sales Performance Dashboard
+
+Source screenshot currently used on the website:
+`week5-power-bi/team/images/urbanstyle_revenue_dashboard.png`
+
+Copied report to edit later:
+`portfolio-evidence/powerbi-edits/week5_ceo_dashboard_portfolio_edit.pbix`
+
+Recommended visual refinements:
+
+- Enlarge KPI cards for `Tellimused kokku` / total orders, `Kogukäive` / total
+  revenue, and `Käibe kasv 2024 vs 2023` / 2024 vs 2023 revenue growth.
+- Enable readable data labels on the monthly revenue trend chart if they do not
+  overcrowd the view; otherwise show labels only for key peak/low months.
+- Remove redundant axis titles or visual clutter where the chart title already
+  explains the measure and period.
+- Improve the main title to communicate the finding directly, for example:
+  `UrbanStyle revenue grew 19.08% in 2024 vs 2023`.
+- Add one concise insight text box: `UrbanStyle grew overall, with ~10K orders
+  and ~€2.91M revenue in the dashboard scope.`
+- Add one concise recommendation text box: `Review slower-growing locations by
+  product mix, average order value and customer segments.`
+- Export this page later as
+  `portfolio-evidence/outputs/powerbi_sales_performance_dashboard.png` and use
+  it to replace `ragnarlaak.github.io/assets/powerbi-dashboard.png`.
+
+### Week 6 Tartu Growth Storytelling Dashboard
+
+Source screenshot available:
+`week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png`
+
+Copied report to edit later:
+`portfolio-evidence/powerbi-edits/week6_tartu_dashboard_portfolio_edit.pbix`
+
+Recommended visual refinements:
+
+- Enlarge KPI cards for Tartu orders, Tartu revenue, and Tartu 2024 vs 2023
+  growth.
+- Keep the monthly revenue trend as the main chart and enable data labels only
+  for the highlighted month or relevant peak to preserve readability.
+- Remove redundant axis titles and reduce visual clutter around reference lines
+  or annotations if they compete with the main finding.
+- Improve the main title to communicate the finding directly, for example:
+  `Tartu grew 13%, but lagged UrbanStyle's overall ~19% growth`.
+- Add one concise insight text box: `Tartu is growing, but more slowly than the
+  company overall.`
+- Add one concise recommendation text box: `Compare Tartu product mix, average
+  order value and customer segments with stronger locations/channels.`
+- Export this page later as
+  `portfolio-evidence/outputs/powerbi_tartu_growth_drilldown.png`. Use it as a
+  replacement or supporting visual if it is clearer than the Week 5 screenshot.
+
+Important: keep existing measures, filters, data model, relationships, date
+logic and business definitions unchanged.
 
 ## Website Visual Review
 
