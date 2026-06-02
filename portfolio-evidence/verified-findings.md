@@ -100,17 +100,21 @@ validation, Plotly export logic
 **Business question:** How can recurring customer and sales analysis be
 refreshed without manually repeating notebook work?
 
-**Findings:** The Week 8 project documents a modular pipeline that connects
-extraction, transformation, validation, export, and optional notification steps.
-It is useful as supporting evidence for repeatable analytics workflow, but the
-public website should keep it secondary because the current strongest recruiter
-case studies are Power BI, RFM, and SQL data quality.
+**Findings:** The Week 8 project documents and executes a modular pipeline that
+connects extraction, transformation, validation, export, and optional
+notification steps. In this environment, the pipeline ran successfully using its
+configured sample-data fallback after Supabase credentials and CSV fallback
+files were unavailable. The run processed 21 sample sales rows, produced 13
+clean sample sales rows after the date filter, validated core outputs, and
+exported 24 HTML reports.
 
 **Why it matters:** The project shows movement from one-off analysis toward
 repeatable reporting and customer-segmentation workflow.
 
 **Recommendation/action:** Mention as supporting project/workflow experience,
-not as a primary flagship case study unless future public outputs are added.
+not as a quantified UrbanStyle business finding. Public copy should emphasize
+repeatable extraction, validation, reporting exports, and workflow
+orchestration.
 
 **Evidence source/path:**
 
@@ -119,3 +123,17 @@ not as a primary flagship case study unless future public outputs are added.
 - `week8-python-api-pipeline/team/pipeline.py`
 - `week8-python-api-pipeline/team/transform.py`
 - `week8-python-api-pipeline/team/config.yaml`
+- `portfolio-evidence/outputs/pipeline_summary.md`
+- `portfolio-evidence/outputs/pipeline_output_summary.csv`
+- `portfolio-evidence/outputs/pipeline_workflow_visual.png`
+
+## Power BI Portfolio Edit Copies
+
+Safe copies of selected Power BI files were created under
+`portfolio-evidence/powerbi-edits/`:
+
+- `portfolio-evidence/powerbi-edits/week5_ceo_dashboard_portfolio_edit.pbix`
+- `portfolio-evidence/powerbi-edits/week6_tartu_dashboard_portfolio_edit.pbix`
+
+Power BI Desktop was not discoverable in the shell environment, so the copied
+reports were not opened or edited. Original `.pbix` files were not modified.

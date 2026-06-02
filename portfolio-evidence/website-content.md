@@ -88,11 +88,25 @@ customer reporting or campaigns.
 
 **Tools:** Python, pandas, Supabase API, YAML, validation and export logic
 
-**Website use:** Mention as supporting workflow experience rather than a
-flagship project. It strengthens the overall portfolio by showing repeatable
-extraction, transformation, validation, and export orchestration, but the three
-flagship case studies above are clearer for recruiters.
+**Business question:** How can recurring customer and sales analysis be
+refreshed without manually repeating notebook work?
+
+**Key outcome:** The Week 8 pipeline was executed successfully with its
+configured sample-data fallback, validated core outputs, and exported 24 HTML
+reports. Supabase/live-data access was blocked in the environment, so public
+copy should not use the sample-data KPI values as UrbanStyle findings.
+
+**Why it matters:** The project shows the transition from one-off analysis to a
+repeatable data workflow that coordinates extraction, cleaning, validation and
+report export.
+
+**Recommendation/action:** Present Week 8 as an additional workflow project
+focused on repeatable reporting and pipeline orchestration, not as a primary
+business-outcome case study.
 
 **Source evidence path:** `week8-python-api-pipeline/README.md`;
 `week8-python-api-pipeline/team/README.md`;
-`week8-python-api-pipeline/team/pipeline.py`
+`week8-python-api-pipeline/team/pipeline.py`;
+`portfolio-evidence/outputs/pipeline_summary.md`
+
+**Suggested website visual filename:** `assets/pipeline_workflow_visual.png`

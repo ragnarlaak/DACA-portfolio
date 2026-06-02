@@ -24,6 +24,7 @@ Verification date: 2026-06-02
 - `week8-python-api-pipeline/team/pipeline.py`
 - `week8-python-api-pipeline/team/transform.py`
 - `week8-python-api-pipeline/team/data_fetcher.py`
+- `week8-python-api-pipeline/team/tests/test_transform.py`
 - `ragnarlaak.github.io/index.html`
 - `ragnarlaak.github.io/styles.css`
 - `ragnarlaak.github.io/README.md`
@@ -41,17 +42,25 @@ Get-Content week7-python\team\rfm_segments.csv -TotalCount 10
 Select-String -Path week7-python\team\week7_rfm_complete.ipynb -Pattern "segment|recency|monetary|reference|analysis|rfm_segments|Supabase"
 py --version
 py -m pip install matplotlib
+py -m pip install -r week8-python-api-pipeline\team\requirements.txt
 py -m pytest week8-python-api-pipeline\team\tests
+py week8-python-api-pipeline\team\pipeline.py --date 2025-02-28
+Headless Edge screenshots of local ragnarlaak.github.io/index.html
 ```
 
 Additional Python scripts were run through `py -` to summarize
-`week7-python/team/rfm_segments.csv` and generate the evidence outputs under
-`portfolio-evidence/outputs/`.
+`week7-python/team/rfm_segments.csv`, generate evidence outputs under
+`portfolio-evidence/outputs/`, and summarize the Week 8 pipeline sample-data
+run.
 
 ## Packages Installed
 
 - `matplotlib` was installed with `py -m pip install matplotlib` to generate
   website-ready PNG evidence charts.
+- Week 8 requirements were installed with
+  `py -m pip install -r week8-python-api-pipeline\team\requirements.txt`.
+  Most packages were already present; `pytest`, `pluggy`, and `iniconfig` were
+  installed during this run.
 - The first install attempt inside the sandbox returned no package versions.
   The command was rerun with network approval and completed successfully.
 
@@ -66,18 +75,29 @@ Additional Python scripts were run through `py -` to summarize
   the repository does not include a local raw database/source table export for
   those exact calculations. Their public numbers are supported by project
   READMEs, SQL scripts, notes, and screenshots.
-- `py -m pytest week8-python-api-pipeline\team\tests` was blocked because
-  `pytest` is not installed. The Week 8 pipeline was inspected but not selected
-  as a flagship website case study.
+- `py -m pytest week8-python-api-pipeline\team\tests` passed 4 tests after
+  installing the declared requirements. Pytest emitted a cache warning because
+  it could not create a cache path under the repository.
+- `py week8-python-api-pipeline\team\pipeline.py --date 2025-02-28` ran
+  successfully and exported 24 HTML report files. Supabase credentials were not
+  available in the Week 8 environment and local CSV fallback files were not
+  present, so the pipeline used configured built-in sample data. This supports
+  workflow automation claims but not public UrbanStyle business KPI claims.
 - Matplotlib initially attempted to write a cache under `C:\Users\ragna`.
   A later chart command used a local `MPLCONFIGDIR`; the temporary local cache
   folder was removed after generation.
+- Power BI Desktop / `PBIDesktop.exe` was not discoverable from the shell, so
+  copied `.pbix` files could not be opened or improved in this environment.
+- Browser Use Node REPL tooling was not exposed in this session. Visual review
+  was completed with headless Microsoft Edge screenshots instead.
 
 ## Safe Fixes Made
 
 - Created `portfolio-evidence/outputs/`.
 - Generated RFM summary and chart outputs from the existing RFM CSV.
 - Generated a SQL data-quality visual from documented Week 2 findings.
+- Created safe Power BI edit copies under `portfolio-evidence/powerbi-edits/`.
+- Ran Week 8 tests and pipeline without exposing credentials.
 - No credentials were printed, edited, or committed.
 - No weekly source project files were modified.
 
@@ -100,7 +120,13 @@ Additional Python scripts were run through `py -` to summarize
 | Potential segment: 758 customers, 29.84% customer share | VERIFIED / REPRODUCED | `portfolio-evidence/outputs/rfm_segment_summary.csv` |
 | At Risk segment: 533 customers, 20.98% customer share, 7.24% revenue share, avg recency 310.35 days | VERIFIED / REPRODUCED | `portfolio-evidence/outputs/rfm_segment_summary.csv` |
 | Lost segment: 116 customers, 4.57% customer share, 0.73% revenue share, avg recency 516.10 days | VERIFIED / REPRODUCED | `portfolio-evidence/outputs/rfm_segment_summary.csv` |
-| Week 8 tests passed | BLOCKED | `pytest` not installed; tests were not run |
+| Week 8 tests passed | VERIFIED / REPRODUCED | `py -m pytest week8-python-api-pipeline\team\tests`; 4 tests passed |
+| Week 8 pipeline exported 24 HTML reports | VERIFIED / REPRODUCED | `py week8-python-api-pipeline\team\pipeline.py --date 2025-02-28`; `week8-python-api-pipeline/team/output/` |
+| Week 8 pipeline processed live UrbanStyle/Supabase data | BLOCKED | Supabase credentials unavailable in Week 8 environment; CSV fallback files absent |
+| Week 8 sample run used built-in sample data | VERIFIED / REPRODUCED | Pipeline output and `portfolio-evidence/outputs/pipeline_summary.md` |
+| Week 8 sample run processed 21 sample sales rows and 13 clean rows after date filter | VERIFIED / REPRODUCED | `portfolio-evidence/outputs/pipeline_output_summary.csv` |
+| Power BI portfolio edit copies created | VERIFIED / REPRODUCED | `portfolio-evidence/powerbi-edits/` |
+| Power BI portfolio edit copies improved in Power BI Desktop | BLOCKED | `PBIDesktop.exe` not discoverable from shell |
 
 ## Generated Outputs
 
@@ -110,3 +136,43 @@ Additional Python scripts were run through `py -` to summarize
 - `portfolio-evidence/outputs/rfm_customers_by_segment.png`
 - `portfolio-evidence/outputs/sql_data_quality_findings.csv`
 - `portfolio-evidence/outputs/sql_data_quality_findings.png`
+- `portfolio-evidence/outputs/pipeline_summary.md`
+- `portfolio-evidence/outputs/pipeline_output_summary.csv`
+- `portfolio-evidence/outputs/pipeline_sample_segment_summary.csv`
+- `portfolio-evidence/outputs/pipeline_workflow_visual.png`
+
+## Power BI Original and Copy Paths
+
+| Original file | Portfolio edit copy | Status |
+| --- | --- | --- |
+| `week5-power-bi/team/week5_powerbi_urbanstyle_dashboard_revenue.pbix` | `portfolio-evidence/powerbi-edits/week5_ceo_dashboard_portfolio_edit.pbix` | Copied, not edited |
+| `week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix` | `portfolio-evidence/powerbi-edits/week6_tartu_dashboard_portfolio_edit.pbix` | Copied, not edited |
+
+## Manual Power BI Improvement Checklist
+
+If opening the copied `.pbix` files in Power BI Desktop later, improve only the
+copied files:
+
+- Make KPI cards larger and more visually dominant.
+- Align cards and chart edges consistently.
+- Use concise insight and recommendation text boxes.
+- Keep existing measures, filters, data model, relationships and date logic
+  unchanged.
+- Export high-resolution screenshots named
+  `powerbi_sales_performance_dashboard.png` and
+  `powerbi_tartu_growth_drilldown.png` into `portfolio-evidence/outputs/`.
+
+## Website Visual Review
+
+The local `ragnarlaak.github.io/index.html` site was reviewed using headless
+Microsoft Edge screenshots at desktop and mobile widths. A mobile text-clipping
+issue was found in the first pass and fixed with stricter mobile wrapping,
+layout shrink rules, and a mobile content-width cap.
+
+Review screenshots were saved locally under:
+
+- `C:\Users\ragna\AppData\Local\Temp\ragnar-portfolio-review\desktop.png`
+- `C:\Users\ragna\AppData\Local\Temp\ragnar-portfolio-review\mobile-final.png`
+- `C:\Users\ragna\AppData\Local\Temp\ragnar-portfolio-review\mobile-header-final.png`
+
+These screenshots were used for review only and were not committed.
