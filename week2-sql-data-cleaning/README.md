@@ -35,10 +35,14 @@ more reliable segmentation, and clearer reporting assumptions.
 
 ## Business Problem and Solution
 
+**Business question:** Is customer data reliable enough for reporting and segmentation?
+
+**Business answer:** Not yet. The review found duplicate email values, missing email values and city naming variations that could weaken customer grouping and reporting reliability.
+
 **Problem:** Customer segmentation and reporting can be misleading when customer
 records contain duplicate, missing, or inconsistently formatted values.
 
-**Solution:** I used SQL data-quality checks to identify duplicate emails,
+**Business action:** I used SQL data-quality checks to identify duplicate emails,
 missing contact fields, city-name variations, and validation rules that would
 need attention before reliable customer analysis.
 

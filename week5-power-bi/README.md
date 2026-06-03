@@ -23,10 +23,14 @@ combined team presentation.
 
 ## Business Problem and Solution
 
+**Business question:** Kas UrbanStyle kasvab? / Is UrbanStyle growing?
+
+**Business answer:** Yes. In the comparable full-year dashboard view, 2024 revenue was **19.08%** higher than 2023, while monthly revenue still fluctuated.
+
 **Problem:** Kristi, the CEO, needed a quick view of whether UrbanStyle was
 growing, without being distracted by product-level or channel-level detail.
 
-**Solution:** I built a focused CEO Power BI dashboard with KPI cards, a
+**Business action:** I built a focused CEO Power BI dashboard with KPI cards, a
 monthly revenue trend, and a year-over-year growth measure. The dashboard
 answered the main question directly: 2024 revenue was **19.08%** higher than
 2023 in the comparable full-year view.

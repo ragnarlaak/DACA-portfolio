@@ -10,6 +10,10 @@ How can recurring customer and sales analysis be refreshed without manually repe
 
 VERIFIED / REPRODUCED FOR SAMPLE/FALLBACK WORKFLOW.
 
+## Business Answer
+
+A modular Python pipeline can refresh recurring analysis steps by extracting, transforming, validating and exporting reporting outputs in one repeatable workflow.
+
 During the portfolio audit, the team tests passed and the pipeline completed. The run used configured built-in sample/fallback data because Week 8 Supabase credentials were not available and local CSV fallback files were absent. This project is therefore public workflow evidence, not live UrbanStyle KPI evidence.
 
 ## Confirmed Audit Results
