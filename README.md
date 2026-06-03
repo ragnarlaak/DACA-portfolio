@@ -10,7 +10,7 @@ Projects are based on an UrbanStyle retail business-simulation dataset completed
 
 I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation and repeatable Python reporting workflows.
 
-Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and other entry-level analytics roles across industries.
+Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and related analyst roles across industries.
 
 ## Tools
 
@@ -47,7 +47,9 @@ Evidence:
 
 **Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
 
-**Business answer:** VIP Champions are a smaller customer group but generated the largest share of monetary value, while Potential and At Risk customers show clear repeat-purchase and retention opportunities.
+**Result:** Analysed 2,540 customers through the Week 7 team RFM workflow. VIP Champions included 455 customers and contributed 42.82% of monetary value, while 758 Potential customers and 533 At Risk customers indicated clear repeat-purchase and retention opportunities.
+
+**Team context:** This was a team project based on the UrbanStyle course/business-simulation dataset. My contribution focused on calculating Recency, Frequency and Monetary values, assigning segments and checking that the segmentation logic supported the business objective.
 
 **Verified findings:**
 
@@ -56,7 +58,7 @@ Evidence:
 - 758 Potential customers represent repeat-purchase opportunity.
 - 533 At Risk customers represent retention/win-back priority.
 
-**Business action:** Protect the highest-value segment with loyalty-focused actions, move Potential customers toward repeat purchases and target At Risk customers before value is lost.
+**Business action:** Protect high-value VIP customers, encourage repeat purchases among Potential customers and target At Risk customers with retention or win-back actions.
 
 ![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
@@ -151,4 +153,5 @@ AI tools supported debugging, documentation structure, visual review and portfol
 
 - GitHub: [ragnarlaak](https://github.com/ragnarlaak)
 - Website: [ragnarlaak.github.io](https://ragnarlaak.github.io/)
+- LinkedIn: [Ragnar Laak](https://www.linkedin.com/in/ragnar-laak-612249230/)
 - Email: ragnarlaak@gmail.com
