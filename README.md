@@ -54,6 +54,8 @@ Authoritative Week 7 RFM findings:
 
 **Recommendation:** Protect VIP Champions with loyalty offers, move Potential customers toward repeat purchases and target At Risk customers before they become Lost.
 
+![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
+
 Evidence:
 
 - [Week 7 RFM project](week7-python/README.md)

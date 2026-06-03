@@ -22,7 +22,7 @@ Direct notebook execution against Supabase was attempted during the portfolio au
 
 ## My Contribution
 
-This was a team project. My contribution was connected to the RFM calculation and segmentation work in Python/pandas, including customer-level recency, frequency and monetary metrics, assigning segments and documenting the business interpretation for retention and campaign actions.
+This was a team project. My contribution in the team project focused on calculating Recency, Frequency and Monetary values, assigning RFM segments and checking whether the segmentation logic supported the business objective.
 
 ## Verified Segment Findings
 

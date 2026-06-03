@@ -74,3 +74,7 @@ The current public RFM headline figures matched the authoritative Week 7 export 
 - 533 At Risk customers: match.
 
 Week 8 sample/fallback pipeline outputs were inspected separately and must not be used as the authoritative Week 7 business result.
+
+## Chart Rendering Note
+
+The revenue chart was regenerated with labels such as `1.15M | 42.82%` and the axis label `Revenue in EUR (millions)` to avoid broken currency-symbol rendering in browser previews.
