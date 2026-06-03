@@ -6,7 +6,7 @@ Week 6 focused on turning a Power BI dashboard into a clearer stakeholder data
 story. I built the Role B / Tartu store dashboard using KPI cards, a monthly
 trend, a reference line, annotations, and a concise summary. The main finding
 was that Tartu grew **13%** in 2024 versus 2023, but slower than UrbanStyle's
-overall **19%** growth, leading to a recommendation to compare Tartu's product
+overall **19.08%** growth, leading to a recommendation to compare Tartu's product
 mix, average order, and customer segments with stronger locations.
 
 ## Overview
@@ -42,7 +42,7 @@ I filtered the dashboard to `store_location = Tartu`, created KPI cards, a
 monthly revenue trend, an average reference line, a December peak annotation,
 and a Top 5 products chart. The main finding was that Tartu did not decline; it
 grew **13%** in 2024 compared with 2023, but this was below UrbanStyle's
-**19%** overall growth.
+**19.08%** overall growth.
 
 Based on this, my recommendation was to compare Tartu's product mix, average
 order value, and customer segments against Tallinn and Online to understand
@@ -57,7 +57,7 @@ The final stakeholder message was kept in Estonian for the dashboard narrative:
 
 **Peamine järeldus:**
 
-Tartu 2024. aasta käive kasvas 13%, kuid jäi alla UrbanStyle'i 19%
+Tartu 2024. aasta käive kasvas 13%, kuid jäi alla UrbanStyle'i 19.08%
 koondkasvule.
 
 **Miks see oluline on:**

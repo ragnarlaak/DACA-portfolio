@@ -1,6 +1,6 @@
 # Week 7 - Python/pandas and RFM Customer Segmentation
 
-This week focused on customer-level RFM segmentation with UrbanStyle course data using Python and pandas.
+This week focused on customer-level RFM segmentation with UrbanStyle course data using Python and pandas. The RFM work was completed as a team project using the UrbanStyle retail business-simulation dataset.
 
 ## Business Question
 
@@ -34,7 +34,7 @@ This was a team project. My contribution in the team project focused on calculat
 
 ## Verified Segment Findings
 
-| Segment | Customers | Revenue share | Business meaning |
+| Segment | Customers | Monetary-value share | Business meaning |
 | --- | ---: | ---: | --- |
 | VIP Champions | 455 | 42.82% | Highest-value customer group to protect with loyalty and early-access offers. |
 | Loyal | 678 | 29.72% | Active repeat customers with cross-sell and basket-growth potential. |
