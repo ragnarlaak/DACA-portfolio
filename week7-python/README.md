@@ -4,7 +4,11 @@ This week focused on customer-level RFM segmentation with UrbanStyle course data
 
 ## Business Question
 
-Which customer groups should UrbanStyle prioritise for loyalty, retention and win-back actions?
+Which customer groups should UrbanStyle prioritise for loyalty, repeat-purchase and win-back actions?
+
+## Tools
+
+Python / pandas
 
 ## Evidence Status
 
@@ -14,7 +18,7 @@ Direct notebook execution against Supabase was attempted during the portfolio au
 
 ## Dataset and Reference Date
 
-- Dataset: UrbanStyle retail business-simulation course data.
+- Dataset: UrbanStyle retail business-simulation course data completed during the Data Analyst Career Accelerator.
 - Source notebook: `team/week7_rfm_complete.ipynb`.
 - Source export: `team/rfm_segments.csv`.
 - RFM reference date: 2025-02-28.
@@ -22,7 +26,7 @@ Direct notebook execution against Supabase was attempted during the portfolio au
 
 ## My Contribution
 
-This was a team project. My contribution was connected to the RFM calculation and segmentation work in Python/pandas, including customer-level recency, frequency and monetary metrics, assigning segments and documenting the business interpretation for retention and campaign actions.
+This was a team project. My contribution in the team project focused on calculating Recency, Frequency and Monetary values, assigning RFM segments and checking whether the segmentation logic supported the business objective.
 
 ## Verified Segment Findings
 
@@ -40,7 +44,7 @@ This was a team project. My contribution was connected to the RFM calculation an
 
 - Protect VIP Champions with loyalty offers, early access and personalised benefits.
 - Move Potential customers toward repeat purchasing with targeted follow-up campaigns.
-- Contact At Risk customers with win-back offers before they move further into inactivity.
+- Contact At Risk customers with retention or win-back offers before they move further into inactivity.
 - Treat Lost customers as a lower-cost reactivation test group rather than the main revenue priority.
 
 ## Evidence Outputs
