@@ -78,4 +78,4 @@ Week 8 sample/fallback pipeline outputs were inspected separately and must not b
 
 ## Chart Rendering Note
 
-The revenue chart was regenerated with labels such as `1.15M | 42.82%` and the axis label `Revenue in EUR (millions)` to avoid broken currency-symbol rendering in browser previews.
+The revenue chart was regenerated with euro labels such as `€1.15M | 42.82%` and the axis label `Revenue in EUR`. The chart uses a Unicode-capable font so browser previews do not show broken replacement characters such as `?1.15M`.
