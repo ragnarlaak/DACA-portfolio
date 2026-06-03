@@ -1,287 +1,144 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-SQL, Power BI, Python, data cleaning, API pipeline, and retail data analysis
-projects built during the **Data Analyst Career Accelerator (DACA)** program.
+Junior BI / Data Analyst portfolio with SQL, Power BI, Python/pandas, PostgreSQL/Supabase and business reporting projects.
 
-**Started:** 23.03.2026  
-**Current status:** core technical portfolio completed through Week 8.
+Live website: https://ragnarlaak.github.io/
 
-## Profile
+Projects are based on an UrbanStyle retail business-simulation dataset completed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus.
 
-This portfolio presents junior data analyst project work across SQL, Power BI,
-Python, data quality checks, relational analysis, dashboard reporting, customer
-segmentation, and reusable API pipeline work. The projects use UrbanStyle
-course data to show how I prepare reliable datasets, summarize business
-findings, automate repeatable steps, and document analysis clearly for review.
+## Focus
 
-## Portfolio Business Thread
+I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation and repeatable Python reporting workflows.
 
-The portfolio follows one connected retail analytics story:
+Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and other entry-level analytics roles across industries.
 
-| Stage | Business question | Portfolio evidence |
-| --- | --- | --- |
-| Data quality | Can UrbanStyle trust the customer and sales data? | Weeks 1-3 |
-| Business reporting | What is happening across sales, products, cities, and channels? | Weeks 4-5 |
-| Data storytelling | What should a stakeholder understand and check next? | Week 6 |
-| Customer analytics | Which customers need retention, loyalty, or win-back action? | Week 7 |
-| Automation | How can the analysis be refreshed without manual CSV work? | Week 8 |
+## Tools
 
-## How to Review This Portfolio
+SQL · Power BI · Python/pandas · PostgreSQL/Supabase · Business Reporting
 
-For a quick review, start with:
+## Featured Case Studies
 
-1. **Week 6 – Data Storytelling / Power BI Dashboard**  
-   Shows dashboard interpretation, KPI framing, and business recommendations.
+### Power BI - Sales Performance Dashboard
 
-2. **Week 7 – Python / RFM Customer Segmentation**  
-   Shows Python/pandas workflow, customer segmentation, and business-focused
-   analysis.
+**Business question:** How did UrbanStyle perform, and where is growth lagging?
 
-3. **Week 8 - Python API Pipeline and Automation**  
-   Shows repeatable data extraction, pipeline orchestration, validation, and
-   automated reporting from Supabase data.
+**Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
-4. **Week 4 – SQL Aggregation and Business KPIs**  
-   Shows SQL aggregation, grouped analysis, CTEs, and business reporting logic.
+Documented Week 5 and Week 6 evidence supports:
 
-## Featured Projects
+- ~EUR 2.91M revenue analysed.
+- ~10K orders.
+- 19.08% revenue growth in 2024 versus 2023.
+- ~13% Tartu growth, below overall company growth.
 
-### 1. Retail Data Quality Analysis
+**Recommendation:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
 
-- Focus: customer data quality review and cleaning practice in SQL
-- Skills: `GROUP BY`, `HAVING`, `COALESCE()`, `CASE WHEN`, text
-  standardization, safe update/delete workflow
-- Result: identified **128 duplicate emails**, **380 missing emails**, and
-  **12 city naming variations** to support cleaner segmentation, grouping, and
-  reporting
-- Project: [Week 2](week2-sql-data-cleaning/README.md)
+Evidence:
 
-### 2. SQL JOINs and Inventory Analysis
+- [Week 5 Power BI dashboard](week5-power-bi/README.md)
+- [Week 6 Tartu storytelling dashboard](week6-data-storytelling/README.md)
+- [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
 
-- Focus: relational analysis across `sales`, `customers`, `products`, and
-  `inventory` to support product and stock review
-- Skills: `INNER JOIN`, `LEFT JOIN`, `LEFT JOIN + IS NULL`, multi-table
-  analysis, database setup checks
-- Result: helped restore a usable database setup, validated the cleaned
-  environment, and identified **12 unsold products** for inventory follow-up
-- Project: [Week 3](week3-sql-joins/README.md)
+### Python/pandas - RFM Customer Segmentation
 
-### 3. SQL Aggregation for Business Reporting
+**Business question:** Which customer groups should UrbanStyle prioritise for loyalty, retention and win-back actions?
 
-- Focus: turning transaction data into business summaries for sales, customer,
-  category, and marketing-channel review
-- Skills: aggregation, `GROUP BY`, `HAVING`, CTEs, window functions, business
-  reporting
-- Result: summarized monthly sales, city performance, customer segments,
-  category performance, and marketing-channel effectiveness to support clearer
-  business interpretation
-- Project: [Week 4](week4-sql-aggregation/README.md)
+**Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
 
-### 4. Power BI Retail Dashboard
+Authoritative Week 7 RFM findings:
 
-- Focus: building a first business-facing dashboard from UrbanStyle course
-  retail data
-- Skills: Power BI, DAX measures, ODBC connection, PostgreSQL/Supabase,
-  dashboard layout, business reporting
-- Result: created a Power BI dashboard to summarize ~10K orders, ~2.91M total
-  revenue, and **19.08%** growth in 2024 versus 2023, supported by a
-  `YearMonth` revenue trend and documented Supabase/ODBC troubleshooting
-- Project: [Week 5][week5]
+- 2,540 customers analysed using reference date 2025-02-28.
+- VIP Champions: 455 customers and 42.82% of revenue.
+- Potential: 758 customers, the largest customer segment.
+- At Risk: 533 customers and 7.24% of revenue.
 
-### 5. Power BI Data Storytelling - Tartu Store View
+**Recommendation:** Protect VIP Champions with loyalty offers, move Potential customers toward repeat purchases and target At Risk customers before they become Lost.
 
-- Focus: turning a Power BI dashboard into a stakeholder-specific data story
-- Skills: Power BI, KPI cards, reference lines, annotations, stakeholder summary,
-  audience-focused dashboard design, presentation synthesis, scope management
-- Result: prepared a Tartu-focused dashboard showing that Tartu grew **13%** in
-  2024 versus 2023, while trailing UrbanStyle's **19%** overall growth; this
-  supported a recommendation to compare Tartu product mix, average order, and
-  customer segments against Tallinn and Online
-- Project: [Week 6](week6-data-storytelling/README.md)
+Evidence:
 
-### 6. Week 7 - Python Pandas and RFM Customer Segmentation
+- [Week 7 RFM project](week7-python/README.md)
+- [Authoritative RFM verification](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_verification.md)
+- [Authoritative RFM segment summary](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_segment_summary.csv)
+- [RFM revenue chart](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
-- Focus: customer-level RFM analysis for UrbanStyle course data using Python
-  and Pandas
-- Skills: VS Code, Jupyter Notebook, pandas, Plotly, Supabase Python client,
-  data cleaning, customer segmentation, business recommendations
-- Result: prepared a Python/Jupyter workflow, loaded UrbanStyle course sales
-  and customer data from Supabase into pandas, and organized a team notebook for
-  RFM customer segmentation to identify high-value, loyal, potential, at-risk,
-  and lost customer groups
-- Project: [Week 7][week7]
+### SQL - Data Quality Analysis
 
-### 7. Week 8 - Python API Pipeline and Automation
+**Business question:** Is customer data reliable enough for reporting and segmentation?
 
-- Focus: turning notebook-style analysis into repeatable Python pipeline work
-  for UrbanStyle sales, customer, and product data
-- Skills: Python scripts, pandas, Supabase API, pagination, environment
-  variables, YAML config, logging, validation, pipeline orchestration, Plotly
-  HTML exports
-- Result: built an individual Supabase-to-pandas pipeline and imported the
-  Week 8 team modular API pipeline; my team role was **Role D - automation and
-  orchestration**, connecting extraction, transformation, validation, export,
-  and optional notification steps into one repeatable workflow
-- Project: [Week 8][week8]
+**Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
-## What This Portfolio Shows
+Week 2 evidence supports:
 
-- practical SQL analysis in Supabase/PostgreSQL
-- data quality checks that support reliable reporting
-- SQL cleaning and validation for duplicate, missing, and inconsistent values
-- business-focused analysis of retail data
-- Power BI dashboards that summarize trends and support business interpretation
-- Python/Pandas customer segmentation for retention and campaign-targeting
-  analysis
-- Python API pipeline work that turns analysis into repeatable extraction,
-  validation, reporting, and automation
-- operational troubleshooting through database setup, import cleanup, and
-  validation
-- audience-focused data storytelling
-- readable project documentation with evidence
-- responsible use of AI tools for debugging, documentation support, and
-  improving workflow efficiency
-- individual contribution inside group work
-- consistent presentation of assigned analysis in weekly group work
-- increasing responsibility for intro/context and group-level summary delivery
-  in later weeks
+- 128 duplicate email records.
+- 380 missing email values.
+- 12 city naming variations.
 
-## Core Skills
+**Business impact:** These issues can reduce reporting reliability and weaken customer segmentation or location-based analysis.
 
-- **SQL:** `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `COUNT`, `SUM`, `AVG`,
-  `CASE WHEN`
-- **Data cleaning:** duplicate checks, `NULL` analysis, `COALESCE()`, text
-  standardization, validation logic
-- **Relational analysis:** `INNER JOIN`, `LEFT JOIN`, multi-table joins,
-  missing-match analysis
-- **Reporting:** Power BI dashboards, data storytelling, annotations,
-  summary tables, screenshot evidence, presentation support, written findings
-- **Python:** Pandas, RFM analysis, customer segmentation, reusable scripts,
-  pipeline orchestration, Plotly visualization, Supabase Python client
-- **Tools:** Git, GitHub, VS Code, Supabase, Power BI, AI-assisted debugging
-  and documentation workflows
+**Recommendation:** Standardise location values, resolve duplicate records and strengthen required-field validation before reporting or campaign use.
 
-## Responsible AI Use
+Evidence:
 
-I use AI tools, including ChatGPT, Codex, and NotebookLM, as a practical support
-layer for learning and project work, not as a replacement for understanding the
-analysis. In this portfolio, AI support was used for tasks such as:
+- [Week 2 SQL data cleaning](week2-sql-data-cleaning/README.md)
+- [Week 2 team SQL file](week2-sql-data-cleaning/team/week2_group_project.sql)
 
-- debugging SQL, Python, Git, and environment setup problems
-- using Codex to inspect repository structure, edit documentation, and run
-  local checks
-- using ChatGPT to clarify concepts, improve explanations, and practice
-  business-focused wording
-- using NotebookLM to work with course notes and connect weekly concepts across
-  the DACA learning material
-- improving README structure and recruiter readability
-- checking whether project explanations clearly connect to business questions
-- refining wording for stakeholder summaries and portfolio documentation
-- validating next steps while keeping analysis logic and final conclusions
-  reviewed manually
+### Python Pipeline - Workflow Evidence
 
-This reflects how I expect to work in a modern data team: use AI to move faster,
-ask better questions, document more clearly, and still take responsibility for
-the data, reasoning, and final recommendation.
+**Business question:** How can recurring customer and sales analysis be refreshed without manually repeating notebook work?
+
+**Evidence status:** VERIFIED / REPRODUCED FOR SAMPLE/FALLBACK WORKFLOW
+
+Week 8 checks confirmed:
+
+- 4/4 tests passed.
+- Pipeline completed with configured sample/fallback data.
+- Core outputs validated.
+- 24 HTML reports exported in the local run.
+
+The Week 8 demonstration is workflow evidence, not live UrbanStyle KPI evidence.
+
+Evidence:
+
+- [Week 8 Python API pipeline](week8-python-api-pipeline/README.md)
+- [Week 8 team pipeline](week8-python-api-pipeline/team/README.md)
+
+## Evidence Package
+
+The audit package in [portfolio-evidence](portfolio-evidence/) records which claims were reproduced, which are documented but not independently rerun, and which remain blocked by data or credential access.
+
+Key files:
+
+- [Verified findings](portfolio-evidence/verified-findings.md)
+- [Verification log](portfolio-evidence/verification-log.md)
+- [Website content package](portfolio-evidence/website-content.md)
+- [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
 
 ## Portfolio Map
 
-### Week 0 - Portfolio Setup and Team Collaboration
-
-- Built the initial collaboration and documentation structure
-- [Open Week 0](week0-portfolio-setup/README.md)
-
-### Week 1 - SQL Basics and Sales Data Exploration
-
-- Checked row counts, duplicates, missing values, and transaction extremes to
-  understand whether the data was ready for analysis
-- [Open Week 1](week1-sql-basics/README.md)
-
-### Week 2 - SQL Data Cleaning and Customer Quality Analysis
-
-- Identified duplicate, missing, and inconsistent customer values to support
-  cleaner and more reliable analysis
-- [Open Week 2](week2-sql-data-cleaning/README.md)
-
-### Week 3 - SQL JOINs and Inventory Analysis
-
-- Rebuilt the working database state and used JOINs to support product,
-  customer, and inventory analysis
-- [Open Week 3](week3-sql-joins/README.md)
-
-### Week 4 - SQL Aggregation and Marketing Analysis
-
-- Prepared aggregation summaries, image evidence, and marketing-channel analysis
-  for team reporting
-- [Open Week 4](week4-sql-aggregation/README.md)
-
-### Week 5 - Power BI Dashboard
-
-- Created individual and team UrbanStyle Power BI dashboard files with
-  screenshot evidence, presentation materials, and revenue growth insight
-- [Open Week 5][week5]
-
-### Week 6 - Data Storytelling and Tartu Store View
-
-- Prepared a stakeholder-specific Tartu dashboard with KPI cards, annotations, a
-  reference line, and summary message
-- Reframed the expected story from "Tartu is declining" to "Tartu is growing
-  slower than the company" based on filtered Power BI data
-- Main finding: Tartu grew **13%** in 2024 vs 2023, while UrbanStyle overall
-  grew **19%**
-- Helped assemble the final group presentation and combined view from completed
-  Tallinn, Tartu, and Online dashboard evidence
-- [Open Week 6](week6-data-storytelling/README.md)
-
-### Week 7 - Python Pandas and RFM Customer Segmentation
-
-- Set up a VS Code + Jupyter Python workflow
-- Loaded UrbanStyle course sales/customer data from Supabase into pandas
-- Prepared an RFM customer segmentation workflow
-- Organized the team notebook for loading, cleaning, RFM analysis,
-  visualization, and business recommendations
-- [Open Week 7][week7]
-
-### Week 8 - Python API Pipeline
-
-- Built an individual Python API pipeline that extracts UrbanStyle sales and
-  customer data from Supabase, merges the tables with pandas, and saves a clean
-  output file for later analysis
-- Imported and documented the Week 8 team modular API pipeline for RFM,
-  retention, marketing campaign planning, HTML dashboard exports, validation,
-  logging, and optional notifications
-- My team role was **Role D - automation and orchestration**, connecting the
-  separate modules into the end-to-end `extract -> transform -> validate ->
-  export -> notify` workflow
-- [Open Week 8][week8]
+| Week | Topic | Evidence |
+| --- | --- | --- |
+| Week 0 | Portfolio setup and team collaboration | [Open](week0-portfolio-setup/README.md) |
+| Week 1 | SQL basics and sales exploration | [Open](week1-sql-basics/README.md) |
+| Week 2 | SQL data cleaning and customer data quality | [Open](week2-sql-data-cleaning/README.md) |
+| Week 3 | SQL joins and inventory analysis | [Open](week3-sql-joins/README.md) |
+| Week 4 | SQL aggregation and business KPIs | [Open](week4-sql-aggregation/README.md) |
+| Week 5 | Power BI dashboard | [Open](week5-power-bi/README.md) |
+| Week 6 | Data storytelling and Tartu store view | [Open](week6-data-storytelling/README.md) |
+| Week 7 | Python/pandas and RFM segmentation | [Open](week7-python/README.md) |
+| Week 8 | Python API pipeline | [Open](week8-python-api-pipeline/README.md) |
 
 ## Course Context
 
-This portfolio is being developed as part of the
-[Data Analyst Career Accelerator by Ettevotluskeskus][daca-course],
-an intensive practical mentorship program.
+This portfolio was developed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus, March 2026 to June 2026. The work focuses on SQL, PostgreSQL/Supabase, Power BI, Python/pandas, data quality, business reporting, dashboard storytelling and GitHub-based portfolio documentation.
 
-The program includes mentor-guided sessions and practical UrbanStyle business
-simulation work focused on SQL, PostgreSQL/Supabase, Power BI, Python, data
-storytelling, teamwork, GitHub portfolio development, and modern data workflow
-tools. Publicly listed program experts include Silver Toompalu, Jelena Laudver,
-and Renee Kooli.
+No certificate claim is made here unless certificate evidence is added later.
 
-## Working Style
+## Responsible AI Use
 
-- I document both the SQL and the reasoning behind the result
-- I keep screenshots and outputs linked to the actual query work
-- I separate individual work from team deliverables so contribution is visible
-- I keep public notebooks and exports focused on analysis, avoiding unnecessary
-  customer contact details
+AI tools supported debugging, documentation structure, visual review and portfolio refinement. Reported findings were tied back to executed analysis or clearly documented project evidence, and business interpretation remained my responsibility.
 
 ## Contact
 
-- **GitHub:** [ragnarlaak](https://github.com/ragnarlaak)
-- **Email:** ragnarlaak@gmail.com
-
-[daca-course]: https://www.ettevotluskeskus.ee/daca25en-data-analyst-career-accelerator
-[week5]: week5-power-bi/README.md
-[week6]: week6-data-storytelling/README.md
-[week7]: ./week7-python
-[week8]: week8-python-api-pipeline/README.md
+- GitHub: [ragnarlaak](https://github.com/ragnarlaak)
+- Website: [ragnarlaak.github.io](https://ragnarlaak.github.io/)
+- Email: ragnarlaak@gmail.com

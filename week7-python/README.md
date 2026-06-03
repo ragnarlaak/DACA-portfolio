@@ -1,59 +1,72 @@
-# Week 7 - Python and RFM Customer Segmentation
+# Week 7 - Python/pandas and RFM Customer Segmentation
 
-This folder contains the Week 7 Python/Jupyter work for the DACA portfolio,
-focused on customer-level RFM segmentation with UrbanStyle course data.
+This week focused on customer-level RFM segmentation with UrbanStyle course data using Python and pandas.
 
-## Business Problem and Solution
+## Business Question
 
-**Problem:** Sales dashboards showed overall performance, but they did not tell
-Marko which customers should receive VIP, loyalty, repeat-purchase, or win-back
-campaigns.
+Which customer groups should UrbanStyle prioritise for loyalty, retention and win-back actions?
 
-**Solution:** The Week 7 work used Python and pandas to calculate customer-level
-RFM metrics and segment customers by recency, frequency, and monetary value.
-This turned sales rows into customer groups that could support retention and
-campaign targeting.
+## Evidence Status
+
+VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT.
+
+Direct notebook execution against Supabase was attempted during the portfolio audit, but the environment could not resolve/connect to the Supabase host. The committed Week 7 team export was successfully summarized with pandas and is treated as the authoritative public evidence package.
+
+## Dataset and Reference Date
+
+- Dataset: UrbanStyle retail business-simulation course data.
+- Source notebook: `team/week7_rfm_complete.ipynb`.
+- Source export: `team/rfm_segments.csv`.
+- RFM reference date: 2025-02-28.
+- Total customers analysed: 2,540.
+
+## My Contribution
+
+This was a team project. My contribution was connected to the RFM calculation and segmentation work in Python/pandas, including customer-level recency, frequency and monetary metrics, assigning segments and documenting the business interpretation for retention and campaign actions.
+
+## Verified Segment Findings
+
+| Segment | Customers | Revenue share | Business meaning |
+| --- | ---: | ---: | --- |
+| VIP Champions | 455 | 42.82% | Highest-value customer group to protect with loyalty and early-access offers. |
+| Loyal | 678 | 29.72% | Active repeat customers with cross-sell and basket-growth potential. |
+| Potential | 758 | 19.49% | Largest group by customer count; good target for repeat-purchase nudges. |
+| At Risk | 533 | 7.24% | Customers needing win-back action before they become inactive. |
+| Lost | 116 | 0.73% | Low-current-value group for lower-cost reactivation testing. |
+
+![RFM revenue contribution by customer segment](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
+
+## Recommended Actions
+
+- Protect VIP Champions with loyalty offers, early access and personalised benefits.
+- Move Potential customers toward repeat purchasing with targeted follow-up campaigns.
+- Contact At Risk customers with win-back offers before they move further into inactivity.
+- Treat Lost customers as a lower-cost reactivation test group rather than the main revenue priority.
+
+## Evidence Outputs
+
+- [Authoritative RFM verification](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_verification.md)
+- [Authoritative segment summary CSV](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_segment_summary.csv)
+- [Revenue by segment chart](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
+- [Customers by segment chart](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_customers_by_segment.png)
+- [Team RFM export](team/rfm_segments.csv)
+- [Team notebook](team/week7_rfm_complete.ipynb)
 
 ## Folder Structure
 
-- `individual/` - Individual Week 7 notebook workspace, data folder, and
-  generated outputs.
-- `individual/learning/` - Summary notes from the Week 7 individual learning
-  workbook.
-- `team/` - Week 7 group project notebook and project workbook.
-- `.env.example` - Template for local environment variables.
-
-## Team Project
-
-The Week 7 team project is an UrbanStyle course-data RFM analysis built with
-Python and pandas. The notebook loads sales and customer data from Supabase,
-cleans the combined dataset, calculates customer-level recency, frequency, and
-monetary metrics, and classifies customers into value and risk groups. The
-result supports retention and campaign-targeting analysis while keeping
-customer contact fields out of saved public outputs.
-
-- [Open team project folder](team/README.md)
-- [Open individual learning notes](individual/learning/README.md)
-- [Open completed RFM notebook](team/week7_rfm_complete.ipynb)
-- [Open individual setup notebook](individual/notebooks/week7_setup_test.ipynb)
-
-## Collaboration and Documentation Support
-
-During Week 7, I documented Python/Jupyter setup and debugging steps for the
-team. This included recording error messages, using ChatGPT/Codex-style tooling
-support for targeted troubleshooting, using NotebookLM for course-note review,
-and reviewing notebook code flow before it was used in the group notebook.
+- `individual/` - Individual Week 7 setup and learning workspace.
+- `team/` - Team RFM notebook, workbook and exported segment file.
+- `requirements.txt` - Python dependencies used for Week 7 work.
 
 ## Setup Notes
 
 Use Windows-compatible commands from this folder:
 
 ```powershell
-python -m venv .venv
+py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+py -m pip install --upgrade pip
+py -m pip install -r requirements.txt
 ```
 
-If local environment variables are needed, copy `.env.example` to `.env` and
-add your values there. Do not commit the real `.env` file.
+If local environment variables are needed, copy `.env.example` to `.env` and add your values there. Do not commit the real `.env` file.

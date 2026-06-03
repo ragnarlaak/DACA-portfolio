@@ -8,4 +8,5 @@ output/*.csv
 week8-python-api-pipeline/individual/output/*.csv
 week8-python-api-pipeline/team/output/
 week8-python-api-pipeline/team/logs/
-portfolio-evidence/
+.matplotlib-cache/
+pytest-cache-files-*/

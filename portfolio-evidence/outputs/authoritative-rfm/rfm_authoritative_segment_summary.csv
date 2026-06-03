@@ -1,0 +1,6 @@
+Segment,customers,total_revenue,avg_monetary_value,avg_recency_days,avg_frequency,customer_share_pct,revenue_share_pct
+VIP Champions,455,1146295.15,2519.33,48.66,7.68,17.91,42.82
+Loyal,678,795523.58,1173.34,145.21,3.84,26.69,29.72
+Potential,758,521614.40,688.15,207.33,2.49,29.84,19.49
+At Risk,533,193876.62,363.75,310.35,1.59,20.98,7.24
+Lost,116,19540.79,168.46,516.10,1.01,4.57,0.73
