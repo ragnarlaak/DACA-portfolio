@@ -24,6 +24,8 @@ SQL · Power BI · Python/pandas · PostgreSQL/Supabase · Business Reporting
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
+**Business answer:** UrbanStyle grew overall, with 2024 revenue 19.08% higher than 2023 in the documented dashboard view. Tartu also grew, but below the company growth rate, making it the location to investigate next.
+
 Documented Week 5 and Week 6 evidence supports:
 
 - ~EUR 2.91M revenue analysed.
@@ -31,7 +33,7 @@ Documented Week 5 and Week 6 evidence supports:
 - 19.08% revenue growth in 2024 versus 2023.
 - ~13% Tartu growth, below overall company growth.
 
-**Recommendation:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
+**Business action:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
 
 Evidence:
 
@@ -44,6 +46,8 @@ Evidence:
 **Business question:** Which customer groups should UrbanStyle prioritise for loyalty, repeat-purchase and win-back actions?
 
 **Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
+
+**Business answer:** VIP Champions are a smaller customer group but generated the largest share of monetary value, while Potential and At Risk customers show clear repeat-purchase and retention opportunities.
 
 **Verified findings:**
 
@@ -69,6 +73,8 @@ Evidence:
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
+**Business answer:** Customer data needs cleaning before it is fully reliable for segmentation and reporting because duplicate emails, missing emails and inconsistent city values can distort analysis.
+
 Week 2 evidence supports:
 
 - 128 duplicate email records.
@@ -77,7 +83,7 @@ Week 2 evidence supports:
 
 **Business impact:** These issues can reduce reporting reliability and weaken customer segmentation or location-based analysis.
 
-**Recommendation:** Standardise location values, resolve duplicate records and strengthen required-field validation before reporting or campaign use.
+**Business action:** Standardise location values, resolve duplicate records and strengthen required-field validation before reporting or campaign use.
 
 Evidence:
 
@@ -90,6 +96,8 @@ Evidence:
 
 **Evidence status:** VERIFIED / REPRODUCED FOR SAMPLE/FALLBACK WORKFLOW
 
+**Business answer:** A modular Python pipeline can make recurring extract, transform, validate and export steps repeatable instead of depending on manual notebook reruns.
+
 Week 8 checks confirmed:
 
 - 4/4 tests passed.
@@ -97,7 +105,7 @@ Week 8 checks confirmed:
 - Core outputs validated.
 - 24 HTML reports exported in the local run.
 
-The Week 8 demonstration is workflow evidence, not live UrbanStyle KPI evidence.
+**Business action:** Use this project as workflow evidence for repeatable reporting automation. The Week 8 demonstration is not live UrbanStyle KPI evidence.
 
 Evidence:
 

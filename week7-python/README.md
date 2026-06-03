@@ -14,6 +14,10 @@ Python / pandas
 
 VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT.
 
+## Business Answer
+
+VIP Champions are a smaller customer group but generated the largest share of monetary value. Potential customers are the largest segment by customer count, and At Risk customers are the clearest retention/win-back priority.
+
 Direct notebook execution against Supabase was attempted during the portfolio audit, but the environment could not resolve/connect to the Supabase host. The committed Week 7 team export was successfully summarized with pandas and is treated as the authoritative public evidence package.
 
 ## Dataset and Reference Date
@@ -40,7 +44,7 @@ This was a team project. My contribution in the team project focused on calculat
 
 ![RFM revenue contribution by customer segment](../portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
-## Recommended Actions
+## Business Actions
 
 - Protect VIP Champions with loyalty offers, early access and personalised benefits.
 - Move Potential customers toward repeat purchasing with targeted follow-up campaigns.
