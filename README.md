@@ -41,18 +41,20 @@ Evidence:
 
 ### Python/pandas - RFM Customer Segmentation
 
-**Business question:** Which customer groups should UrbanStyle prioritise for loyalty, retention and win-back actions?
+**Business question:** Which customer groups should UrbanStyle prioritise for loyalty, repeat-purchase and win-back actions?
 
 **Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
 
-Authoritative Week 7 RFM findings:
+**Verified findings:**
 
 - 2,540 customers analysed using reference date 2025-02-28.
-- VIP Champions: 455 customers and 42.82% of revenue.
-- Potential: 758 customers, the largest customer segment.
-- At Risk: 533 customers and 7.24% of revenue.
+- 455 VIP Champions generated 42.82% of monetary value.
+- 758 Potential customers represent repeat-purchase opportunity.
+- 533 At Risk customers represent retention/win-back priority.
 
-**Recommendation:** Protect VIP Champions with loyalty offers, move Potential customers toward repeat purchases and target At Risk customers before they become Lost.
+**Business action:** Protect the highest-value segment with loyalty-focused actions, move Potential customers toward repeat purchases and target At Risk customers before value is lost.
+
+![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
 ![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 

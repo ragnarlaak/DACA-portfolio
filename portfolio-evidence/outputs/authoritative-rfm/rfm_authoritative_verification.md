@@ -69,6 +69,7 @@ Total monetary value analysed: EUR 2,676,850.54
 The current public RFM headline figures matched the authoritative Week 7 export exactly:
 
 - 2,540 customers analysed: match.
+- 455 VIP Champions: match.
 - 42.82% revenue share from VIP Champions: match.
 - 758 Potential customers: match.
 - 533 At Risk customers: match.
