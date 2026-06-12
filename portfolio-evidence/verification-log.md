@@ -11,7 +11,10 @@ Verification date: 2026-06-03
 - `week5-power-bi/team/ceo_view_notes.txt`
 - `week5-power-bi/team/images/urbanstyle_revenue_dashboard.png`
 - `week6-data-storytelling/README.md`
+- `week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix`
 - `week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png`
+- `week6-data-storytelling/team/week6_tartu_dashboard_role_b.pbix`
+- `week6-data-storytelling/team/week6_tartu_dashboard_storytelling.png`
 - `week7-python/README.md`
 - `week7-python/team/README.md`
 - `week7-python/team/week7_rfm_complete.ipynb`
@@ -24,7 +27,7 @@ Verification date: 2026-06-03
 - `week8-python-api-pipeline/team/tests/test_transform.py`
 - `C:\Users\ragna\GitHub\ragnarlaak.github.io\index.html`
 - `C:\Users\ragna\GitHub\ragnarlaak.github.io\styles.css`
-- `C:\Users\ragna\GitHub\ragnarlaak.github.io\assets\powerbi-dashboard.png`
+- `C:\Users\ragna\GitHub\ragnarlaak.github.io\assets\tartu-dashboard.png`
 - `C:\Users\ragna\GitHub\ragnarlaak.github.io\assets\rfm_revenue_by_segment.png`
 - Local website preview screenshots captured with headless Microsoft Edge.
 
@@ -119,6 +122,8 @@ Supported public values:
 | ~10K Power BI orders | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 5 README and screenshot |
 | ~EUR 2.91M Power BI revenue | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 5 README and screenshot |
 | 19.08% 2024 vs 2023 revenue growth | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 5 README, notes and screenshot |
+| ~2K Tartu orders | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 6 README and Tartu dashboard screenshot |
+| ~EUR 522K Tartu revenue | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 6 README and Tartu dashboard screenshot |
 | ~13% Tartu growth | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 6 README and screenshot |
 | 128 duplicate email records | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 2 README and SQL file |
 | 380 missing email values | DOCUMENTED EVIDENCE, NOT REPRODUCED | Week 2 README and SQL file |

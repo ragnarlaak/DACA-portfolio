@@ -2,21 +2,21 @@
 
 Projects are based on an UrbanStyle retail business-simulation dataset completed during the Data Analyst Career Accelerator. This file separates reproduced results from documented project evidence so public portfolio claims stay credible.
 
-## 1. Power BI - Sales Performance Dashboard
+## 1. Power BI - Tartu Store Growth Analysis
 
-**Tools:** Power BI, DAX, PostgreSQL/Supabase, business reporting
+**Tools:** Power BI, DAX, PostgreSQL/Supabase, business reporting, benchmark analysis
 
-**Business question:** How did UrbanStyle perform, and where is growth lagging?
+**Business question:** Why is Tartu growing slower than UrbanStyle overall?
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
 **Supported findings:**
 
-- Week 5 dashboard documentation and screenshot show approximately 10K orders and approximately EUR 2.91M revenue in the dashboard scope.
-- Week 5 dashboard documentation and notes show 19.08% revenue growth in 2024 versus 2023.
+- Week 6 Tartu storytelling documentation and screenshot show approximately 2K Tartu orders and approximately EUR 522K Tartu revenue.
 - Week 6 Tartu storytelling documentation reports approximately 13% Tartu revenue growth, below UrbanStyle's approximately 19% overall growth.
+- Week 5 dashboard documentation and notes support the overall company benchmark of 19.08% revenue growth in 2024 versus 2023.
 
-**Why it matters:** UrbanStyle was growing overall, but Tartu's slower growth points to a useful follow-up question instead of a generic "growth is good" conclusion.
+**Why it matters:** Tartu was growing, but the slower growth rate points to a useful follow-up question instead of a generic "growth is good" conclusion.
 
 **Recommendation/action:** Compare Tartu product mix, average order value, and customer segments with stronger-performing locations or channels.
 
@@ -24,9 +24,11 @@ Projects are based on an UrbanStyle retail business-simulation dataset completed
 
 - `week5-power-bi/README.md`
 - `week5-power-bi/team/ceo_view_notes.txt`
-- `week5-power-bi/team/images/urbanstyle_revenue_dashboard.png`
 - `week6-data-storytelling/README.md`
+- `week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix`
 - `week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png`
+- `week6-data-storytelling/team/week6_tartu_dashboard_role_b.pbix`
+- `week6-data-storytelling/team/week6_tartu_dashboard_storytelling.png`
 
 ## 2. Python/pandas - RFM Customer Segmentation
 

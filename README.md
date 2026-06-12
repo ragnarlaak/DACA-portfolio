@@ -80,8 +80,9 @@ Before campaign rollout, clean duplicate emails, missing emails and city naming 
 
 ## Dashboard
 
-- Power BI CEO revenue dashboard: [screenshot](week5-power-bi/team/images/urbanstyle_revenue_dashboard.png), [PBIX file](week5-power-bi/team/week5_powerbi_urbanstyle_dashboard_revenue.pbix)
-- Tartu storytelling dashboard: [screenshot](week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png), [PBIX file](week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix)
+- Flagship Tartu growth dashboard: [screenshot](week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png), [PBIX file](week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix)
+- Week 6 team copy of the Tartu dashboard: [screenshot](week6-data-storytelling/team/week6_tartu_dashboard_storytelling.png), [PBIX file](week6-data-storytelling/team/week6_tartu_dashboard_role_b.pbix)
+- Week 5 CEO revenue dashboard: [screenshot](week5-power-bi/team/images/urbanstyle_revenue_dashboard.png), [PBIX file](week5-power-bi/team/week5_powerbi_urbanstyle_dashboard_revenue.pbix)
 - RFM revenue by segment chart: [PNG](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
 ![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)

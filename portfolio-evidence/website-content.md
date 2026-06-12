@@ -8,30 +8,33 @@ One-time context statement:
 
 ## Project 1
 
-**Title:** Power BI - Sales Performance Dashboard
+**Title:** Tartu Store Growth Analysis
 
-**Tool tags:** Power BI, DAX, Business Reporting
+**Badge:** FLAGSHIP POWER BI CASE STUDY
 
-**Business question:** How did UrbanStyle perform, and where is growth lagging?
+**Tool tags:** Power BI, DAX, Business Reporting, Benchmark Analysis
+
+**Business question:** Why is Tartu growing slower than UrbanStyle overall?
 
 **Supported numerical highlights:**
 
-- ~EUR 2.91M revenue analysed.
-- ~10K orders.
-- 19.08% revenue growth in 2024 versus 2023.
-- ~13% Tartu growth, below overall company growth.
+- 522K Tartu revenue.
+- 2K Tartu orders.
+- 13% Tartu growth.
+- 19% company growth.
+- -6 percentage-point growth gap.
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
-**Key finding:** UrbanStyle grew overall, but Tartu grew more slowly than the company, making it the right location for deeper follow-up analysis.
+**Key finding:** Tartu grew in 2024, but at 13%, it lagged behind UrbanStyle's overall 19% growth.
 
-**Why it matters:** The dashboard moves from a broad growth question to a practical location-performance question.
+**Why it matters:** This shows positive local performance, but also signals a growth gap that needs follow-up analysis.
 
-**Recommended action:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
+**Recommended action:** Compare Tartu's product mix, average order value, customer segments and campaign impact against stronger locations or online sales.
 
-**Evidence link:** `https://github.com/ragnarlaak/DACA-portfolio/tree/main/week5-power-bi`
+**Evidence link:** `https://github.com/ragnarlaak/DACA-portfolio/tree/main/week6-data-storytelling`
 
-**Visual asset filename:** `assets/powerbi-dashboard.png`
+**Visual asset filename:** `assets/tartu-dashboard.png`
 
 ## Project 2
 

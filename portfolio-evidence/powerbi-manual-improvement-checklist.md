@@ -4,8 +4,9 @@ Original `.pbix` files were not modified during this audit. Use copied files onl
 
 ## Current Flagship Screenshot
 
-- Website asset: `ragnarlaak.github.io/assets/powerbi-dashboard.png`
-- Source evidence: `week5-power-bi/team/images/urbanstyle_revenue_dashboard.png`
+- Website asset: `ragnarlaak.github.io/assets/tartu-dashboard.png`
+- Source evidence: `week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png`
+- Source Power BI file: `week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix`
 - Evidence status: DOCUMENTED EVIDENCE, NOT REPRODUCED
 
 ## Week 5 CEO Dashboard Improvements

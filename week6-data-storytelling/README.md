@@ -142,6 +142,8 @@ completed evidence, reduce complexity, and present a clear business story.
 
 - [individual/week6_tartu_dashboard_role_b.pbix][individual-powerbi-dashboard]
 - [individual/week6_tartu_dashboard_storytelling.png][individual-dashboard-storytelling]
+- [team/week6_tartu_dashboard_role_b.pbix][team-powerbi-dashboard]
+- [team/week6_tartu_dashboard_storytelling.png][team-dashboard-storytelling]
 - [team/UrbanStyle äriraport_ linnade-online lõikes.pptx][team-presentation]
 - [individual/images/week6_lecture_01_30_second_pitch.png][lecture-01]
 - [individual/images/week6_lecture_02_creating_narrative.png][lecture-02]
@@ -158,6 +160,8 @@ completed evidence, reduce complexity, and present a clear business story.
 
 [individual-powerbi-dashboard]: individual/week6_tartu_dashboard_role_b.pbix
 [individual-dashboard-storytelling]: individual/week6_tartu_dashboard_storytelling.png
+[team-powerbi-dashboard]: team/week6_tartu_dashboard_role_b.pbix
+[team-dashboard-storytelling]: team/week6_tartu_dashboard_storytelling.png
 [team-presentation]: team/UrbanStyle%C2%A0%C3%A4riraport_%20linnade-online%20l%C3%B5ikes.pptx
 [lecture-01]: individual/images/week6_lecture_01_30_second_pitch.png
 [lecture-02]: individual/images/week6_lecture_02_creating_narrative.png
