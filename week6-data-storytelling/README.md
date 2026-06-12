@@ -91,6 +91,10 @@ The exported screenshot is stored as dashboard evidence:
 
 - [individual/week6_tartu_dashboard_storytelling.png][individual-dashboard-storytelling]
 
+Note: the Power BI source file was refreshed on June 12, 2026 with a clearer
+executive summary treatment using bullet points and stronger emphasis. A fresh
+PNG export should be added after re-exporting the updated Power BI page.
+
 ![Tartu dashboard storytelling view][individual-dashboard-storytelling]
 
 ## Lecture Notes and Visual Examples
