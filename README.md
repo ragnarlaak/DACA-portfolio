@@ -111,12 +111,20 @@ The current repository keeps the original course-week folders for traceability. 
 README.md      recruiter-ready case study
 ```
 
-## Missing or Future Additions
+## Completed Evidence and Remaining Limits
 
-- Add a public sample dataset or data dictionary if sharing is allowed.
-- Add exported SQL result tables for the main cleaning and KPI queries.
-- Add a short dashboard walkthrough GIF or hosted Power BI link if publishing is allowed.
-- Add one final business-facing slide with the top insight, recommendation and expected action.
+Completed portfolio evidence:
+
+- Added an exported SQL findings table for the main customer data-quality checks: [sql_data_quality_findings.csv](portfolio-evidence/outputs/sql_data_quality_findings.csv).
+- Added reproduced RFM evidence, including segment summary, verification notes and charts: [authoritative RFM outputs](portfolio-evidence/outputs/authoritative-rfm/).
+- Added a Week 8 pipeline run summary showing the repeatable sample/fallback workflow: [pipeline_summary.md](portfolio-evidence/outputs/pipeline_summary.md).
+- Added a Power BI manual improvement checklist for future dashboard polish: [powerbi-manual-improvement-checklist.md](portfolio-evidence/powerbi-manual-improvement-checklist.md).
+
+Remaining limits:
+
+- A public sample dataset or data dictionary can be added only if sharing is allowed.
+- Power BI screenshots and PBIX files remain documented evidence rather than independently reproduced calculations.
+- A hosted Power BI link, walkthrough GIF or final business-facing slide can be added later if publishing is allowed.
 
 ## Role Positioning
 
