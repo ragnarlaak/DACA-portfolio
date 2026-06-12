@@ -22,7 +22,7 @@ One-time context statement:
 - 2K Tartu orders.
 - 13% Tartu growth.
 - 19% company growth.
-- -6 percentage-point growth gap.
+- -6% growth gap.
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
