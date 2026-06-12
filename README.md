@@ -1,155 +1,131 @@
-# Ragnar Laak - Data Analytics Portfolio
+# UrbanStyle Retail Growth Analysis: Revenue, Customer Quality and Retention Priorities
 
-Junior BI / Data Analyst portfolio with SQL, Power BI, Python/pandas, PostgreSQL/Supabase and business reporting projects.
+Junior Data Analyst portfolio case study using SQL, Power BI and Python/pandas to evaluate UrbanStyle's retail growth, customer data quality and customer-segment opportunities.
 
-Live website: https://ragnarlaak.github.io/
+The analysis shows that UrbanStyle grew in 2024, but growth was uneven by location and customer value was concentrated in a smaller high-value segment. The recommendation is to protect VIP customers, improve repeat purchase among Potential customers, and investigate why Tartu is growing slower than the company overall.
 
-Projects are based on an UrbanStyle retail business-simulation dataset completed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus.
+Live portfolio website: https://ragnarlaak.github.io/
 
-## Focus
+## Business Problem
 
-I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation and repeatable Python reporting workflows.
+UrbanStyle needed a practical answer to three business questions:
 
-Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and related analyst roles across industries.
+- Is the business growing, and where is growth lagging?
+- Is customer data reliable enough for reporting and segmentation?
+- Which customer groups should be prioritized for loyalty, repeat purchase and win-back campaigns?
 
-## Tools
+## Dataset
 
-SQL · Power BI · Python/pandas · PostgreSQL/Supabase · Business Reporting
+- Source: UrbanStyle retail business-simulation dataset from the Data Analyst Career Accelerator.
+- Business scope: sales, customer, product, store/location and campaign-style reporting work.
+- Main evidence used: SQL cleaning outputs, Power BI dashboard screenshots/files, RFM export and verified portfolio audit outputs.
+- Limitation: some claims are verified from committed exports, while some Power BI and SQL findings are documented evidence that could not be fully rerun without the original live Supabase environment.
 
-## Featured Case Studies
+Evidence tracking is documented in [portfolio-evidence/verified-findings.md](portfolio-evidence/verified-findings.md).
 
-### Power BI - Sales Performance Dashboard
+## Tools Used
 
-**Business question:** How did UrbanStyle perform, and where is growth lagging?
+- SQL: data quality checks, aggregation, joins and business KPI logic
+- Power BI: executive dashboarding, DAX measures and stakeholder reporting
+- Python/pandas: customer segmentation, reproducible summaries and pipeline workflow
+- PostgreSQL/Supabase: source system used during the course project
+- GitHub: portfolio documentation and evidence structure
 
-**Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
+## Data Cleaning
 
-**Business answer:** UrbanStyle grew overall, with 2024 revenue 19.08% higher than 2023 in the documented dashboard view. Tartu also grew, but below the company growth rate, making it the location to investigate next.
+High-impact checks found customer data issues that could affect reporting and segmentation:
 
-Documented Week 5 and Week 6 evidence supports:
+- 128 duplicate email records could double-count or misclassify customers.
+- 380 missing email values reduce campaign reach and customer identity matching.
+- 12 city naming variations weaken location-level analysis.
 
-- ~EUR 2.91M revenue analysed.
-- ~10K orders.
-- 19.08% revenue growth in 2024 versus 2023.
-- ~13% Tartu growth, below overall company growth.
+Business impact: customer reporting should not be used for campaign decisions until duplicate records, missing contact fields and city standardization are addressed.
 
-**Business action:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
+Evidence: [Week 2 SQL data cleaning](week2-sql-data-cleaning/README.md)
 
-Evidence:
+## SQL Approach
 
-- [Week 5 Power BI dashboard](week5-power-bi/README.md)
-- [Week 6 Tartu storytelling dashboard](week6-data-storytelling/README.md)
-- [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
+The SQL work focused on business reliability rather than query volume:
 
-### Python/pandas - RFM Customer Segmentation
+- Profiled customer records for duplicates, missing values and inconsistent location names.
+- Aggregated sales by month, year and location to support revenue trend analysis.
+- Used joins and grouped summaries to connect products, sales and inventory-style questions.
+- Translated raw checks into business risks: unreliable segmentation, weaker campaign targeting and less trustworthy location reporting.
 
-**Business question:** Which customer groups should UrbanStyle prioritise for loyalty, repeat-purchase and win-back actions?
+Representative SQL files:
 
-**Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
+- [Customer data quality SQL](week2-sql-data-cleaning/team/week2_group_project.sql)
+- [Sales aggregation SQL](week4-sql-aggregation/team/week4_group_project.sql)
+- [Inventory and product join analysis](week3-sql-joins/team/week3_roll_c_tooted_inventuur.sql)
 
-**Result:** Analysed 2,540 customers through the Week 7 team RFM workflow. VIP Champions included 455 customers and contributed 42.82% of monetary value, while 758 Potential customers and 533 At Risk customers indicated clear repeat-purchase and retention opportunities.
+## Key Insights
 
-**Team context:** This was a team project based on the UrbanStyle course/business-simulation dataset. My contribution focused on calculating Recency, Frequency and Monetary values, assigning segments and checking that the segmentation logic supported the business objective.
+- UrbanStyle's documented dashboard view showed about EUR 2.91M in revenue and about 10K orders.
+- 2024 revenue was documented as 19.08% higher than 2023 in the comparable full-year dashboard view.
+- Tartu grew about 13% in 2024 versus 2023, but lagged the overall company growth rate of 19.08%.
+- VIP Champions represented 455 of 2,540 customers and contributed 42.82% of monetary value.
+- Potential customers were the largest segment by count, with 758 customers available for repeat-purchase targeting.
+- At Risk customers included 533 customers and should be contacted before they become Lost.
+- Missing and duplicate customer fields create direct risk for segmentation, campaign targeting and location reporting.
 
-**Verified findings:**
+## Recommendation
 
-- 2,540 customers analysed using reference date 2025-02-28.
-- 455 VIP Champions generated 42.82% of monetary value.
-- 758 Potential customers represent repeat-purchase opportunity.
-- 533 At Risk customers represent retention/win-back priority.
+Prioritize three actions:
 
-**Business action:** Protect high-value VIP customers, encourage repeat purchases among Potential customers and target At Risk customers with retention or win-back actions.
+- Protect VIP Champions with loyalty benefits, early access and personalized offers because they contribute 42.82% of monetary value.
+- Convert Potential customers with repeat-purchase campaigns, because this is the largest customer segment by count.
+- Investigate Tartu's slower growth by comparing product mix, average order value and customer segments against stronger locations or online sales.
+
+Before campaign rollout, clean duplicate emails, missing emails and city naming variations so segmentation and location reporting are reliable.
+
+## Dashboard
+
+- Power BI CEO revenue dashboard: [screenshot](week5-power-bi/team/images/urbanstyle_revenue_dashboard.png), [PBIX file](week5-power-bi/team/week5_powerbi_urbanstyle_dashboard_revenue.pbix)
+- Tartu storytelling dashboard: [screenshot](week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png), [PBIX file](week6-data-storytelling/individual/week6_tartu_dashboard_role_b.pbix)
+- RFM revenue by segment chart: [PNG](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
 ![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
 
-![RFM revenue by customer segment](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
+## Project Evidence
 
-Evidence:
-
-- [Week 7 RFM project](week7-python/README.md)
-- [Authoritative RFM verification](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_verification.md)
-- [Authoritative RFM segment summary](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_segment_summary.csv)
-- [RFM revenue chart](portfolio-evidence/outputs/authoritative-rfm/rfm_authoritative_revenue_by_segment.png)
-
-### SQL - Data Quality Analysis
-
-**Business question:** Is customer data reliable enough for reporting and segmentation?
-
-**Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
-
-**Business answer:** Customer data needs cleaning before it is fully reliable for segmentation and reporting because duplicate emails, missing emails and inconsistent city values can distort analysis.
-
-Week 2 evidence supports:
-
-- 128 duplicate email records.
-- 380 missing email values.
-- 12 city naming variations.
-
-**Business impact:** These issues can reduce reporting reliability and weaken customer segmentation or location-based analysis.
-
-**Business action:** Standardise location values, resolve duplicate records and strengthen required-field validation before reporting or campaign use.
-
-Evidence:
-
-- [Week 2 SQL data cleaning](week2-sql-data-cleaning/README.md)
-- [Week 2 team SQL file](week2-sql-data-cleaning/team/week2_group_project.sql)
-
-### Python Pipeline - Workflow Evidence
-
-**Business question:** How can recurring customer and sales analysis be refreshed without manually repeating notebook work?
-
-**Evidence status:** VERIFIED / REPRODUCED FOR SAMPLE/FALLBACK WORKFLOW
-
-**Business answer:** A modular Python pipeline can make recurring extract, transform, validate and export steps repeatable instead of depending on manual notebook reruns.
-
-Week 8 checks confirmed:
-
-- 4/4 tests passed.
-- Pipeline completed with configured sample/fallback data.
-- Core outputs validated.
-- 24 HTML reports exported in the local run.
-
-**Business action:** Use this project as workflow evidence for repeatable reporting automation. The Week 8 demonstration is not live UrbanStyle KPI evidence.
-
-Evidence:
-
-- [Week 8 Python API pipeline](week8-python-api-pipeline/README.md)
-- [Week 8 team pipeline](week8-python-api-pipeline/team/README.md)
-
-## Evidence Package
-
-The audit package in [portfolio-evidence](portfolio-evidence/) records which claims were reproduced, which are documented but not independently rerun, and which remain blocked by data or credential access.
-
-Key files:
-
-- [Verified findings](portfolio-evidence/verified-findings.md)
-- [Verification log](portfolio-evidence/verification-log.md)
-- [Website content package](portfolio-evidence/website-content.md)
-- [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
-
-## Portfolio Map
-
-| Week | Topic | Evidence |
+| Area | Business purpose | Evidence |
 | --- | --- | --- |
-| Week 0 | Portfolio setup and team collaboration | [Open](week0-portfolio-setup/README.md) |
-| Week 1 | SQL basics and sales exploration | [Open](week1-sql-basics/README.md) |
-| Week 2 | SQL data cleaning and customer data quality | [Open](week2-sql-data-cleaning/README.md) |
-| Week 3 | SQL joins and inventory analysis | [Open](week3-sql-joins/README.md) |
-| Week 4 | SQL aggregation and business KPIs | [Open](week4-sql-aggregation/README.md) |
-| Week 5 | Power BI dashboard | [Open](week5-power-bi/README.md) |
-| Week 6 | Data storytelling and Tartu store view | [Open](week6-data-storytelling/README.md) |
-| Week 7 | Python/pandas and RFM segmentation | [Open](week7-python/README.md) |
-| Week 8 | Python API pipeline | [Open](week8-python-api-pipeline/README.md) |
+| SQL data quality | Check whether customer data is reliable enough for reporting | [Week 2](week2-sql-data-cleaning/README.md) |
+| SQL joins | Connect product, sales and inventory-style questions | [Week 3](week3-sql-joins/README.md) |
+| SQL aggregation | Build revenue and KPI summaries | [Week 4](week4-sql-aggregation/README.md) |
+| Power BI dashboard | Answer whether the company is growing | [Week 5](week5-power-bi/README.md) |
+| Data storytelling | Explain why Tartu needs follow-up analysis | [Week 6](week6-data-storytelling/README.md) |
+| Python RFM | Segment customers for loyalty, repeat purchase and win-back | [Week 7](week7-python/README.md) |
+| Python pipeline | Demonstrate repeatable reporting workflow | [Week 8](week8-python-api-pipeline/README.md) |
 
-## Course Context
+## Suggested Portfolio Structure
 
-This portfolio was developed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus, March 2026 to June 2026. The work focuses on SQL, PostgreSQL/Supabase, Power BI, Python/pandas, data quality, business reporting, dashboard storytelling and GitHub-based portfolio documentation.
+The current repository keeps the original course-week folders for traceability. For a recruiter-facing refactor, I would move the strongest assets into this simpler structure:
 
-No certificate claim is made here unless certificate evidence is added later.
+```text
+/data          sample or approved public data extracts
+/sql           data cleaning, KPI and segmentation queries
+/notebooks     Python RFM and validation notebooks
+/dashboard     Power BI files and exported screenshots
+/evidence      verified findings, audit notes and output charts
+README.md      recruiter-ready case study
+```
 
-## Responsible AI Use
+## Missing or Future Additions
 
-AI tools supported debugging, documentation structure, visual review and portfolio refinement. Reported findings were tied back to executed analysis or clearly documented project evidence, and business interpretation remained my responsibility.
+- Add a public sample dataset or data dictionary if sharing is allowed.
+- Add exported SQL result tables for the main cleaning and KPI queries.
+- Add a short dashboard walkthrough GIF or hosted Power BI link if publishing is allowed.
+- Add one final business-facing slide with the top insight, recommendation and expected action.
+
+## Role Positioning
+
+This project is presented as Junior Data Analyst evidence:
+
+- I used SQL to identify data-quality risks before analysis.
+- I built Power BI dashboards focused on executive questions, not visual clutter.
+- I used Python/pandas to segment customers and verify business findings.
+- I documented which claims are verified, documented or blocked by missing credentials.
 
 ## Contact
 
