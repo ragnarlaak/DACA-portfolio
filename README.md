@@ -1,6 +1,6 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-Junior BI / Data Analyst portfolio with SQL, Power BI, Tableau, Python/pandas, PostgreSQL/Supabase and business reporting projects.
+BI / Data Analyst portfolio with SQL, Power BI, Tableau, Python/pandas, PostgreSQL/Supabase and business reporting projects.
 
 Live website: https://ragnarlaak.github.io/
 
