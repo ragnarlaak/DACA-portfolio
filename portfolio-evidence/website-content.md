@@ -33,6 +33,39 @@ One-time context statement:
 
 **Visual asset filename:** `assets/powerbi-dashboard.png`
 
+## Project 1A
+
+**Title:** Tableau - Repeat Customer Revenue Impact Analysis
+
+**Tool tags:** Tableau, Customer Analytics, Revenue Impact, Business Dashboarding
+
+**Business question:** How much revenue value comes from repeat customers, and what could a 10% repeat-customer improvement be worth?
+
+**Supported numerical highlights:**
+
+- Repeat customers represent 82% of known customers.
+- Repeat customers generate 95% of known-customer revenue.
+- Repeat customers spend about 4x more per customer than one-time customers.
+- A 10% repeat-customer improvement creates an estimated EUR 188.8K revenue uplift opportunity.
+
+**Evidence status:** TABLEAU PORTFOLIO EXTENSION / DASHBOARD ANALYSIS
+
+**Key finding:** Repeat customers are the main revenue engine among known customers.
+
+**Why it matters:** The dashboard connects customer behavior to revenue value and shows why retention can have a measurable business impact.
+
+**Scenario method:** Customers were classified as one-time or repeat based on distinct order count. The uplift scenario estimates additional repeat customers from a 10% improvement and multiplies that by the average revenue difference between repeat and one-time customers.
+
+**Scenario note:** The EUR 188.8K uplift is a simple business scenario, not a predictive forecast. It assumes current customer value patterns remain stable.
+
+**Data quality note:** Unknown customer records were excluded from the main customer-type comparison to keep the analysis focused on identifiable customer behavior.
+
+**Recommended action:** Focus retention efforts on converting more one-time customers into repeat customers, because repeat customers generate significantly higher average revenue and dominate known-customer revenue.
+
+**Evidence link:** `https://github.com/ragnarlaak/DACA-portfolio/blob/main/extra-learning/tableau/repeat-customer-revenue-impact-analysis.md`
+
+**Visual asset filename:** `assets/images/repeat_customer_revenue_impact_tableau.png`
+
 ## Project 2
 
 **Title:** Python/pandas - RFM Customer Segmentation

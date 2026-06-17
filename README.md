@@ -1,6 +1,6 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-Junior BI / Data Analyst portfolio with SQL, Power BI, Python/pandas, PostgreSQL/Supabase and business reporting projects.
+Junior BI / Data Analyst portfolio with SQL, Power BI, Tableau, Python/pandas, PostgreSQL/Supabase and business reporting projects.
 
 Live website: https://ragnarlaak.github.io/
 
@@ -8,13 +8,13 @@ Projects are based on an UrbanStyle retail business-simulation dataset completed
 
 ## Focus
 
-I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation and repeatable Python reporting workflows.
+I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI, Tableau and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation, customer value analysis and repeatable Python reporting workflows.
 
 Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and related analyst roles across industries.
 
 ## Tools
 
-SQL · Power BI · Python/pandas · PostgreSQL/Supabase · Business Reporting
+SQL · Power BI · Tableau · Python/pandas · PostgreSQL/Supabase · Business Reporting
 
 ## Featured Case Studies
 
@@ -40,6 +40,31 @@ Evidence:
 - [Week 5 Power BI dashboard](week5-power-bi/README.md)
 - [Week 6 Tartu storytelling dashboard](week6-data-storytelling/README.md)
 - [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
+
+### Tableau - Repeat Customer Revenue Impact Analysis
+
+**Business question:** How much revenue value comes from repeat customers, and what could a 10% repeat-customer improvement be worth?
+
+**Evidence status:** TABLEAU PORTFOLIO EXTENSION / DASHBOARD ANALYSIS
+
+**Business answer:** Repeat customers are the main known-customer revenue engine. They represent 82% of known customers, generate 95% of known-customer revenue and spend about 4x more per customer than one-time customers.
+
+The Tableau dashboard highlights:
+
+- 82% repeat customer rate among known customers.
+- 95% repeat revenue share among known-customer revenue.
+- About 4x higher average revenue per repeat customer than one-time customer.
+- EUR 188.8K estimated revenue uplift under a 10% repeat-customer improvement scenario.
+
+**Scenario note:** The EUR 188.8K uplift is a simple business scenario, not a predictive forecast. It assumes the current average revenue difference between repeat and one-time customers remains stable.
+
+**Business action:** Focus retention efforts on converting more one-time customers into repeat customers, because repeat customers generate significantly higher average revenue and dominate known-customer revenue.
+
+![Repeat Customer Revenue Impact Tableau dashboard](assets/images/repeat_customer_revenue_impact_tableau.png)
+
+Evidence:
+
+- [Repeat customer Tableau case study](extra-learning/tableau/repeat-customer-revenue-impact-analysis.md)
 
 ### Python/pandas - RFM Customer Segmentation
 
@@ -138,6 +163,7 @@ Key files:
 | Week 6 | Data storytelling and Tartu store view | [Open](week6-data-storytelling/README.md) |
 | Week 7 | Python/pandas and RFM segmentation | [Open](week7-python/README.md) |
 | Week 8 | Python API pipeline | [Open](week8-python-api-pipeline/README.md) |
+| Extra learning | Tableau repeat customer revenue impact | [Open](extra-learning/tableau/repeat-customer-revenue-impact-analysis.md) |
 
 ## Course Context
 
