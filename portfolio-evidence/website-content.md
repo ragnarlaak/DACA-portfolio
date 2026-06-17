@@ -16,10 +16,10 @@ One-time context statement:
 
 **Supported numerical highlights:**
 
-- ~EUR 2.91M revenue analysed.
-- ~10K orders.
-- 19.08% revenue growth in 2024 versus 2023.
-- ~13% Tartu growth, below overall company growth.
+- **~EUR 2.91M** revenue analysed.
+- **~10K** orders.
+- **19.08%** revenue growth in 2024 versus 2023.
+- **~13%** Tartu growth, below overall company growth.
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
@@ -43,10 +43,10 @@ One-time context statement:
 
 **Supported numerical highlights:**
 
-- Repeat customers represent 82% of known customers.
-- Repeat customers generate 95% of known-customer revenue.
-- Repeat customers spend about 4x more per customer than one-time customers.
-- A 10% repeat-customer improvement creates an estimated EUR 188.8K revenue uplift opportunity.
+- Repeat customers represent **82%** of known customers.
+- Repeat customers generate **95%** of known-customer revenue.
+- Repeat customers spend about **4x** more per customer than one-time customers.
+- A **10%** repeat-customer improvement creates an estimated **EUR 188.8K** revenue uplift opportunity.
 
 **Evidence status:** TABLEAU PORTFOLIO EXTENSION / DASHBOARD ANALYSIS
 
@@ -56,7 +56,7 @@ One-time context statement:
 
 **Scenario method:** Customers were classified as one-time or repeat based on distinct order count. The uplift scenario estimates additional repeat customers from a 10% improvement and multiplies that by the average revenue difference between repeat and one-time customers.
 
-**Scenario note:** The EUR 188.8K uplift is a simple business scenario, not a predictive forecast. It assumes current customer value patterns remain stable.
+**Scenario note:** The **EUR 188.8K** uplift is a simple business scenario, not a predictive forecast. It assumes current customer value patterns remain stable.
 
 **Data quality note:** Unknown customer records were excluded from the main customer-type comparison to keep the analysis focused on identifiable customer behavior.
 
@@ -76,10 +76,10 @@ One-time context statement:
 
 **Supported numerical highlights:**
 
-- 2,540 customers analysed.
-- VIP Champions: 455 customers and 42.82% of revenue.
-- Potential: 758 customers, largest customer segment.
-- At Risk: 533 customers and 7.24% of revenue.
+- **2,540** customers analysed.
+- VIP Champions: **455 customers** and **42.82%** of revenue.
+- Potential: **758 customers**, largest customer segment.
+- At Risk: **533 customers** and **7.24%** of revenue.
 
 **Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
 
@@ -103,9 +103,9 @@ One-time context statement:
 
 **Supported numerical highlights:**
 
-- 128 duplicate email records.
-- 380 missing email values.
-- 12 city naming variations.
+- **128** duplicate email records.
+- **380** missing email values.
+- **12** city naming variations.
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
@@ -129,10 +129,10 @@ One-time context statement:
 
 **Supported numerical highlights:**
 
-- 4/4 tests passed.
+- **4/4** tests passed.
 - Pipeline completed with configured sample/fallback data.
 - Core outputs validated.
-- 24 HTML reports exported in the local run.
+- **24** HTML reports exported in the local run.
 
 **Evidence status:** VERIFIED / REPRODUCED FOR SAMPLE/FALLBACK WORKFLOW
 

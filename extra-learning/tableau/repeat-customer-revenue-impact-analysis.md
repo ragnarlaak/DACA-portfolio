@@ -2,7 +2,7 @@
 
 ## Short summary
 
-Built a Tableau dashboard analyzing how repeat customers contribute to revenue compared with one-time customers. The dashboard shows that repeat customers represent 82% of known customers, generate 95% of known-customer revenue, spend around 4x more per customer, and create an estimated EUR 188.8K uplift opportunity under a 10% repeat-customer improvement scenario.
+Built a Tableau dashboard analyzing how repeat customers contribute to revenue compared with one-time customers. The dashboard shows that repeat customers represent **82%** of known customers, generate **95%** of known-customer revenue, spend around **4x** more per customer, and create an estimated **EUR 188.8K** uplift opportunity under a **10%** repeat-customer improvement scenario.
 
 ## Business question
 
@@ -28,10 +28,10 @@ Image path for the dashboard screenshot:
 ## Key insights
 
 - Repeat customers are the main revenue engine.
-- Repeat customers represent 82% of known customers.
-- Repeat customers generate 95% of known-customer revenue.
-- Repeat customers spend roughly 4x more per customer than one-time customers.
-- Increasing repeat customers by 10% could create an estimated EUR 188.8K revenue uplift, assuming current customer value patterns remain stable.
+- Repeat customers represent **82%** of known customers.
+- Repeat customers generate **95%** of known-customer revenue.
+- Repeat customers spend roughly **4x** more per customer than one-time customers.
+- Increasing repeat customers by **10%** could create an estimated **EUR 188.8K** revenue uplift, assuming current customer value patterns remain stable.
 - Unknown customer records were excluded from the main comparison to keep the analysis focused on identifiable customer behavior.
 
 ## Scenario method

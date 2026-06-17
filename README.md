@@ -24,14 +24,14 @@ SQL · Power BI · Tableau · Python/pandas · PostgreSQL/Supabase · Business R
 
 **Evidence status:** DOCUMENTED EVIDENCE, NOT REPRODUCED
 
-**Business answer:** UrbanStyle grew overall, with 2024 revenue 19.08% higher than 2023 in the documented dashboard view. Tartu also grew, but below the company growth rate, making it the location to investigate next.
+**Business answer:** UrbanStyle grew overall, with 2024 revenue **19.08%** higher than 2023 in the documented dashboard view. Tartu also grew, but below the company growth rate, making it the location to investigate next.
 
 Documented Week 5 and Week 6 evidence supports:
 
-- ~EUR 2.91M revenue analysed.
-- ~10K orders.
-- 19.08% revenue growth in 2024 versus 2023.
-- ~13% Tartu growth, below overall company growth.
+- **~EUR 2.91M** revenue analysed.
+- **~10K** orders.
+- **19.08%** revenue growth in 2024 versus 2023.
+- **~13%** Tartu growth, below overall company growth.
 
 **Business action:** Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.
 
@@ -47,16 +47,16 @@ Evidence:
 
 **Evidence status:** TABLEAU PORTFOLIO EXTENSION / DASHBOARD ANALYSIS
 
-**Business answer:** Repeat customers are the main known-customer revenue engine. They represent 82% of known customers, generate 95% of known-customer revenue and spend about 4x more per customer than one-time customers.
+**Business answer:** Repeat customers are the main known-customer revenue engine. They represent **82%** of known customers, generate **95%** of known-customer revenue and spend about **4x** more per customer than one-time customers.
 
 The Tableau dashboard highlights:
 
-- 82% repeat customer rate among known customers.
-- 95% repeat revenue share among known-customer revenue.
-- About 4x higher average revenue per repeat customer than one-time customer.
-- EUR 188.8K estimated revenue uplift under a 10% repeat-customer improvement scenario.
+- **82%** repeat customer rate among known customers.
+- **95%** repeat revenue share among known-customer revenue.
+- About **4x** higher average revenue per repeat customer than one-time customer.
+- **EUR 188.8K** estimated revenue uplift under a **10%** repeat-customer improvement scenario.
 
-**Scenario note:** The EUR 188.8K uplift is a simple business scenario, not a predictive forecast. It assumes the current average revenue difference between repeat and one-time customers remains stable.
+**Scenario note:** The **EUR 188.8K** uplift is a simple business scenario, not a predictive forecast. It assumes the current average revenue difference between repeat and one-time customers remains stable.
 
 **Business action:** Focus retention efforts on converting more one-time customers into repeat customers, because repeat customers generate significantly higher average revenue and dominate known-customer revenue.
 
@@ -72,16 +72,16 @@ Evidence:
 
 **Evidence status:** VERIFIED / REPRODUCED FROM COMMITTED WEEK 7 TEAM EXPORT
 
-**Result:** Analysed 2,540 customers through the Week 7 team RFM workflow. VIP Champions included 455 customers and contributed 42.82% of monetary value, while 758 Potential customers and 533 At Risk customers indicated clear repeat-purchase and retention opportunities.
+**Result:** Analysed **2,540 customers** through the Week 7 team RFM workflow. VIP Champions included **455 customers** and contributed **42.82%** of monetary value, while **758 Potential customers** and **533 At Risk customers** indicated clear repeat-purchase and retention opportunities.
 
 **Team context:** This was a team project based on the UrbanStyle course/business-simulation dataset. My contribution focused on calculating Recency, Frequency and Monetary values, assigning segments and checking that the segmentation logic supported the business objective.
 
 **Verified findings:**
 
-- 2,540 customers analysed using reference date 2025-02-28.
-- 455 VIP Champions generated 42.82% of monetary value.
-- 758 Potential customers represent repeat-purchase opportunity.
-- 533 At Risk customers represent retention/win-back priority.
+- **2,540** customers analysed using reference date **2025-02-28**.
+- **455** VIP Champions generated **42.82%** of monetary value.
+- **758** Potential customers represent repeat-purchase opportunity.
+- **533** At Risk customers represent retention/win-back priority.
 
 **Business action:** Protect high-value VIP customers, encourage repeat purchases among Potential customers and target At Risk customers with retention or win-back actions.
 
@@ -104,9 +104,9 @@ Evidence:
 
 Week 2 evidence supports:
 
-- 128 duplicate email records.
-- 380 missing email values.
-- 12 city naming variations.
+- **128** duplicate email records.
+- **380** missing email values.
+- **12** city naming variations.
 
 **Business impact:** These issues can reduce reporting reliability and weaken customer segmentation or location-based analysis.
 
@@ -127,10 +127,10 @@ Evidence:
 
 Week 8 checks confirmed:
 
-- 4/4 tests passed.
+- **4/4** tests passed.
 - Pipeline completed with configured sample/fallback data.
 - Core outputs validated.
-- 24 HTML reports exported in the local run.
+- **24** HTML reports exported in the local run.
 
 **Business action:** Use this project as workflow evidence for repeatable reporting automation. The Week 8 demonstration is not live UrbanStyle KPI evidence.
 
