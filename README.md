@@ -1,16 +1,34 @@
 # Ragnar Laak - Data Analytics Portfolio
 
-BI / Data Analyst portfolio with SQL, Power BI, Tableau, Python/pandas, PostgreSQL/Supabase and business reporting projects.
+Recruiter-supporting project repository for my BI / Data Analyst portfolio. It contains the source evidence behind my public portfolio: SQL analysis, Power BI and Tableau dashboards, Python/pandas customer analytics, data-quality checks and repeatable reporting workflow examples.
 
-Live website: https://ragnarlaak.github.io/
+**Start here:** [Live portfolio website](https://ragnarlaak.github.io/)
 
-Projects are based on an UrbanStyle retail business-simulation dataset completed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus.
+## Recruiter Summary
 
-## Focus
+This repository supports my public portfolio with project evidence, screenshots, SQL/Python files and verification notes. The main audience-facing version is the website above; this repo is the backup layer for anyone who wants to inspect the work behind the case studies.
+
+What this portfolio demonstrates:
+
+- BI dashboarding in **Power BI** and **Tableau**
+- SQL data-quality checks, joins and aggregation
+- Customer analytics with repeat-customer revenue impact and RFM segmentation
+- Python/pandas analysis and repeatable pipeline workflow
+- Business storytelling: questions, findings, actions and evidence status
+
+Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and related analyst roles across industries.
+
+## Featured Work
 
 I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI, Tableau and Python/pandas. This portfolio shows practical work in data quality, dashboard reporting, customer segmentation, customer value analysis and repeatable Python reporting workflows.
 
-Target roles: Data Analyst, BI Analyst, Reporting Analyst, Data Quality / Reporting roles and related analyst roles across industries.
+| Project | Business focus | Tools | Evidence |
+| --- | --- | --- | --- |
+| Power BI - Sales Performance Dashboard | Growth and location performance | Power BI, DAX, BI reporting | [Open](week5-power-bi/README.md) |
+| Tableau - Repeat Customer Revenue Impact Analysis | Repeat-customer value and retention scenario | Tableau, customer analytics, scenario analysis | [Open](extra-learning/tableau/repeat-customer-revenue-impact-analysis.md) |
+| Python/pandas - RFM Customer Segmentation | Customer value segmentation and retention priorities | Python, pandas, RFM analysis | [Open](week7-python/README.md) |
+| SQL - Data Quality Analysis | Reporting reliability and customer-data quality | SQL, Supabase, data cleaning | [Open](week2-sql-data-cleaning/README.md) |
+| Python Pipeline - Workflow Evidence | Repeatable reporting workflow | Python, pandas, tests, exports | [Open](week8-python-api-pipeline/README.md) |
 
 ## Tools
 
@@ -150,7 +168,9 @@ Key files:
 - [Website content package](portfolio-evidence/website-content.md)
 - [Power BI manual improvement checklist](portfolio-evidence/powerbi-manual-improvement-checklist.md)
 
-## Portfolio Map
+## Evidence Archive Map
+
+The folders below preserve the original learning and project evidence. Recruiters can use the featured work above for the fastest review, while this map keeps the underlying SQL, dashboards, notebooks, screenshots and verification notes traceable.
 
 | Week | Topic | Evidence |
 | --- | --- | --- |
@@ -165,9 +185,9 @@ Key files:
 | Week 8 | Python API pipeline | [Open](week8-python-api-pipeline/README.md) |
 | Extra learning | Tableau repeat customer revenue impact | [Open](extra-learning/tableau/repeat-customer-revenue-impact-analysis.md) |
 
-## Course Context
+## Dataset And Training Context
 
-This portfolio was developed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus, March 2026 to June 2026. The work focuses on SQL, PostgreSQL/Supabase, Power BI, Python/pandas, data quality, business reporting, dashboard storytelling and GitHub-based portfolio documentation.
+Most projects use an UrbanStyle retail business-simulation dataset completed during the Data Analyst Career Accelerator: A Hands-On Mentorship Program at Ettevotluskeskus, March 2026 to June 2026. The work focuses on SQL, PostgreSQL/Supabase, Power BI, Tableau, Python/pandas, data quality, business reporting, dashboard storytelling and GitHub-based portfolio documentation.
 
 No certificate claim is made here unless certificate evidence is added later.
 
